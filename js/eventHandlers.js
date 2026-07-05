@@ -1,26 +1,63 @@
 // js/eventHandlers.js
-import * as dataService from './dataService.js';
+import * as gitService from './gitService.js';
 import { groupByCategory, renderCheckboxes, renderEdicion, renderCategoriaBotones } from './uiRenderer.js';
 
-let currentData = []; // Copia local en memoria
+let currentData = [];     // Array plano de documentos
+let currentSha = null;    // SHA del archivo para la próxima escritura
+let currentCategoriasMap = new Map();
 
-// Inicializar handlers con los datos
-export function initHandlers(data) {
-    currentData = data;
-    const categoriasMap = groupByCategory(data);
+// Función central para guardar y refrescar
+async function saveAndRefresh(dataArray) {
+    try {
+        // Reconstruir el objeto para guardar (estructura de categorías)
+        const map = groupByCategory(dataArray);
+        const output = {
+            categorias: Array.from(map.entries()).map(([nombre, docs]) => ({
+                nombre,
+                codigos: docs.map(d => ({ codigo: d.codigo, descripcion: d.descripcion }))
+            }))
+        };
+
+        // Guardar en GitHub
+        currentSha = await gitService.saveDataJson(output, currentSha);
+        
+        // Actualizar la UI con los nuevos datos
+        currentData = dataArray;
+        currentCategoriasMap = groupByCategory(dataArray);
+        renderAll(currentCategoriasMap);
+        alert('✅ Cambios guardados en GitHub.');
+    } catch (error) {
+        alert('❌ Error al guardar: ' + error.message);
+        console.error(error);
+    }
+}
+
+// Renderiza los 3 menús (se llama al cargar y tras cada guardado)
+function renderAll(categoriasMap) {
     const categorias = Array.from(categoriasMap.keys());
 
-    // Menú 1: Copiar categoría completa
+    // Menú 1
     renderCategoriaBotones(categorias, (categoria) => {
-        const codes = data.filter(d => d.categoria === categoria).map(d => d.codigo).join(', ');
+        const codes = currentData.filter(d => d.categoria === categoria).map(d => d.codigo).join(', ');
         navigator.clipboard.writeText(codes).then(() => {
-            alert(`✅ Códigos de "${categoria}" copiados al portapapeles.`);
-        }).catch(() => alert('Error al copiar.'));
+            alert(`✅ Códigos de "${categoria}" copiados.`);
+        });
     });
 
-    // Menú 2: Renderizar checkboxes
-    renderCheckboxes(categoriasMap, onToggleCategoria, onToggleCodigo);
-    // Asignar eventos de copiar a los botones del menú 2 (delegación)
+    // Menú 2
+    renderCheckboxes(categoriasMap, onToggleCategoria);
+    // Menú 3
+    renderEdicion(categoriasMap, onEditClick, onDeleteClick, onNewClick);
+}
+
+// Inicializar con los datos
+export function initHandlers(dataArray, sha) {
+    currentData = dataArray;
+    currentSha = sha;
+    currentCategoriasMap = groupByCategory(dataArray);
+    renderAll(currentCategoriasMap);
+
+    // Delegación de eventos para el botón "Copiar seleccionados" (Menú 2)
     document.getElementById('contenedor-checkboxes').addEventListener('click', (e) => {
         if (e.target.classList.contains('btn-copiar-seleccionados')) {
             const categoria = e.target.dataset.categoria;
@@ -39,22 +76,15 @@ export function initHandlers(data) {
             });
         }
     });
-
-    // Menú 3: Renderizar edición
-    renderEdicion(categoriasMap, onEditClick, onDeleteClick, onNewClick);
 }
 
-// Lógica de toggle de categoría (marcar/desmarcar todos)
+// --- Funciones internas de los handlers ---
+
 function onToggleCategoria(categoria, checked) {
     const items = document.querySelectorAll(`#contenedor-checkboxes .categoria-item[data-categoria="${categoria}"] input[type="checkbox"]`);
     items.forEach(chk => chk.checked = checked);
 }
 
-function onToggleCodigo(categoria) {
-    // Opcional: puedes verificar si todos están marcados para actualizar el header, pero no es obligatorio.
-}
-
-// Menú 3: Editar
 function onEditClick(doc) {
     document.getElementById('edit-id').value = doc.$id;
     document.getElementById('edit-categoria').value = doc.categoria;
@@ -64,7 +94,6 @@ function onEditClick(doc) {
     document.getElementById('modal-form').style.display = 'flex';
 }
 
-// Menú 3: Nuevo
 function onNewClick(categoria) {
     document.getElementById('edit-id').value = '';
     document.getElementById('edit-categoria').value = categoria;
@@ -74,16 +103,13 @@ function onNewClick(categoria) {
     document.getElementById('modal-form').style.display = 'flex';
 }
 
-// Menú 3: Eliminar
 async function onDeleteClick(docId) {
-    if (!confirm('¿Estás seguro de eliminar este código?')) return;
-    await dataService.deleteCode(docId);
-    alert('✅ Eliminado.');
-    // Recargar toda la app desde cero (refrescar datos)
-    location.reload(); // Lo más simple para recargar todo, o puedes implementar una actualización parcial.
+    if (!confirm('¿Eliminar este código?')) return;
+    const newData = currentData.filter(d => d.$id !== docId);
+    await saveAndRefresh(newData);
 }
 
-// Exportar funciones del modal para que app.js las conecte
+// Configurar el formulario del modal
 export function setupModalHandlers() {
     const modal = document.getElementById('modal-form');
     document.getElementById('cerrar-modal').addEventListener('click', () => modal.style.display = 'none');
@@ -98,14 +124,24 @@ export function setupModalHandlers() {
 
         if (!categoria || !codigo || !descripcion) return alert('Todos los campos son obligatorios.');
 
+        let newData;
         if (id) {
-            await dataService.updateCode(id, categoria, codigo, descripcion);
-            alert('✅ Código actualizado.');
+            // Editar: reemplazar el documento
+            newData = currentData.map(d => 
+                d.$id === id ? { ...d, categoria, codigo, descripcion } : d
+            );
         } else {
-            await dataService.createCode(categoria, codigo, descripcion);
-            alert('✅ Código creado.');
+            // Nuevo: crear ID temporal (usamos timestamp)
+            const newDoc = {
+                $id: `temp_${Date.now()}`,
+                categoria,
+                codigo,
+                descripcion
+            };
+            newData = [...currentData, newDoc];
         }
+
         modal.style.display = 'none';
-        location.reload(); // Recargar para ver cambios (simple y efectivo)
+        await saveAndRefresh(newData);
     });
 }
