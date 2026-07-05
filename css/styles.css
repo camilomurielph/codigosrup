@@ -414,3 +414,12 @@ nav button:hover {
     .edicion-item .acciones { margin-left: 0; width: 100%; justify-content: flex-end; }
     .modal-content { padding: 24px 20px; }
 }
+/* === CORRECCIÓN DE ANCHO === */
+main {
+    width: 100%;
+    display: block;
+}
+section.menu {
+    width: 100%;
+    display: block;
+}
