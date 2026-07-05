@@ -2,14 +2,12 @@
 import * as gitService from './gitService.js';
 import { groupByCategory, renderCheckboxes, renderEdicion, renderCategoriaBotones } from './uiRenderer.js';
 
-let currentData = [];     // Array plano de documentos
-let currentSha = null;    // SHA del archivo para la próxima escritura
+let currentData = [];
+let currentSha = null;
 let currentCategoriasMap = new Map();
 
-// Función central para guardar y refrescar
 async function saveAndRefresh(dataArray) {
     try {
-        // Reconstruir el objeto para guardar (estructura de categorías)
         const map = groupByCategory(dataArray);
         const output = {
             categorias: Array.from(map.entries()).map(([nombre, docs]) => ({
@@ -18,10 +16,7 @@ async function saveAndRefresh(dataArray) {
             }))
         };
 
-        // Guardar en GitHub
         currentSha = await gitService.saveDataJson(output, currentSha);
-        
-        // Actualizar la UI con los nuevos datos
         currentData = dataArray;
         currentCategoriasMap = groupByCategory(dataArray);
         renderAll(currentCategoriasMap);
@@ -32,32 +27,30 @@ async function saveAndRefresh(dataArray) {
     }
 }
 
-// Renderiza los 3 menús (se llama al cargar y tras cada guardado)
 function renderAll(categoriasMap) {
     const categorias = Array.from(categoriasMap.keys());
 
     // Menú 1
     renderCategoriaBotones(categorias, (categoria) => {
-        const codes = currentData.filter(d => d.categoria === categoria).map(d => d.codigo).join(', ');
+        const codes = currentData.filter(d => d.categoria === categoria).map(d => d.codigo).join(' ');
         navigator.clipboard.writeText(codes).then(() => {
             alert(`✅ Códigos de "${categoria}" copiados.`);
         });
     });
 
     // Menú 2
-    renderCheckboxes(categoriasMap, onToggleCategoria);
+    renderCheckboxes(categoriasMap, onToggleCategoria, onToggleCodigo);
     // Menú 3
     renderEdicion(categoriasMap, onEditClick, onDeleteClick, onNewClick);
 }
 
-// Inicializar con los datos
 export function initHandlers(dataArray, sha) {
     currentData = dataArray;
     currentSha = sha;
     currentCategoriasMap = groupByCategory(dataArray);
     renderAll(currentCategoriasMap);
 
-    // Delegación de eventos para el botón "Copiar seleccionados" (Menú 2)
+    // Delegación para el botón "Copiar seleccionados" (Menú 2)
     document.getElementById('contenedor-checkboxes').addEventListener('click', (e) => {
         if (e.target.classList.contains('btn-copiar-seleccionados')) {
             const categoria = e.target.dataset.categoria;
@@ -71,18 +64,20 @@ export function initHandlers(dataArray, sha) {
                 }
             });
             if (seleccionados.length === 0) return alert('No has seleccionado ningún código.');
-            navigator.clipboard.writeText(seleccionados.join(', ')).then(() => {
+            navigator.clipboard.writeText(seleccionados.join(' ')).then(() => {
                 alert(`✅ ${seleccionados.length} códigos copiados.`);
             });
         }
     });
 }
 
-// --- Funciones internas de los handlers ---
-
 function onToggleCategoria(categoria, checked) {
     const items = document.querySelectorAll(`#contenedor-checkboxes .categoria-item[data-categoria="${categoria}"] input[type="checkbox"]`);
     items.forEach(chk => chk.checked = checked);
+}
+
+function onToggleCodigo(categoria) {
+    // Opcional: lógica extra si se desea
 }
 
 function onEditClick(doc) {
@@ -109,7 +104,6 @@ async function onDeleteClick(docId) {
     await saveAndRefresh(newData);
 }
 
-// Configurar el formulario del modal
 export function setupModalHandlers() {
     const modal = document.getElementById('modal-form');
     document.getElementById('cerrar-modal').addEventListener('click', () => modal.style.display = 'none');
@@ -126,12 +120,10 @@ export function setupModalHandlers() {
 
         let newData;
         if (id) {
-            // Editar: reemplazar el documento
-            newData = currentData.map(d => 
+            newData = currentData.map(d =>
                 d.$id === id ? { ...d, categoria, codigo, descripcion } : d
             );
         } else {
-            // Nuevo: crear ID temporal (usamos timestamp)
             const newDoc = {
                 $id: `temp_${Date.now()}`,
                 categoria,
