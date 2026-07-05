@@ -3,7 +3,7 @@ import { REPO_CONFIG } from './config.js';
 import * as gitService from './gitService.js';
 import { initHandlers, setupModalHandlers } from './eventHandlers.js';
 
-// 1. Navegación entre menús (igual que antes)
+// Navegación entre menús
 document.querySelectorAll('nav button').forEach(btn => {
     btn.addEventListener('click', () => {
         document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
@@ -14,12 +14,9 @@ document.querySelectorAll('nav button').forEach(btn => {
     });
 });
 
-// 2. Configurar modal
 setupModalHandlers();
 
-// 3. Función principal
 async function init() {
-    // Verificar si tenemos token guardado
     if (!gitService.hasToken()) {
         const ok = gitService.promptForToken();
         if (!ok) {
@@ -29,16 +26,13 @@ async function init() {
     }
 
     try {
-        // Leer el archivo desde GitHub
         const { content, sha } = await gitService.fetchDataJson();
 
-        // Convertir la estructura de "categorias" a un array plano de documentos
-        // con un $id único para manejar en la UI.
         const flatDocs = [];
         content.categorias.forEach(cat => {
             cat.codigos.forEach(cod => {
                 flatDocs.push({
-                    $id: `${cat.nombre}_${cod.codigo}_${Date.now()}_${Math.random()}`, // ID único temporal
+                    $id: `${cat.nombre}_${cod.codigo}_${Date.now()}_${Math.random()}`,
                     categoria: cat.nombre,
                     codigo: cod.codigo,
                     descripcion: cod.descripcion
@@ -46,12 +40,10 @@ async function init() {
             });
         });
 
-        // Si no hay datos, inicializar con un ejemplo o pedir que suban data.json
         if (flatDocs.length === 0) {
             alert('⚠️ No se encontraron datos en data.json. Asegúrate de que el archivo exista en tu repositorio.');
         }
 
-        // Inicializar la UI con los datos planos y el SHA
         initHandlers(flatDocs, sha);
 
     } catch (error) {
