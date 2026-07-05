@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RUP Codes Manager</title>
+    <!-- Appwrite SDK v14+ -->
+    <script src="https://cdn.jsdelivr.net/npm/appwrite@14.0.0/dist/iife/appwrite.min.js"></script>
+    <!-- Nuestros estilos -->
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+    <header>
+        <h1>📋 Gestor de Códigos RUP</h1>
+        <nav>
+            <button data-menu="copiar" class="active">📋 Copiar por Categoría</button>
+            <button data-menu="seleccionar">✅ Selección Personalizada</button>
+            <button data-menu="editar">✏️ Editar Códigos</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- MENÚ 1 -->
+        <section id="menu-copiar" class="menu active">
+            <h2>Copia todos los códigos de una categoría</h2>
+            <div id="categoria-botones" class="button-grid"></div>
+        </section>
+
+        <!-- MENÚ 2 -->
+        <section id="menu-seleccionar" class="menu">
+            <h2>Selecciona y copia solo los códigos que necesites</h2>
+            <div id="contenedor-checkboxes"></div>
+        </section>
+
+        <!-- MENÚ 3 -->
+        <section id="menu-editar" class="menu">
+            <h2>Administra los códigos</h2>
+            <div id="contenedor-edicion"></div>
+        </section>
+    </main>
+
+    <!-- Modal para editar/crear (se usa en el menú 3) -->
+    <div id="modal-form" class="modal" style="display:none;">
+        <div class="modal-content">
+            <span class="close-btn" id="cerrar-modal">&times;</span>
+            <h3 id="modal-titulo">Nuevo Código</h3>
+            <form id="codigo-form">
+                <input type="hidden" id="edit-id" value="" />
+                <label for="edit-categoria">Categoría</label>
+                <input type="text" id="edit-categoria" required />
+
+                <label for="edit-codigo">Código</label>
+                <input type="text" id="edit-codigo" required />
+
+                <label for="edit-descripcion">Descripción</label>
+                <textarea id="edit-descripcion" required></textarea>
+
+                <button type="submit">Guardar</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Importamos nuestros módulos JS (orden correcto) -->
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
