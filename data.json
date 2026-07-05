@@ -17,15 +17,15 @@
         },
         {
           "codigo": "101516",
-          "descripcion": "Alimentos para animales domésticos"
+          "descripcion": "Alimentos para animales domÃ©sticos"
         },
         {
           "codigo": "101517",
-          "descripcion": "Alimentos para animales de zoológico"
+          "descripcion": "Alimentos para animales de zoolÃ³gico"
         },
         {
           "codigo": "101518",
-          "descripcion": "Alimentos para animales acuáticos"
+          "descripcion": "Alimentos para animales acuÃ¡ticos"
         },
         {
           "codigo": "101519",
@@ -33,7 +33,7 @@
         },
         {
           "codigo": "101615",
-          "descripcion": "Servicios de cría de animales"
+          "descripcion": "Servicios de crÃ­a de animales"
         },
         {
           "codigo": "101616",
@@ -41,7 +41,7 @@
         },
         {
           "codigo": "101618",
-          "descripcion": "Servicios de reproducción animal"
+          "descripcion": "Servicios de reproducciÃ³n animal"
         },
         {
           "codigo": "101619",
@@ -49,7 +49,7 @@
         },
         {
           "codigo": "101715",
-          "descripcion": "Productos de cría de animales"
+          "descripcion": "Productos de crÃ­a de animales"
         },
         {
           "codigo": "101716",
@@ -57,7 +57,7 @@
         },
         {
           "codigo": "101717",
-          "descripcion": "Productos de reproducción animal"
+          "descripcion": "Productos de reproducciÃ³n animal"
         },
         {
           "codigo": "101718",
@@ -69,31 +69,31 @@
         },
         {
           "codigo": "101917",
-          "descripcion": "Productos de animales acuáticos"
+          "descripcion": "Productos de animales acuÃ¡ticos"
         },
         {
           "codigo": "111015",
-          "descripcion": "Materiales de construcción"
+          "descripcion": "Materiales de construcciÃ³n"
         },
         {
           "codigo": "111115",
-          "descripcion": "Materiales de construcción prefabricados"
+          "descripcion": "Materiales de construcciÃ³n prefabricados"
         },
         {
           "codigo": "111216",
-          "descripcion": "Materiales de construcción de madera"
+          "descripcion": "Materiales de construcciÃ³n de madera"
         },
         {
           "codigo": "111217",
-          "descripcion": "Materiales de construcción de metal"
+          "descripcion": "Materiales de construcciÃ³n de metal"
         },
         {
           "codigo": "111218",
-          "descripcion": "Materiales de construcción de plástico"
+          "descripcion": "Materiales de construcciÃ³n de plÃ¡stico"
         },
         {
           "codigo": "141115",
-          "descripcion": "Papel de impresión y escritura"
+          "descripcion": "Papel de impresiÃ³n y escritura"
         },
         {
           "codigo": "141222",
@@ -101,15 +101,15 @@
         },
         {
           "codigo": "201023",
-          "descripcion": "Equipos de perforación"
+          "descripcion": "Equipos de perforaciÃ³n"
         },
         {
           "codigo": "211015",
-          "descripcion": "Equipos de minería"
+          "descripcion": "Equipos de minerÃ­a"
         },
         {
           "codigo": "211016",
-          "descripcion": "Equipos de extracción"
+          "descripcion": "Equipos de extracciÃ³n"
         },
         {
           "codigo": "211017",
@@ -125,7 +125,7 @@
         },
         {
           "codigo": "232212",
-          "descripcion": "Equipos de fabricación industrial"
+          "descripcion": "Equipos de fabricaciÃ³n industrial"
         },
         {
           "codigo": "241115",
@@ -133,19 +133,19 @@
         },
         {
           "codigo": "251015",
-          "descripcion": "Vehículos automotores"
+          "descripcion": "VehÃ­culos automotores"
         },
         {
           "codigo": "251016",
-          "descripcion": "Partes de vehículos automotores"
+          "descripcion": "Partes de vehÃ­culos automotores"
         },
         {
           "codigo": "251727",
-          "descripcion": "Accesorios de vehículos recreativos"
+          "descripcion": "Accesorios de vehÃ­culos recreativos"
         },
         {
           "codigo": "251915",
-          "descripcion": "Accesorios de vehículos pesados"
+          "descripcion": "Accesorios de vehÃ­culos pesados"
         },
         {
           "codigo": "271115",
@@ -153,7 +153,7 @@
         },
         {
           "codigo": "271116",
-          "descripcion": "Herramientas eléctricas"
+          "descripcion": "Herramientas elÃ©ctricas"
         },
         {
           "codigo": "271120",
@@ -161,15 +161,15 @@
         },
         {
           "codigo": "271126",
-          "descripcion": "Herramientas de medición"
+          "descripcion": "Herramientas de mediciÃ³n"
         },
         {
           "codigo": "271132",
-          "descripcion": "Herramientas de sujeción"
+          "descripcion": "Herramientas de sujeciÃ³n"
         },
         {
           "codigo": "301617",
-          "descripcion": "Materiales de construcción de concreto"
+          "descripcion": "Materiales de construcciÃ³n de concreto"
         },
         {
           "codigo": "401018",
@@ -181,7 +181,7 @@
         },
         {
           "codigo": "401617",
-          "descripcion": "Accesorios de tuberías"
+          "descripcion": "Accesorios de tuberÃ­as"
         },
         {
           "codigo": "411116",
@@ -209,11 +209,11 @@
         },
         {
           "codigo": "411138",
-          "descripcion": "Equipos de análisis clínico"
+          "descripcion": "Equipos de anÃ¡lisis clÃ­nico"
         },
         {
           "codigo": "411139",
-          "descripcion": "Equipos de diagnóstico"
+          "descripcion": "Equipos de diagnÃ³stico"
         },
         {
           "codigo": "411143",
@@ -221,7 +221,7 @@
         },
         {
           "codigo": "411153",
-          "descripcion": "Equipos de microscopía"
+          "descripcion": "Equipos de microscopÃ­a"
         },
         {
           "codigo": "411227",
@@ -237,7 +237,7 @@
         },
         {
           "codigo": "432321",
-          "descripcion": "Software de edición y creación de contenidos"
+          "descripcion": "Software de ediciÃ³n y creaciÃ³n de contenidos"
         },
         {
           "codigo": "441017",
@@ -261,15 +261,15 @@
         },
         {
           "codigo": "451117",
-          "descripcion": "Equipo de composición y presentación de sonido, hardware y controladores"
+          "descripcion": "Equipo de composiciÃ³n y presentaciÃ³n de sonido, hardware y controladores"
         },
         {
           "codigo": "451118",
-          "descripcion": "Equipo de presentación de vídeo y mezcla de vídeo y sonido"
+          "descripcion": "Equipo de presentaciÃ³n de vÃ­deo y mezcla de vÃ­deo y sonido"
         },
         {
           "codigo": "461816",
-          "descripcion": "Calzado de protección"
+          "descripcion": "Calzado de protecciÃ³n"
         },
         {
           "codigo": "471015",
@@ -289,7 +289,7 @@
         },
         {
           "codigo": "471318",
-          "descripcion": "Soluciones de limpieza y desinfección"
+          "descripcion": "Soluciones de limpieza y desinfecciÃ³n"
         },
         {
           "codigo": "471321",
@@ -297,7 +297,7 @@
         },
         {
           "codigo": "481021",
-          "descripcion": "Suministros y equipo de manipulación y almacenamiento"
+          "descripcion": "Suministros y equipo de manipulaciÃ³n y almacenamiento"
         },
         {
           "codigo": "491016",
@@ -313,7 +313,7 @@
         },
         {
           "codigo": "501925",
-          "descripcion": "Sándwiches y panecillos con relleno"
+          "descripcion": "SÃ¡ndwiches y panecillos con relleno"
         },
         {
           "codigo": "501927",
@@ -321,11 +321,11 @@
         },
         {
           "codigo": "502017",
-          "descripcion": "Café y té"
+          "descripcion": "CafÃ© y tÃ©"
         },
         {
           "codigo": "502023",
-          "descripcion": "Bebidas no alcohólicas"
+          "descripcion": "Bebidas no alcohÃ³licas"
         },
         {
           "codigo": "521615",
@@ -361,11 +361,11 @@
         },
         {
           "codigo": "551217",
-          "descripcion": "Señalización"
+          "descripcion": "SeÃ±alizaciÃ³n"
         },
         {
           "codigo": "551219",
-          "descripcion": "Señalizaciones"
+          "descripcion": "SeÃ±alizaciones"
         },
         {
           "codigo": "561213",
@@ -377,19 +377,19 @@
         },
         {
           "codigo": "601042",
-          "descripcion": "Pruebas del agua, conservación y ecología"
+          "descripcion": "Pruebas del agua, conservaciÃ³n y ecologÃ­a"
         },
         {
           "codigo": "601044",
-          "descripcion": "Geología y ciencias de la tierra"
+          "descripcion": "GeologÃ­a y ciencias de la tierra"
         },
         {
           "codigo": "601060",
-          "descripcion": "Guías de planes de estudio, proyectos, actividades y lecciones"
+          "descripcion": "GuÃ­as de planes de estudio, proyectos, actividades y lecciones"
         },
         {
           "codigo": "601062",
-          "descripcion": "Materiales de enseñanza de tecnología"
+          "descripcion": "Materiales de enseÃ±anza de tecnologÃ­a"
         },
         {
           "codigo": "601216",
@@ -401,7 +401,7 @@
         },
         {
           "codigo": "701017",
-          "descripcion": "Industria y tecnología pesquera"
+          "descripcion": "Industria y tecnologÃ­a pesquera"
         },
         {
           "codigo": "701018",
@@ -417,39 +417,39 @@
         },
         {
           "codigo": "701315",
-          "descripcion": "Protección del terreno y del suelo"
+          "descripcion": "ProtecciÃ³n del terreno y del suelo"
         },
         {
           "codigo": "701316",
-          "descripcion": "Preparación del terreno y del suelo"
+          "descripcion": "PreparaciÃ³n del terreno y del suelo"
         },
         {
           "codigo": "701317",
-          "descripcion": "Gestión del terreno y del suelo"
+          "descripcion": "GestiÃ³n del terreno y del suelo"
         },
         {
           "codigo": "701415",
-          "descripcion": "Producción de cultivos"
+          "descripcion": "ProducciÃ³n de cultivos"
         },
         {
           "codigo": "701416",
-          "descripcion": "Protección de cultivos"
+          "descripcion": "ProtecciÃ³n de cultivos"
         },
         {
           "codigo": "701417",
-          "descripcion": "Gestión de cultivos"
+          "descripcion": "GestiÃ³n de cultivos"
         },
         {
           "codigo": "701418",
-          "descripcion": "Plantación y cultivo de cultivos"
+          "descripcion": "PlantaciÃ³n y cultivo de cultivos"
         },
         {
           "codigo": "701420",
-          "descripcion": "Elaboración de cultivos posterior a la cosecha"
+          "descripcion": "ElaboraciÃ³n de cultivos posterior a la cosecha"
         },
         {
           "codigo": "701515",
-          "descripcion": "Gestión de cultivos forestales"
+          "descripcion": "GestiÃ³n de cultivos forestales"
         },
         {
           "codigo": "701516",
@@ -457,7 +457,7 @@
         },
         {
           "codigo": "701518",
-          "descripcion": "Servicios de conservación forestal"
+          "descripcion": "Servicios de conservaciÃ³n forestal"
         },
         {
           "codigo": "701519",
@@ -497,27 +497,27 @@
         },
         {
           "codigo": "721415",
-          "descripcion": "Servicios de preparación de tierras"
+          "descripcion": "Servicios de preparaciÃ³n de tierras"
         },
         {
           "codigo": "761015",
-          "descripcion": "Desinfección"
+          "descripcion": "DesinfecciÃ³n"
         },
         {
           "codigo": "761215",
-          "descripcion": "Recolección y disposición de basuras"
+          "descripcion": "RecolecciÃ³n y disposiciÃ³n de basuras"
         },
         {
           "codigo": "761217",
-          "descripcion": "Tratamiento de desechos líquidos"
+          "descripcion": "Tratamiento de desechos lÃ­quidos"
         },
         {
           "codigo": "761219",
-          "descripcion": "Disposición de desechos peligrosos"
+          "descripcion": "DisposiciÃ³n de desechos peligrosos"
         },
         {
           "codigo": "761222",
-          "descripcion": "Servicios de incineración de desechos"
+          "descripcion": "Servicios de incineraciÃ³n de desechos"
         },
         {
           "codigo": "761223",
@@ -525,23 +525,23 @@
         },
         {
           "codigo": "771015",
-          "descripcion": "Evaluación de impacto ambiental"
+          "descripcion": "EvaluaciÃ³n de impacto ambiental"
         },
         {
           "codigo": "771016",
-          "descripcion": "Planeación ambiental"
+          "descripcion": "PlaneaciÃ³n ambiental"
         },
         {
           "codigo": "771017",
-          "descripcion": "Servicios de asesoría ambiental"
+          "descripcion": "Servicios de asesorÃ­a ambiental"
         },
         {
           "codigo": "771018",
-          "descripcion": "Auditoría ambiental"
+          "descripcion": "AuditorÃ­a ambiental"
         },
         {
           "codigo": "771019",
-          "descripcion": "Servicios de investigación de contaminación"
+          "descripcion": "Servicios de investigaciÃ³n de contaminaciÃ³n"
         },
         {
           "codigo": "771020",
@@ -553,19 +553,19 @@
         },
         {
           "codigo": "771116",
-          "descripcion": "Rehabilitación ambiental"
+          "descripcion": "RehabilitaciÃ³n ambiental"
         },
         {
           "codigo": "771215",
-          "descripcion": "Contaminación del aire"
+          "descripcion": "ContaminaciÃ³n del aire"
         },
         {
           "codigo": "771216",
-          "descripcion": "Contaminación del suelo"
+          "descripcion": "ContaminaciÃ³n del suelo"
         },
         {
           "codigo": "771217",
-          "descripcion": "Contaminación del agua"
+          "descripcion": "ContaminaciÃ³n del agua"
         },
         {
           "codigo": "781018",
@@ -577,7 +577,7 @@
         },
         {
           "codigo": "781115",
-          "descripcion": "Transporte de pasajeros aérea"
+          "descripcion": "Transporte de pasajeros aÃ©rea"
         },
         {
           "codigo": "781118",
@@ -589,7 +589,7 @@
         },
         {
           "codigo": "801015",
-          "descripcion": "Servicios de consultoría de negocios y administración corporativa"
+          "descripcion": "Servicios de consultorÃ­a de negocios y administraciÃ³n corporativa"
         },
         {
           "codigo": "801016",
@@ -613,15 +613,15 @@
         },
         {
           "codigo": "801415",
-          "descripcion": "Investigación de mercados"
+          "descripcion": "InvestigaciÃ³n de mercados"
         },
         {
           "codigo": "801416",
-          "descripcion": "Actividades de ventas y promoción de negocios"
+          "descripcion": "Actividades de ventas y promociÃ³n de negocios"
         },
         {
           "codigo": "801417",
-          "descripcion": "Distribución"
+          "descripcion": "DistribuciÃ³n"
         },
         {
           "codigo": "801419",
@@ -641,7 +641,7 @@
         },
         {
           "codigo": "811315",
-          "descripcion": "Metodología y análisis"
+          "descripcion": "MetodologÃ­a y anÃ¡lisis"
         },
         {
           "codigo": "811416",
@@ -649,11 +649,11 @@
         },
         {
           "codigo": "811516",
-          "descripcion": "Cartografía"
+          "descripcion": "CartografÃ­a"
         },
         {
           "codigo": "811518",
-          "descripcion": "Oceanografía e hidrología"
+          "descripcion": "OceanografÃ­a e hidrologÃ­a"
         },
         {
           "codigo": "821015",
@@ -669,7 +669,7 @@
         },
         {
           "codigo": "821019",
-          "descripcion": "Colocación y cumplimiento de medios"
+          "descripcion": "ColocaciÃ³n y cumplimiento de medios"
         },
         {
           "codigo": "821117",
@@ -685,7 +685,7 @@
         },
         {
           "codigo": "821215",
-          "descripcion": "Impresión"
+          "descripcion": "ImpresiÃ³n"
         },
         {
           "codigo": "821217",
@@ -693,11 +693,11 @@
         },
         {
           "codigo": "821316",
-          "descripcion": "Fotógrafos y cinematógrafos"
+          "descripcion": "FotÃ³grafos y cinematÃ³grafos"
         },
         {
           "codigo": "821415",
-          "descripcion": "Servicios de diseño artístico"
+          "descripcion": "Servicios de diseÃ±o artÃ­stico"
         },
         {
           "codigo": "831015",
@@ -705,11 +705,11 @@
         },
         {
           "codigo": "831217",
-          "descripcion": "Servicios de comunicación masiva"
+          "descripcion": "Servicios de comunicaciÃ³n masiva"
         },
         {
           "codigo": "841116",
-          "descripcion": "Servicios de auditoría"
+          "descripcion": "Servicios de auditorÃ­a"
         },
         {
           "codigo": "861015",
@@ -717,7 +717,7 @@
         },
         {
           "codigo": "861017",
-          "descripcion": "Servicios de capacitación vocacional no científica"
+          "descripcion": "Servicios de capacitaciÃ³n vocacional no cientÃ­fica"
         },
         {
           "codigo": "861018",
@@ -725,7 +725,7 @@
         },
         {
           "codigo": "861116",
-          "descripcion": "Educación de adultos"
+          "descripcion": "EducaciÃ³n de adultos"
         },
         {
           "codigo": "861216",
@@ -733,15 +733,15 @@
         },
         {
           "codigo": "861317",
-          "descripcion": "Conducción de vehículos, buques y aeronaves"
+          "descripcion": "ConducciÃ³n de vehÃ­culos, buques y aeronaves"
         },
         {
           "codigo": "861320",
-          "descripcion": "Servicios de educación y capacitación en administración"
+          "descripcion": "Servicios de educaciÃ³n y capacitaciÃ³n en administraciÃ³n"
         },
         {
           "codigo": "861415",
-          "descripcion": "Servicios de guía educativa"
+          "descripcion": "Servicios de guÃ­a educativa"
         },
         {
           "codigo": "861416",
@@ -757,7 +757,7 @@
         },
         {
           "codigo": "901017",
-          "descripcion": "Servicios de cafetería"
+          "descripcion": "Servicios de cafeterÃ­a"
         },
         {
           "codigo": "901018",
@@ -785,11 +785,11 @@
         },
         {
           "codigo": "911115",
-          "descripcion": "Servicios de lavandería"
+          "descripcion": "Servicios de lavanderÃ­a"
         },
         {
           "codigo": "921015",
-          "descripcion": "Servicios de policía"
+          "descripcion": "Servicios de policÃ­a"
         },
         {
           "codigo": "931217",
@@ -801,7 +801,7 @@
         },
         {
           "codigo": "931318",
-          "descripcion": "Preparación y alivio de desastres"
+          "descripcion": "PreparaciÃ³n y alivio de desastres"
         },
         {
           "codigo": "931415",
@@ -837,15 +837,15 @@
         },
         {
           "codigo": "951225",
-          "descripcion": "Edificios y estructuras agrícolas y de cultivos y pesca"
+          "descripcion": "Edificios y estructuras agrÃ­colas y de cultivos y pesca"
         },
         {
           "codigo": "951315",
-          "descripcion": "Tarimas y graderías"
+          "descripcion": "Tarimas y graderÃ­as"
         },
         {
           "codigo": "951316",
-          "descripcion": "Edificios y estructuras comerciales e industriales portátiles"
+          "descripcion": "Edificios y estructuras comerciales e industriales portÃ¡tiles"
         },
         {
           "codigo": "951317",
@@ -854,7 +854,7 @@
       ]
     },
     {
-      "nombre": "Logistica y Catering",
+      "nombre": "Bioexpo",
       "codigos": [
         {
           "codigo": "241115.0",
@@ -862,143 +862,63 @@
         },
         {
           "codigo": "251015.0",
-          "descripcion": "Vehículos automotores"
+          "descripcion": "VehÃ­culos automotores"
         },
         {
           "codigo": "251016.0",
-          "descripcion": "Partes de vehículos automotores"
+          "descripcion": "Partes de vehÃ­culos automotores"
         },
         {
-          "codigo": "301816.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
-        },
-        {
-          "codigo": "391125.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
-        },
-        {
-          "codigo": "421316.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
-        },
-        {
-          "codigo": "421316.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
-        },
-        {
-          "codigo": "421322.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
+          "codigo": "251727.0",
+          "descripcion": "Accesorios de vehÃ­culos recreativos"
         },
         {
           "codigo": "432115.0",
           "descripcion": "Computadores"
         },
         {
-          "codigo": "432117.0",
-          "descripcion": "Dispositivos informáticos de entrada de datos"
+          "codigo": "432116.0",
+          "descripcion": "Accesorios de computador"
+        },
+        {
+          "codigo": "432321.0",
+          "descripcion": "Software de ediciÃ³n y creaciÃ³n de contenidos"
+        },
+        {
+          "codigo": "441017.0",
+          "descripcion": "Accesorios para impresoras, fotocopiadoras y aparatos de fax"
+        },
+        {
+          "codigo": "441115.0",
+          "descripcion": "Agendas y accesorios"
         },
         {
           "codigo": "441216.0",
           "descripcion": "Suministros de escritorio"
         },
         {
-          "codigo": "441217.0",
-          "descripcion": "Instrumentos de escritura"
-        },
-        {
-          "codigo": "441218.0",
-          "descripcion": "Medios de corrección"
-        },
-        {
-          "codigo": "441222.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
-        },
-        {
           "codigo": "451115.0",
           "descripcion": "Atriles, sistemas de sonido y accesorios"
         },
         {
-          "codigo": "451116.0",
-          "descripcion": "Proyectores y suministros"
-        },
-        {
           "codigo": "451117.0",
-          "descripcion": "Equipo de composición y presentación de sonido, hardware y controladores"
+          "descripcion": "Equipo de composiciÃ³n y presentaciÃ³n de sonido, hardware y controladores"
         },
         {
           "codigo": "451118.0",
-          "descripcion": "Equipo de presentación de vídeo y de mezcla de vídeo y sonido, hardware y controladores"
-        },
-        {
-          "codigo": "451119.0",
-          "descripcion": "Equipos, hardware y controladores para sistemas de teleconferencia y videoconferencia"
-        },
-        {
-          "codigo": "461815.0",
-          "descripcion": "Ropa de seguridad"
-        },
-        {
-          "codigo": "461817.0",
-          "descripcion": "Protectores de cara y cabeza"
-        },
-        {
-          "codigo": "461820.0",
-          "descripcion": "Protección de la respiración"
-        },
-        {
-          "codigo": "471215.0",
-          "descripcion": "Carritos y accesorios para limpieza"
+          "descripcion": "Equipo de presentaciÃ³n de vÃ­deo y de mezcla de vÃ­deo y sonido, hardware y controladores"
         },
         {
           "codigo": "471217.0",
           "descripcion": "Envases y accesorios para residuos"
         },
         {
-          "codigo": "471218.0",
-          "descripcion": "Equipo de limpieza"
-        },
-        {
-          "codigo": "471219.0",
-          "descripcion": "Accesorios de equipo de limpieza"
-        },
-        {
-          "codigo": "471316.0",
-          "descripcion": "Escobas, traperos, cepillos y accesorios"
-        },
-        {
-          "codigo": "471317.0",
-          "descripcion": "Suministros para aseos"
-        },
-        {
-          "codigo": "471318.0",
-          "descripcion": "Soluciones de limpieza y desinfección"
-        },
-        {
-          "codigo": "471319.0",
-          "descripcion": "Absorbentes"
-        },
-        {
-          "codigo": "471321.0",
-          "descripcion": "Kits de limpieza"
-        },
-        {
-          "codigo": "501120.0",
-          "descripcion": "Carnes procesadas y preparadas"
-        },
-        {
-          "codigo": "501316.0",
-          "descripcion": "Huevos y sustitutos"
-        },
-        {
-          "codigo": "501317.0",
-          "descripcion": "Productos de leche y mantequilla"
+          "codigo": "491016.0",
+          "descripcion": "Coleccionables"
         },
         {
           "codigo": "501820.0",
           "descripcion": "Tartas y empanadas y pastas"
-        },
-        {
-          "codigo": "501915.0",
-          "descripcion": "Sopas y estofados"
         },
         {
           "codigo": "501921.0",
@@ -1006,11 +926,7 @@
         },
         {
           "codigo": "501925.0",
-          "descripcion": "Sándwiches y panecillos con relleno"
-        },
-        {
-          "codigo": "501926.0",
-          "descripcion": "Acompañamientos preparados"
+          "descripcion": "SÃ¡ndwiches y panecillos con relleno"
         },
         {
           "codigo": "501927.0",
@@ -1018,75 +934,123 @@
         },
         {
           "codigo": "502017.0",
-          "descripcion": "Café y té"
+          "descripcion": "CafÃ© y tÃ©"
         },
         {
           "codigo": "502023.0",
-          "descripcion": "Bebidas no alcohólicas"
-        },
-        {
-          "codigo": "511027.0",
-          "descripcion": "Antisépticos"
-        },
-        {
-          "codigo": "521217.0",
-          "descripcion": "Instrumentos de escritura"
+          "descripcion": "Bebidas no alcohÃ³licas"
         },
         {
           "codigo": "521615.0",
           "descripcion": "Equipos audiovisuales"
         },
         {
+          "codigo": "531025.0",
+          "descripcion": "Accesorios de vestir"
+        },
+        {
+          "codigo": "531030.0",
+          "descripcion": "Camisetas"
+        },
+        {
           "codigo": "531031.0",
           "descripcion": "Chalecos"
         },
         {
-          "codigo": "531316.0",
-          "descripcion": "Baño y cuerpo"
+          "codigo": "531217.0",
+          "descripcion": "Carteras"
+        },
+        {
+          "codigo": "551015.0",
+          "descripcion": "Publicaciones impresas"
         },
         {
           "codigo": "561015.0",
           "descripcion": "Muebles"
         },
         {
-          "codigo": "601012.0",
-          "descripcion": "Incentivos educativos"
-        },
-        {
           "codigo": "601035.0",
-          "descripcion": "Ciencias políticas"
+          "descripcion": "Ciencias polÃ­ticas"
         },
         {
           "codigo": "601054.0",
-          "descripcion": "Materiales educativos de vida independiente, administración del dinero y economía doméstica"
+          "descripcion": "Materiales educativos de vida independiente, administraciÃ³n del dinero y economÃ­a domÃ©stica"
         },
         {
-          "codigo": "601060.0",
-          "descripcion": "Guías de planes de estudio, proyectos, actividades y lecciones"
+          "codigo": "601210.0",
+          "descripcion": "Arte"
+        },
+        {
+          "codigo": "601411.0",
+          "descripcion": "Juegos"
+        },
+        {
+          "codigo": "701117.0",
+          "descripcion": "Parques, jardines y huertos"
+        },
+        {
+          "codigo": "701220.0",
+          "descripcion": "Salud animal"
+        },
+        {
+          "codigo": "701317.0",
+          "descripcion": "GestiÃ³n del terreno y del suelo"
+        },
+        {
+          "codigo": "701515.0",
+          "descripcion": "GestiÃ³n de cultivos forestales"
+        },
+        {
+          "codigo": "701518.0",
+          "descripcion": "Servicios de conservaciÃ³n forestal"
+        },
+        {
+          "codigo": "701617.0",
+          "descripcion": "Ecosistemas"
+        },
+        {
+          "codigo": "701715.0",
+          "descripcion": "Desarrollo"
+        },
+        {
+          "codigo": "701716.0",
+          "descripcion": "Vigilancia"
+        },
+        {
+          "codigo": "701717.0",
+          "descripcion": "Riego"
         },
         {
           "codigo": "761015.0",
-          "descripcion": "Desinfección"
+          "descripcion": "DesinfecciÃ³n"
         },
         {
-          "codigo": "761118.0",
-          "descripcion": "Limpieza de vehículos de transporte"
+          "codigo": "771015.0",
+          "descripcion": "EvaluaciÃ³n de impacto ambiental"
         },
         {
-          "codigo": "781018.0",
-          "descripcion": "Transporte de carga por carretera"
+          "codigo": "771016.0",
+          "descripcion": "PlaneaciÃ³n ambiental"
+        },
+        {
+          "codigo": "771017.0",
+          "descripcion": "Servicios de asesorÃ­a ambiental"
+        },
+        {
+          "codigo": "771018.0",
+          "descripcion": "AuditorÃ­a ambiental"
+        },
+        {
+          "codigo": "771115.0",
+          "descripcion": "Servicios de seguridad ambiental"
         },
         {
           "codigo": "781115.0",
-          "descripcion": "Transporte de pasajeros aérea"
+          "descripcion": "Transporte de pasajeros aÃ©rea"
         },
         {
           "codigo": "781118.0",
           "descripcion": "Transporte de pasajeros por carretera"
-        },
-        {
-          "codigo": "801015.0",
-          "descripcion": "Servicios de consultoría de negocios y administración corporativa"
         },
         {
           "codigo": "801016.0",
@@ -1101,16 +1065,20 @@
           "descripcion": "Servicios de personal temporal"
         },
         {
+          "codigo": "801315.0",
+          "descripcion": "Alquiler y arrendamiento de propiedades o edificaciones"
+        },
+        {
           "codigo": "801415.0",
-          "descripcion": "Investigación de mercados"
+          "descripcion": "InvestigaciÃ³n de mercados"
         },
         {
           "codigo": "801416.0",
-          "descripcion": "Actividades de ventas y promoción de negocios"
+          "descripcion": "Actividades de ventas y promociÃ³n de negocios"
         },
         {
           "codigo": "801417.0",
-          "descripcion": "Distribución"
+          "descripcion": "DistribuciÃ³n"
         },
         {
           "codigo": "801419.0",
@@ -1125,24 +1093,28 @@
           "descripcion": "Servicios de alquiler o arrendamiento de equipo de oficina"
         },
         {
+          "codigo": "811117.0",
+          "descripcion": "Sistemas de manejo de informaciÃ³n MIS"
+        },
+        {
           "codigo": "811121.0",
           "descripcion": "Servicios de internet"
         },
         {
+          "codigo": "811124.0",
+          "descripcion": "Servicios de alquiler o arrendamiento de hardware de computador"
+        },
+        {
           "codigo": "811215.0",
-          "descripcion": "Análisis económico"
+          "descripcion": "AnÃ¡lisis econÃ³mico"
         },
         {
           "codigo": "811315.0",
-          "descripcion": "Metodología y análisis"
+          "descripcion": "MetodologÃ­a y anÃ¡lisis"
         },
         {
           "codigo": "811416.0",
           "descripcion": "Manejo de cadena de suministros"
-        },
-        {
-          "codigo": "811419.0",
-          "descripcion": "Servicios de investigación y desarrollo de tecnología manufacturera"
         },
         {
           "codigo": "821015.0",
@@ -1153,8 +1125,20 @@
           "descripcion": "Publicidad difundida"
         },
         {
+          "codigo": "821018.0",
+          "descripcion": "Servicios de agencia de publicidad"
+        },
+        {
           "codigo": "821019.0",
-          "descripcion": "Colocación y cumplimiento de medios"
+          "descripcion": "ColocaciÃ³n y cumplimiento de medios"
+        },
+        {
+          "codigo": "821117.0",
+          "descripcion": "Escritura creativa"
+        },
+        {
+          "codigo": "821118.0",
+          "descripcion": "Servicios editoriales y de soporte"
         },
         {
           "codigo": "821119.0",
@@ -1162,71 +1146,55 @@
         },
         {
           "codigo": "821215.0",
-          "descripcion": "Impresión"
+          "descripcion": "ImpresiÃ³n"
         },
         {
           "codigo": "821217.0",
           "descripcion": "Fotocopiado"
         },
         {
-          "codigo": "821218.0",
-          "descripcion": "Publicación"
-        },
-        {
           "codigo": "821316.0",
-          "descripcion": "Fotógrafos y cinematógrafos"
+          "descripcion": "FotÃ³grafos y cinematÃ³grafos"
         },
         {
-          "codigo": "821517.0",
-          "descripcion": "Profesionales de las artes escénicas"
+          "codigo": "821415.0",
+          "descripcion": "Servicios de diseÃ±o artÃ­stico"
         },
         {
           "codigo": "831217.0",
-          "descripcion": "Servicios de comunicación masiva"
+          "descripcion": "Servicios de comunicaciÃ³n masiva"
         },
         {
-          "codigo": "851115.0",
-          "descripcion": "Prevención y control de enfermedades contagiosas"
-        },
-        {
-          "codigo": "851516.0",
-          "descripcion": "Asuntos nutricionales"
-        },
-        {
-          "codigo": "861017.0",
-          "descripcion": "Servicios de capacitación vocacional no científica"
+          "codigo": "861015.0",
+          "descripcion": "Servicios de entrenamiento en agricultura y silvicultura y otros recursos naturales"
         },
         {
           "codigo": "861116.0",
-          "descripcion": "Educación de adultos"
+          "descripcion": "EducaciÃ³n de adultos"
         },
         {
           "codigo": "861317.0",
-          "descripcion": "Conducción de vehículos, buques y aeronaves"
-        },
-        {
-          "codigo": "861319.0",
-          "descripcion": "Escuelas para gente con discapacidades"
+          "descripcion": "ConducciÃ³n de vehÃ­culos, buques y aeronaves"
         },
         {
           "codigo": "861320.0",
-          "descripcion": "Servicios de educación y capacitación en administración"
+          "descripcion": "Servicios de educaciÃ³n y capacitaciÃ³n en administraciÃ³n"
         },
         {
           "codigo": "861415.0",
-          "descripcion": "Servicios de guía educativa"
+          "descripcion": "Servicios de guÃ­a educativa"
         },
         {
-          "codigo": "901015.0",
-          "descripcion": "Establecimientos para comer y beber"
+          "codigo": "861416.0",
+          "descripcion": "Organizaciones de estudiantes"
+        },
+        {
+          "codigo": "861417.0",
+          "descripcion": "TecnologÃ­a educacional"
         },
         {
           "codigo": "901016.0",
           "descripcion": "Servicios de banquetes y catering"
-        },
-        {
-          "codigo": "901017.0",
-          "descripcion": "Servicios de cafetería"
         },
         {
           "codigo": "901018.0",
@@ -1249,36 +1217,24 @@
           "descripcion": "Agentes de viajes"
         },
         {
+          "codigo": "901315.0",
+          "descripcion": "Actuaciones en vivo"
+        },
+        {
           "codigo": "901518.0",
           "descripcion": "Carnavales y ferias"
         },
         {
+          "codigo": "921015.0",
+          "descripcion": "Servicios de policÃ­a"
+        },
+        {
           "codigo": "931016.0",
-          "descripcion": "Funcionarios políticos"
+          "descripcion": "Funcionarios polÃ­ticos"
         },
         {
-          "codigo": "931017.0",
-          "descripcion": "Cuerpos y práctica legislativa"
-        },
-        {
-          "codigo": "931115.0",
-          "descripcion": "Movimientos políticos"
-        },
-        {
-          "codigo": "931217.0",
-          "descripcion": "Organizaciones internacionales"
-        },
-        {
-          "codigo": "931315.0",
-          "descripcion": "Programas de refugiados"
-        },
-        {
-          "codigo": "931316.0",
-          "descripcion": "Planeación y programas de políticas de alimentación y nutrición"
-        },
-        {
-          "codigo": "931317.0",
-          "descripcion": "Programas de salud"
+          "codigo": "931116.0",
+          "descripcion": "RepresentaciÃ³n y participaciÃ³n polÃ­tica"
         },
         {
           "codigo": "931415.0",
@@ -1297,36 +1253,28 @@
           "descripcion": "Desarrollo rural"
         },
         {
-          "codigo": "931420.0",
-          "descripcion": "Desarrollo urbano"
-        },
-        {
           "codigo": "931421.0",
           "descripcion": "Desarrollo regional"
         },
         {
           "codigo": "931515.0",
-          "descripcion": "Administración pública"
+          "descripcion": "AdministraciÃ³n pÃºblica"
         },
         {
           "codigo": "931516.0",
-          "descripcion": "Finanzas públicas"
+          "descripcion": "Finanzas pÃºblicas"
         },
         {
-          "codigo": "941316.0",
-          "descripcion": "Organizaciones de caridad"
-        },
-        {
-          "codigo": "941320.0",
-          "descripcion": "Asociaciones de defensa y promoción de los derechos humanos"
+          "codigo": "941317.0",
+          "descripcion": "Asociaciones verdes"
         },
         {
           "codigo": "951315.0",
-          "descripcion": "Tarimas y graderías"
+          "descripcion": "Tarimas y graderÃ­as"
         },
         {
           "codigo": "951316.0",
-          "descripcion": "Edificios y estructuras comerciales e industriales portátiles"
+          "descripcion": "Edificios y estructuras comerciales e industriales portÃ¡tiles"
         },
         {
           "codigo": "951317.0",
@@ -1335,19 +1283,23 @@
       ]
     },
     {
-      "nombre": "Ecuentros Jovenes",
+      "nombre": "Capacitacion Social",
       "codigos": [
         {
           "codigo": "111118.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
         },
         {
           "codigo": "141118.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
+        },
+        {
+          "codigo": "201023.0",
+          "descripcion": "Equipos de perforaciÃ³n"
         },
         {
           "codigo": "231417.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
         },
         {
           "codigo": "241115.0",
@@ -1355,47 +1307,23 @@
         },
         {
           "codigo": "251015.0",
-          "descripcion": "Vehículos automotores"
+          "descripcion": "VehÃ­culos automotores"
         },
         {
           "codigo": "251016.0",
-          "descripcion": "Partes de vehículos automotores"
+          "descripcion": "Partes de vehÃ­culos automotores"
         },
         {
           "codigo": "391124.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
-        },
-        {
-          "codigo": "422515.0",
-          "descripcion": "Productos de terapia y evaluación sensoria y perceptual y dexteridad y cognitiva"
-        },
-        {
-          "codigo": "432320.0",
-          "descripcion": "Software de entretenimiento o juegos de computador"
-        },
-        {
-          "codigo": "432321.0",
-          "descripcion": "Software de edición y creación de contenidos"
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
         },
         {
           "codigo": "441115.0",
           "descripcion": "Agendas y accesorios"
         },
         {
-          "codigo": "441120.0",
-          "descripcion": "Sistemas de planificación"
-        },
-        {
-          "codigo": "441150.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
-        },
-        {
           "codigo": "441217.0",
           "descripcion": "Instrumentos de escritura"
-        },
-        {
-          "codigo": "441220.0",
-          "descripcion": "Carpetas de archivo, carpetas y separadores"
         },
         {
           "codigo": "451115.0",
@@ -1406,16 +1334,8 @@
           "descripcion": "Proyectores y suministros"
         },
         {
-          "codigo": "451215.0",
-          "descripcion": "Cámaras"
-        },
-        {
           "codigo": "481017.0",
-          "descripcion": "Distribuidores automáticos de comida y bebida"
-        },
-        {
-          "codigo": "501820.0",
-          "descripcion": "Tartas y empanadas y pastas"
+          "descripcion": "Distribuidores automÃ¡ticos de comida y bebida"
         },
         {
           "codigo": "501921.0",
@@ -1423,7 +1343,7 @@
         },
         {
           "codigo": "501925.0",
-          "descripcion": "Sándwiches y panecillos con relleno"
+          "descripcion": "SÃ¡ndwiches y panecillos con relleno"
         },
         {
           "codigo": "501927.0",
@@ -1431,39 +1351,19 @@
         },
         {
           "codigo": "502022.0",
-          "descripcion": "Bebidas alcohólicas"
+          "descripcion": "Bebidas alcohÃ³licas"
         },
         {
           "codigo": "502023.0",
-          "descripcion": "Bebidas no alcohólicas"
-        },
-        {
-          "codigo": "521612.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
+          "descripcion": "Bebidas no alcohÃ³licas"
         },
         {
           "codigo": "521615.0",
           "descripcion": "Equipos audiovisuales"
         },
         {
-          "codigo": "531016.0",
-          "descripcion": "Faldas y blusas"
-        },
-        {
-          "codigo": "531030.0",
-          "descripcion": "Camisetas"
-        },
-        {
           "codigo": "551015.0",
           "descripcion": "Publicaciones impresas"
-        },
-        {
-          "codigo": "561213.0",
-          "descripcion": "Mobiliario de sala de primeros auxilios"
-        },
-        {
-          "codigo": "601012.0",
-          "descripcion": "Incentivos educativos"
         },
         {
           "codigo": "601013.0",
@@ -1478,20 +1378,8 @@
           "descripcion": "Materiales de recursos del profesor"
         },
         {
-          "codigo": "601026.0",
-          "descripcion": "Materiales de recursos del profesor de resolución de problemas, datos, posibilidades y probabilidades"
-        },
-        {
-          "codigo": "601027.0",
-          "descripcion": "Materiales de recursos del profesor de pensamiento lógico, percepción espacial, identificación de coincidencias y patrones"
-        },
-        {
           "codigo": "601035.0",
-          "descripcion": "Ciencias políticas"
-        },
-        {
-          "codigo": "601036.0",
-          "descripcion": "Recursos y actividades multiculturales"
+          "descripcion": "Ciencias polÃ­ticas"
         },
         {
           "codigo": "601052.0",
@@ -1499,35 +1387,31 @@
         },
         {
           "codigo": "601053.0",
-          "descripcion": "Materiales educativos de educación de carrera"
+          "descripcion": "Materiales educativos de educaciÃ³n de carrera"
         },
         {
           "codigo": "601054.0",
-          "descripcion": "Materiales educativos de vida independiente, administración del dinero y economía doméstica"
+          "descripcion": "Materiales educativos de vida independiente, administraciÃ³n del dinero y economÃ­a domÃ©stica"
         },
         {
           "codigo": "601056.0",
-          "descripcion": "Materiales educativos de preparación de alimentos, nutrición y educación sobre la salud"
+          "descripcion": "Materiales educativos de preparaciÃ³n de alimentos, nutriciÃ³n y educaciÃ³n sobre la salud"
         },
         {
           "codigo": "601058.0",
-          "descripcion": "Materiales educativos de diseño textil y de ropa"
+          "descripcion": "Materiales educativos de diseÃ±o textil y de ropa"
         },
         {
           "codigo": "601059.0",
-          "descripcion": "Materiales educativos sobre las relaciones y el sexo, el embarazo de adolescentes, aptitudes de crianza y desarrollo del niño"
+          "descripcion": "Materiales educativos sobre relaciones, sexo, embarazo adolescente, crianza y desarrollo del niÃ±o"
         },
         {
           "codigo": "601060.0",
-          "descripcion": "Guías de planes de estudio, proyectos, actividades y lecciones"
+          "descripcion": "GuÃ­as de planes de estudio, proyectos, actividades y lecciones"
         },
         {
           "codigo": "601061.0",
-          "descripcion": "Materiales de enseñanza vocacional"
-        },
-        {
-          "codigo": "601062.0",
-          "descripcion": "Materiales de enseñanza de tecnología"
+          "descripcion": "Materiales de enseÃ±anza vocacional"
         },
         {
           "codigo": "601210.0",
@@ -1538,40 +1422,12 @@
           "descripcion": "Pintura del aula y de bellas artes, medios, aplicadores y accesorios"
         },
         {
-          "codigo": "601316.0",
-          "descripcion": "Sets de instrumentos musicales"
-        },
-        {
-          "codigo": "601411.0",
-          "descripcion": "Juegos"
-        },
-        {
-          "codigo": "601414.0",
-          "descripcion": "Equipo de representación teatral y accesorios"
-        },
-        {
-          "codigo": "711230.0",
-          "descripcion": "Servicios integrados"
-        },
-        {
           "codigo": "731319.0",
-          "descripcion": "Procesamiento de granos y azúcar y aceites y grasas"
+          "descripcion": "Procesamiento de granos y azÃºcar y aceites y grasas"
         },
         {
-          "codigo": "731519.0",
-          "descripcion": "Servicios a la industria de impresión"
-        },
-        {
-          "codigo": "771015.0",
-          "descripcion": "Evaluación de impacto ambiental"
-        },
-        {
-          "codigo": "771017.0",
-          "descripcion": "Servicios de asesoría ambiental"
-        },
-        {
-          "codigo": "771116.0",
-          "descripcion": "Rehabilitación ambiental"
+          "codigo": "781018.0",
+          "descripcion": "Transporte de carga por carretera"
         },
         {
           "codigo": "781118.0",
@@ -1579,15 +1435,11 @@
         },
         {
           "codigo": "801015.0",
-          "descripcion": "Servicios de consultoría de negocios y administración corporativa"
+          "descripcion": "Servicios de consultorÃ­a de negocios y administraciÃ³n corporativa"
         },
         {
           "codigo": "801016.0",
           "descripcion": "Gerencia de proyectos"
-        },
-        {
-          "codigo": "801017.0",
-          "descripcion": "Gerencia industrial"
         },
         {
           "codigo": "801115.0",
@@ -1598,32 +1450,28 @@
           "descripcion": "Servicios de personal temporal"
         },
         {
-          "codigo": "801218.0",
-          "descripcion": "Servicios de derecho de familia"
-        },
-        {
           "codigo": "801315.0",
           "descripcion": "Alquiler y arrendamiento de propiedades o edificaciones"
         },
         {
           "codigo": "801415.0",
-          "descripcion": "Investigación de mercados"
+          "descripcion": "InvestigaciÃ³n de mercados"
         },
         {
           "codigo": "801416.0",
-          "descripcion": "Actividades de ventas y promoción de negocios"
+          "descripcion": "Actividades de ventas y promociÃ³n de negocios"
         },
         {
           "codigo": "801417.0",
-          "descripcion": "Distribución"
+          "descripcion": "DistribuciÃ³n"
+        },
+        {
+          "codigo": "801419.0",
+          "descripcion": "Exhibiciones y ferias comerciales"
         },
         {
           "codigo": "801615.0",
           "descripcion": "Servicios de apoyo gerencial"
-        },
-        {
-          "codigo": "811027.0",
-          "descripcion": "Servicios de diseño e ingeniería de sistemas instrumentados de control"
         },
         {
           "codigo": "811416.0",
@@ -1639,7 +1487,7 @@
         },
         {
           "codigo": "821017.0",
-          "descripcion": "Publicidad aérea"
+          "descripcion": "Publicidad aÃ©rea"
         },
         {
           "codigo": "821018.0",
@@ -1647,15 +1495,7 @@
         },
         {
           "codigo": "821019.0",
-          "descripcion": "Colocación y cumplimiento de medios"
-        },
-        {
-          "codigo": "821117.0",
-          "descripcion": "Escritura creativa"
-        },
-        {
-          "codigo": "821118.0",
-          "descripcion": "Servicios editoriales y de soporte"
+          "descripcion": "ColocaciÃ³n y cumplimiento de medios"
         },
         {
           "codigo": "821119.0",
@@ -1663,27 +1503,11 @@
         },
         {
           "codigo": "821215.0",
-          "descripcion": "Impresión"
+          "descripcion": "ImpresiÃ³n"
         },
         {
           "codigo": "821217.0",
           "descripcion": "Fotocopiado"
-        },
-        {
-          "codigo": "821315.0",
-          "descripcion": "Servicios de procesado de películas"
-        },
-        {
-          "codigo": "821316.0",
-          "descripcion": "Fotógrafos y cinematógrafos"
-        },
-        {
-          "codigo": "821415.0",
-          "descripcion": "Servicios de diseño artístico"
-        },
-        {
-          "codigo": "831217.0",
-          "descripcion": "Servicios de comunicación masiva"
         },
         {
           "codigo": "841115.0",
@@ -1691,27 +1515,35 @@
         },
         {
           "codigo": "841118.0",
-          "descripcion": "Asuntos y preparación de impuestos"
+          "descripcion": "Asuntos y preparaciÃ³n de impuestos"
         },
         {
           "codigo": "851017.0",
-          "descripcion": "Servicios de administración de salud"
+          "descripcion": "Servicios de administraciÃ³n de salud"
         },
         {
           "codigo": "851115.0",
-          "descripcion": "Prevención y control de enfermedades contagiosas"
+          "descripcion": "PrevenciÃ³n y control de enfermedades contagiosas"
         },
         {
           "codigo": "851116.0",
-          "descripcion": "Prevención y control de enfermedades no contagiosas"
+          "descripcion": "PrevenciÃ³n y control de enfermedades no contagiosas"
+        },
+        {
+          "codigo": "851117.0",
+          "descripcion": "Manejo y control de vectores de enfermedad"
         },
         {
           "codigo": "851216.0",
-          "descripcion": "Servicios médicos de doctores especialistas"
+          "descripcion": "Servicios mÃ©dicos de doctores especialistas"
+        },
+        {
+          "codigo": "851516.0",
+          "descripcion": "Asuntos nutricionales"
         },
         {
           "codigo": "861017.0",
-          "descripcion": "Servicios de capacitación vocacional no científica"
+          "descripcion": "Servicios de capacitaciÃ³n vocacional no cientÃ­fica"
         },
         {
           "codigo": "861018.0",
@@ -1719,11 +1551,7 @@
         },
         {
           "codigo": "861116.0",
-          "descripcion": "Educación de adultos"
-        },
-        {
-          "codigo": "861215.0",
-          "descripcion": "Escuelas elementales y secundarias"
+          "descripcion": "EducaciÃ³n de adultos"
         },
         {
           "codigo": "861315.0",
@@ -1731,19 +1559,15 @@
         },
         {
           "codigo": "861316.0",
-          "descripcion": "Música y drama"
+          "descripcion": "MÃºsica y drama"
         },
         {
           "codigo": "861320.0",
-          "descripcion": "Servicios de educación y capacitación en administración"
+          "descripcion": "Servicios de educaciÃ³n y capacitaciÃ³n en administraciÃ³n"
         },
         {
-          "codigo": "861415.0",
-          "descripcion": "Servicios de guía educativa"
-        },
-        {
-          "codigo": "901115.0",
-          "descripcion": "Hoteles y moteles y pensiones"
+          "codigo": "901018.0",
+          "descripcion": "Servicios de comida para llevar y a domicilio"
         },
         {
           "codigo": "901116.0",
@@ -1751,7 +1575,7 @@
         },
         {
           "codigo": "901217.0",
-          "descripcion": "Guías e intérpretes"
+          "descripcion": "GuÃ­as e intÃ©rpretes"
         },
         {
           "codigo": "901417.0",
@@ -1762,20 +1586,8 @@
           "descripcion": "Asistencia y cuidado del hogar"
         },
         {
-          "codigo": "921015.0",
-          "descripcion": "Servicios de policía"
-        },
-        {
-          "codigo": "931115.0",
-          "descripcion": "Movimientos políticos"
-        },
-        {
-          "codigo": "931116.0",
-          "descripcion": "Representación y participación política"
-        },
-        {
-          "codigo": "931217.0",
-          "descripcion": "Organizaciones internacionales"
+          "codigo": "931016.0",
+          "descripcion": "Funcionarios polÃ­ticos"
         },
         {
           "codigo": "931315.0",
@@ -1788,10 +1600,6 @@
         {
           "codigo": "931415.0",
           "descripcion": "Desarrollo y servicios sociales"
-        },
-        {
-          "codigo": "931416.0",
-          "descripcion": "Población"
         },
         {
           "codigo": "931417.0",
@@ -1807,7 +1615,11 @@
         },
         {
           "codigo": "931515.0",
-          "descripcion": "Administración pública"
+          "descripcion": "AdministraciÃ³n pÃºblica"
+        },
+        {
+          "codigo": "931517.0",
+          "descripcion": "Monedas"
         },
         {
           "codigo": "941217.0",
@@ -1818,12 +1630,237 @@
           "descripcion": "Organizaciones no gubernamentales"
         },
         {
-          "codigo": "941320.0",
-          "descripcion": "Asociaciones de defensa y promoción de los derechos humanos"
+          "codigo": "941316.0",
+          "descripcion": "Organizaciones de caridad"
         },
         {
           "codigo": "951317.0",
           "descripcion": "Tiendas carpas y estructuras de membrana"
+        }
+      ]
+    },
+    {
+      "nombre": "Comunicaciones",
+      "codigos": [
+        {
+          "codigo": "391118.0",
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
+        },
+        {
+          "codigo": "391124.0",
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
+        },
+        {
+          "codigo": "401617.0",
+          "descripcion": "Accesorios de tuberÃ­as"
+        },
+        {
+          "codigo": "432121.0",
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
+        },
+        {
+          "codigo": "432321.0",
+          "descripcion": "Software de ediciÃ³n y creaciÃ³n de contenidos"
+        },
+        {
+          "codigo": "441115.0",
+          "descripcion": "Agendas y accesorios"
+        },
+        {
+          "codigo": "451017.0",
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
+        },
+        {
+          "codigo": "451118.0",
+          "descripcion": "Equipo de presentaciÃ³n de vÃ­deo y de mezcla de vÃ­deo y sonido, hardware y controladores"
+        },
+        {
+          "codigo": "451317.0",
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
+        },
+        {
+          "codigo": "491017.0",
+          "descripcion": "Premios"
+        },
+        {
+          "codigo": "521615.0",
+          "descripcion": "Equipos audiovisuales"
+        },
+        {
+          "codigo": "521616.0",
+          "descripcion": "Accesorios de equipo audiovisual"
+        },
+        {
+          "codigo": "531030.0",
+          "descripcion": "Camisetas"
+        },
+        {
+          "codigo": "551015.0",
+          "descripcion": "Publicaciones impresas"
+        },
+        {
+          "codigo": "551217.0",
+          "descripcion": "SeÃ±alizaciÃ³n"
+        },
+        {
+          "codigo": "551219.0",
+          "descripcion": "SeÃ±alizaciones"
+        },
+        {
+          "codigo": "601054.0",
+          "descripcion": "Materiales educativos de vida independiente, administraciÃ³n del dinero y economÃ­a domÃ©stica"
+        },
+        {
+          "codigo": "601111.0",
+          "descripcion": "Sets de tablÃ³n de anuncios"
+        },
+        {
+          "codigo": "601318.0",
+          "descripcion": "Accesorios de mÃºsica y danza"
+        },
+        {
+          "codigo": "601414.0",
+          "descripcion": "Equipo de representaciÃ³n teatral y accesorios"
+        },
+        {
+          "codigo": "721516.0",
+          "descripcion": "Servicios de sistemas especializados de comunicaciÃ³n"
+        },
+        {
+          "codigo": "731519.0",
+          "descripcion": "Servicios a la industria de impresiÃ³n"
+        },
+        {
+          "codigo": "801116.0",
+          "descripcion": "Servicios de personal temporal"
+        },
+        {
+          "codigo": "801415.0",
+          "descripcion": "InvestigaciÃ³n de mercados"
+        },
+        {
+          "codigo": "801416.0",
+          "descripcion": "Actividades de ventas y promociÃ³n de negocios"
+        },
+        {
+          "codigo": "801417.0",
+          "descripcion": "DistribuciÃ³n"
+        },
+        {
+          "codigo": "801615.0",
+          "descripcion": "Servicios de apoyo gerencial"
+        },
+        {
+          "codigo": "811121.0",
+          "descripcion": "Servicios de internet"
+        },
+        {
+          "codigo": "811415.0",
+          "descripcion": "Control de calidad"
+        },
+        {
+          "codigo": "811617.0",
+          "descripcion": "Servicios de telecomunicaciones"
+        },
+        {
+          "codigo": "821015.0",
+          "descripcion": "Publicidad impresa"
+        },
+        {
+          "codigo": "821016.0",
+          "descripcion": "Publicidad difundida"
+        },
+        {
+          "codigo": "821018.0",
+          "descripcion": "Servicios de agencia de publicidad"
+        },
+        {
+          "codigo": "821019.0",
+          "descripcion": "ColocaciÃ³n y cumplimiento de medios"
+        },
+        {
+          "codigo": "821117.0",
+          "descripcion": "Escritura creativa"
+        },
+        {
+          "codigo": "821118.0",
+          "descripcion": "Servicios editoriales y de soporte"
+        },
+        {
+          "codigo": "821119.0",
+          "descripcion": "Servicios de noticias y publicidad"
+        },
+        {
+          "codigo": "821215.0",
+          "descripcion": "ImpresiÃ³n"
+        },
+        {
+          "codigo": "821217.0",
+          "descripcion": "Fotocopiado"
+        },
+        {
+          "codigo": "821218.0",
+          "descripcion": "PublicaciÃ³n"
+        },
+        {
+          "codigo": "821316.0",
+          "descripcion": "FotÃ³grafos y cinematÃ³grafos"
+        },
+        {
+          "codigo": "821415.0",
+          "descripcion": "Servicios de diseÃ±o artÃ­stico"
+        },
+        {
+          "codigo": "821416.0",
+          "descripcion": "Servicios de exhibiciÃ³n grÃ¡fica"
+        },
+        {
+          "codigo": "821515.0",
+          "descripcion": "Servicios de artes visuales"
+        },
+        {
+          "codigo": "821517.0",
+          "descripcion": "Profesionales de las artes escÃ©nicas"
+        },
+        {
+          "codigo": "831116.0",
+          "descripcion": "Servicios de comunicaciones mÃ³viles"
+        },
+        {
+          "codigo": "831118.0",
+          "descripcion": "Servicios de televisiÃ³n"
+        },
+        {
+          "codigo": "831122.0",
+          "descripcion": "Servicios mejorados de telecomunicaciones"
+        },
+        {
+          "codigo": "831217.0",
+          "descripcion": "Servicios de comunicaciÃ³n masiva"
+        },
+        {
+          "codigo": "861116.0",
+          "descripcion": "EducaciÃ³n de adultos"
+        },
+        {
+          "codigo": "901415.0",
+          "descripcion": "Eventos profesionales deportivos"
+        },
+        {
+          "codigo": "901416.0",
+          "descripcion": "PromociÃ³n y patrocinio de eventos deportivos"
+        },
+        {
+          "codigo": "901417.0",
+          "descripcion": "Deportes aficionados y recreacionales"
+        },
+        {
+          "codigo": "901516.0",
+          "descripcion": "Shows viajeros"
+        },
+        {
+          "codigo": "931415.0",
+          "descripcion": "Desarrollo y servicios sociales"
         }
       ]
     },
@@ -1836,15 +1873,15 @@
         },
         {
           "codigo": "251015.0",
-          "descripcion": "Vehículos de pasajeros"
+          "descripcion": "VehÃ­culos de pasajeros"
         },
         {
           "codigo": "391118.0",
-          "descripcion": "Accesorios de iluminación"
+          "descripcion": "Accesorios de iluminaciÃ³n"
         },
         {
           "codigo": "391123.0",
-          "descripcion": "Iluminación y accesorios de escenarios y estudios"
+          "descripcion": "IluminaciÃ³n y accesorios de escenarios y estudios"
         },
         {
           "codigo": "391124.0",
@@ -1852,19 +1889,19 @@
         },
         {
           "codigo": "422116.0",
-          "descripcion": "Baño y ayudas de baño para personas físicamente discapacitadas"
+          "descripcion": "BaÃ±o y ayudas de baÃ±o para personas fÃ­sicamente discapacitadas"
         },
         {
           "codigo": "422118.0",
-          "descripcion": "Ayuda para vestirse y asearse para personas físicamente discapacitadas"
+          "descripcion": "Ayuda para vestirse y asearse para personas fÃ­sicamente discapacitadas"
         },
         {
           "codigo": "422121.0",
-          "descripcion": "Aparatos de tiempo libre y recreo para personas físicamente discapacitadas"
+          "descripcion": "Aparatos de tiempo libre y recreo para personas fÃ­sicamente discapacitadas"
         },
         {
           "codigo": "422123.0",
-          "descripcion": "Ayuda para llegar o agarrar para personas físicamente discapacitadas"
+          "descripcion": "Ayuda para llegar o agarrar para personas fÃ­sicamente discapacitadas"
         },
         {
           "codigo": "432019.0",
@@ -1880,11 +1917,11 @@
         },
         {
           "codigo": "451117.0",
-          "descripcion": "Equipo de composición y presentación de sonido, hardware y controladores"
+          "descripcion": "Equipo de composiciÃ³n y presentaciÃ³n de sonido, hardware y controladores"
         },
         {
           "codigo": "451118.0",
-          "descripcion": "Equipo de presentación de vídeo y de mezcla de vídeo y sonido, hardware y controladores"
+          "descripcion": "Equipo de presentaciÃ³n de vÃ­deo y de mezcla de vÃ­deo y sonido, hardware y controladores"
         },
         {
           "codigo": "491017.0",
@@ -1892,11 +1929,11 @@
         },
         {
           "codigo": "491416.0",
-          "descripcion": "Equipos y accesorios para windsurf y natación"
+          "descripcion": "Equipos y accesorios para windsurf y nataciÃ³n"
         },
         {
           "codigo": "491515.0",
-          "descripcion": "Equipos de esquí y snowboard"
+          "descripcion": "Equipos de esquÃ­ y snowboard"
         },
         {
           "codigo": "491516.0",
@@ -1928,7 +1965,7 @@
         },
         {
           "codigo": "492118.0",
-          "descripcion": "Equipo de clase de educación física"
+          "descripcion": "Equipo de clase de educaciÃ³n fÃ­sica"
         },
         {
           "codigo": "492215.0",
@@ -1952,7 +1989,7 @@
         },
         {
           "codigo": "501925.0",
-          "descripcion": "Sándwiches y panecillos con relleno"
+          "descripcion": "SÃ¡ndwiches y panecillos con relleno"
         },
         {
           "codigo": "501927.0",
@@ -1964,15 +2001,15 @@
         },
         {
           "codigo": "502017.0",
-          "descripcion": "Café y té"
+          "descripcion": "CafÃ© y tÃ©"
         },
         {
           "codigo": "502023.0",
-          "descripcion": "Bebidas no alcohólicas"
+          "descripcion": "Bebidas no alcohÃ³licas"
         },
         {
           "codigo": "502024.0",
-          "descripcion": "Jugos o concentrados de cítricos frescos"
+          "descripcion": "Jugos o concentrados de cÃ­tricos frescos"
         },
         {
           "codigo": "502027.0",
@@ -2040,7 +2077,7 @@
         },
         {
           "codigo": "551219.0",
-          "descripcion": "Señalizaciones"
+          "descripcion": "SeÃ±alizaciones"
         },
         {
           "codigo": "561015.0",
@@ -2060,7 +2097,7 @@
         },
         {
           "codigo": "781115.0",
-          "descripcion": "Transporte de pasajeros aérea"
+          "descripcion": "Transporte de pasajeros aÃ©rea"
         },
         {
           "codigo": "781118.0",
@@ -2084,11 +2121,11 @@
         },
         {
           "codigo": "801415.0",
-          "descripcion": "Investigación de mercados"
+          "descripcion": "InvestigaciÃ³n de mercados"
         },
         {
           "codigo": "801416.0",
-          "descripcion": "Actividades de ventas y promoción de negocios"
+          "descripcion": "Actividades de ventas y promociÃ³n de negocios"
         },
         {
           "codigo": "801419.0",
@@ -2116,7 +2153,7 @@
         },
         {
           "codigo": "821019.0",
-          "descripcion": "Colocación y cumplimiento de medios"
+          "descripcion": "ColocaciÃ³n y cumplimiento de medios"
         },
         {
           "codigo": "821119.0",
@@ -2124,7 +2161,7 @@
         },
         {
           "codigo": "821215.0",
-          "descripcion": "Impresión"
+          "descripcion": "ImpresiÃ³n"
         },
         {
           "codigo": "821217.0",
@@ -2132,19 +2169,19 @@
         },
         {
           "codigo": "821316.0",
-          "descripcion": "Fotógrafos y cinematógrafos"
+          "descripcion": "FotÃ³grafos y cinematÃ³grafos"
         },
         {
           "codigo": "821517.0",
-          "descripcion": "Profesionales de las artes escénicas"
+          "descripcion": "Profesionales de las artes escÃ©nicas"
         },
         {
           "codigo": "831118.0",
-          "descripcion": "Servicios de televisión"
+          "descripcion": "Servicios de televisiÃ³n"
         },
         {
           "codigo": "831217.0",
-          "descripcion": "Servicios de comunicación masiva"
+          "descripcion": "Servicios de comunicaciÃ³n masiva"
         },
         {
           "codigo": "841316.0",
@@ -2152,11 +2189,11 @@
         },
         {
           "codigo": "861317.0",
-          "descripcion": "Conducción de vehículos, buques y aeronaves"
+          "descripcion": "ConducciÃ³n de vehÃ­culos, buques y aeronaves"
         },
         {
           "codigo": "861320.0",
-          "descripcion": "Servicios de educación y capacitación en administración"
+          "descripcion": "Servicios de educaciÃ³n y capacitaciÃ³n en administraciÃ³n"
         },
         {
           "codigo": "901015.0",
@@ -2168,7 +2205,7 @@
         },
         {
           "codigo": "901017.0",
-          "descripcion": "Servicios de cafetería"
+          "descripcion": "Servicios de cafeterÃ­a"
         },
         {
           "codigo": "901018.0",
@@ -2204,7 +2241,7 @@
         },
         {
           "codigo": "901416.0",
-          "descripcion": "Promoción y patrocinio de eventos deportivos"
+          "descripcion": "PromociÃ³n y patrocinio de eventos deportivos"
         },
         {
           "codigo": "901417.0",
@@ -2220,7 +2257,7 @@
         },
         {
           "codigo": "931016.0",
-          "descripcion": "Funcionarios políticos"
+          "descripcion": "Funcionarios polÃ­ticos"
         },
         {
           "codigo": "931217.0",
@@ -2232,7 +2269,7 @@
         },
         {
           "codigo": "931416.0",
-          "descripcion": "Población"
+          "descripcion": "PoblaciÃ³n"
         },
         {
           "codigo": "931417.0",
@@ -2252,7 +2289,7 @@
         },
         {
           "codigo": "951315.0",
-          "descripcion": "Tarimas y graderías"
+          "descripcion": "Tarimas y graderÃ­as"
         },
         {
           "codigo": "951317.0",
@@ -2261,67 +2298,83 @@
       ]
     },
     {
-      "nombre": "Bioexpo",
+      "nombre": "Ecuentros Jovenes",
       "codigos": [
+        {
+          "codigo": "111118.0",
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
+        },
+        {
+          "codigo": "141118.0",
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
+        },
+        {
+          "codigo": "231417.0",
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
+        },
         {
           "codigo": "241115.0",
           "descripcion": "Contenedores y tanques"
         },
         {
           "codigo": "251015.0",
-          "descripcion": "Vehículos automotores"
+          "descripcion": "VehÃ­culos automotores"
         },
         {
           "codigo": "251016.0",
-          "descripcion": "Partes de vehículos automotores"
+          "descripcion": "Partes de vehÃ­culos automotores"
         },
         {
-          "codigo": "251727.0",
-          "descripcion": "Accesorios de vehículos recreativos"
+          "codigo": "391124.0",
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
         },
         {
-          "codigo": "432115.0",
-          "descripcion": "Computadores"
+          "codigo": "422515.0",
+          "descripcion": "Productos de terapia y evaluaciÃ³n sensoria y perceptual y dexteridad y cognitiva"
         },
         {
-          "codigo": "432116.0",
-          "descripcion": "Accesorios de computador"
+          "codigo": "432320.0",
+          "descripcion": "Software de entretenimiento o juegos de computador"
         },
         {
           "codigo": "432321.0",
-          "descripcion": "Software de edición y creación de contenidos"
-        },
-        {
-          "codigo": "441017.0",
-          "descripcion": "Accesorios para impresoras, fotocopiadoras y aparatos de fax"
+          "descripcion": "Software de ediciÃ³n y creaciÃ³n de contenidos"
         },
         {
           "codigo": "441115.0",
           "descripcion": "Agendas y accesorios"
         },
         {
-          "codigo": "441216.0",
-          "descripcion": "Suministros de escritorio"
+          "codigo": "441120.0",
+          "descripcion": "Sistemas de planificaciÃ³n"
+        },
+        {
+          "codigo": "441150.0",
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
+        },
+        {
+          "codigo": "441217.0",
+          "descripcion": "Instrumentos de escritura"
+        },
+        {
+          "codigo": "441220.0",
+          "descripcion": "Carpetas de archivo, carpetas y separadores"
         },
         {
           "codigo": "451115.0",
           "descripcion": "Atriles, sistemas de sonido y accesorios"
         },
         {
-          "codigo": "451117.0",
-          "descripcion": "Equipo de composición y presentación de sonido, hardware y controladores"
+          "codigo": "451116.0",
+          "descripcion": "Proyectores y suministros"
         },
         {
-          "codigo": "451118.0",
-          "descripcion": "Equipo de presentación de vídeo y de mezcla de vídeo y sonido, hardware y controladores"
+          "codigo": "451215.0",
+          "descripcion": "CÃ¡maras"
         },
         {
-          "codigo": "471217.0",
-          "descripcion": "Envases y accesorios para residuos"
-        },
-        {
-          "codigo": "491016.0",
-          "descripcion": "Coleccionables"
+          "codigo": "481017.0",
+          "descripcion": "Distribuidores automÃ¡ticos de comida y bebida"
         },
         {
           "codigo": "501820.0",
@@ -2333,1142 +2386,7 @@
         },
         {
           "codigo": "501925.0",
-          "descripcion": "Sándwiches y panecillos con relleno"
-        },
-        {
-          "codigo": "501927.0",
-          "descripcion": "Platos combinados empaquetados"
-        },
-        {
-          "codigo": "502017.0",
-          "descripcion": "Café y té"
-        },
-        {
-          "codigo": "502023.0",
-          "descripcion": "Bebidas no alcohólicas"
-        },
-        {
-          "codigo": "521615.0",
-          "descripcion": "Equipos audiovisuales"
-        },
-        {
-          "codigo": "531025.0",
-          "descripcion": "Accesorios de vestir"
-        },
-        {
-          "codigo": "531030.0",
-          "descripcion": "Camisetas"
-        },
-        {
-          "codigo": "531031.0",
-          "descripcion": "Chalecos"
-        },
-        {
-          "codigo": "531217.0",
-          "descripcion": "Carteras"
-        },
-        {
-          "codigo": "551015.0",
-          "descripcion": "Publicaciones impresas"
-        },
-        {
-          "codigo": "561015.0",
-          "descripcion": "Muebles"
-        },
-        {
-          "codigo": "601035.0",
-          "descripcion": "Ciencias políticas"
-        },
-        {
-          "codigo": "601054.0",
-          "descripcion": "Materiales educativos de vida independiente, administración del dinero y economía doméstica"
-        },
-        {
-          "codigo": "601210.0",
-          "descripcion": "Arte"
-        },
-        {
-          "codigo": "601411.0",
-          "descripcion": "Juegos"
-        },
-        {
-          "codigo": "701117.0",
-          "descripcion": "Parques, jardines y huertos"
-        },
-        {
-          "codigo": "701220.0",
-          "descripcion": "Salud animal"
-        },
-        {
-          "codigo": "701317.0",
-          "descripcion": "Gestión del terreno y del suelo"
-        },
-        {
-          "codigo": "701515.0",
-          "descripcion": "Gestión de cultivos forestales"
-        },
-        {
-          "codigo": "701518.0",
-          "descripcion": "Servicios de conservación forestal"
-        },
-        {
-          "codigo": "701617.0",
-          "descripcion": "Ecosistemas"
-        },
-        {
-          "codigo": "701715.0",
-          "descripcion": "Desarrollo"
-        },
-        {
-          "codigo": "701716.0",
-          "descripcion": "Vigilancia"
-        },
-        {
-          "codigo": "701717.0",
-          "descripcion": "Riego"
-        },
-        {
-          "codigo": "761015.0",
-          "descripcion": "Desinfección"
-        },
-        {
-          "codigo": "771015.0",
-          "descripcion": "Evaluación de impacto ambiental"
-        },
-        {
-          "codigo": "771016.0",
-          "descripcion": "Planeación ambiental"
-        },
-        {
-          "codigo": "771017.0",
-          "descripcion": "Servicios de asesoría ambiental"
-        },
-        {
-          "codigo": "771018.0",
-          "descripcion": "Auditoría ambiental"
-        },
-        {
-          "codigo": "771115.0",
-          "descripcion": "Servicios de seguridad ambiental"
-        },
-        {
-          "codigo": "781115.0",
-          "descripcion": "Transporte de pasajeros aérea"
-        },
-        {
-          "codigo": "781118.0",
-          "descripcion": "Transporte de pasajeros por carretera"
-        },
-        {
-          "codigo": "801016.0",
-          "descripcion": "Gerencia de proyectos"
-        },
-        {
-          "codigo": "801115.0",
-          "descripcion": "Desarrollo de recursos humanos"
-        },
-        {
-          "codigo": "801116.0",
-          "descripcion": "Servicios de personal temporal"
-        },
-        {
-          "codigo": "801315.0",
-          "descripcion": "Alquiler y arrendamiento de propiedades o edificaciones"
-        },
-        {
-          "codigo": "801415.0",
-          "descripcion": "Investigación de mercados"
-        },
-        {
-          "codigo": "801416.0",
-          "descripcion": "Actividades de ventas y promoción de negocios"
-        },
-        {
-          "codigo": "801417.0",
-          "descripcion": "Distribución"
-        },
-        {
-          "codigo": "801419.0",
-          "descripcion": "Exhibiciones y ferias comerciales"
-        },
-        {
-          "codigo": "801615.0",
-          "descripcion": "Servicios de apoyo gerencial"
-        },
-        {
-          "codigo": "801618.0",
-          "descripcion": "Servicios de alquiler o arrendamiento de equipo de oficina"
-        },
-        {
-          "codigo": "811117.0",
-          "descripcion": "Sistemas de manejo de información MIS"
-        },
-        {
-          "codigo": "811121.0",
-          "descripcion": "Servicios de internet"
-        },
-        {
-          "codigo": "811124.0",
-          "descripcion": "Servicios de alquiler o arrendamiento de hardware de computador"
-        },
-        {
-          "codigo": "811215.0",
-          "descripcion": "Análisis económico"
-        },
-        {
-          "codigo": "811315.0",
-          "descripcion": "Metodología y análisis"
-        },
-        {
-          "codigo": "811416.0",
-          "descripcion": "Manejo de cadena de suministros"
-        },
-        {
-          "codigo": "821015.0",
-          "descripcion": "Publicidad impresa"
-        },
-        {
-          "codigo": "821016.0",
-          "descripcion": "Publicidad difundida"
-        },
-        {
-          "codigo": "821018.0",
-          "descripcion": "Servicios de agencia de publicidad"
-        },
-        {
-          "codigo": "821019.0",
-          "descripcion": "Colocación y cumplimiento de medios"
-        },
-        {
-          "codigo": "821117.0",
-          "descripcion": "Escritura creativa"
-        },
-        {
-          "codigo": "821118.0",
-          "descripcion": "Servicios editoriales y de soporte"
-        },
-        {
-          "codigo": "821119.0",
-          "descripcion": "Servicios de noticias y publicidad"
-        },
-        {
-          "codigo": "821215.0",
-          "descripcion": "Impresión"
-        },
-        {
-          "codigo": "821217.0",
-          "descripcion": "Fotocopiado"
-        },
-        {
-          "codigo": "821316.0",
-          "descripcion": "Fotógrafos y cinematógrafos"
-        },
-        {
-          "codigo": "821415.0",
-          "descripcion": "Servicios de diseño artístico"
-        },
-        {
-          "codigo": "831217.0",
-          "descripcion": "Servicios de comunicación masiva"
-        },
-        {
-          "codigo": "861015.0",
-          "descripcion": "Servicios de entrenamiento en agricultura y silvicultura y otros recursos naturales"
-        },
-        {
-          "codigo": "861116.0",
-          "descripcion": "Educación de adultos"
-        },
-        {
-          "codigo": "861317.0",
-          "descripcion": "Conducción de vehículos, buques y aeronaves"
-        },
-        {
-          "codigo": "861320.0",
-          "descripcion": "Servicios de educación y capacitación en administración"
-        },
-        {
-          "codigo": "861415.0",
-          "descripcion": "Servicios de guía educativa"
-        },
-        {
-          "codigo": "861416.0",
-          "descripcion": "Organizaciones de estudiantes"
-        },
-        {
-          "codigo": "861417.0",
-          "descripcion": "Tecnología educacional"
-        },
-        {
-          "codigo": "901016.0",
-          "descripcion": "Servicios de banquetes y catering"
-        },
-        {
-          "codigo": "901018.0",
-          "descripcion": "Servicios de comida para llevar y a domicilio"
-        },
-        {
-          "codigo": "901115.0",
-          "descripcion": "Hoteles y moteles y pensiones"
-        },
-        {
-          "codigo": "901116.0",
-          "descripcion": "Facilidades para encuentros"
-        },
-        {
-          "codigo": "901118.0",
-          "descripcion": "Cuartos de hotel"
-        },
-        {
-          "codigo": "901215.0",
-          "descripcion": "Agentes de viajes"
-        },
-        {
-          "codigo": "901315.0",
-          "descripcion": "Actuaciones en vivo"
-        },
-        {
-          "codigo": "901518.0",
-          "descripcion": "Carnavales y ferias"
-        },
-        {
-          "codigo": "921015.0",
-          "descripcion": "Servicios de policía"
-        },
-        {
-          "codigo": "931016.0",
-          "descripcion": "Funcionarios políticos"
-        },
-        {
-          "codigo": "931116.0",
-          "descripcion": "Representación y participación política"
-        },
-        {
-          "codigo": "931415.0",
-          "descripcion": "Desarrollo y servicios sociales"
-        },
-        {
-          "codigo": "931417.0",
-          "descripcion": "Cultura"
-        },
-        {
-          "codigo": "931418.0",
-          "descripcion": "Empleo"
-        },
-        {
-          "codigo": "931419.0",
-          "descripcion": "Desarrollo rural"
-        },
-        {
-          "codigo": "931421.0",
-          "descripcion": "Desarrollo regional"
-        },
-        {
-          "codigo": "931515.0",
-          "descripcion": "Administración pública"
-        },
-        {
-          "codigo": "931516.0",
-          "descripcion": "Finanzas públicas"
-        },
-        {
-          "codigo": "941317.0",
-          "descripcion": "Asociaciones verdes"
-        },
-        {
-          "codigo": "951315.0",
-          "descripcion": "Tarimas y graderías"
-        },
-        {
-          "codigo": "951316.0",
-          "descripcion": "Edificios y estructuras comerciales e industriales portátiles"
-        },
-        {
-          "codigo": "951317.0",
-          "descripcion": "Tiendas carpas y estructuras de membrana"
-        }
-      ]
-    },
-    {
-      "nombre": "Elecciones",
-      "codigos": [
-        {
-          "codigo": "391118.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
-        },
-        {
-          "codigo": "391124.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
-        },
-        {
-          "codigo": "401617.0",
-          "descripcion": "Accesorios de tuberías"
-        },
-        {
-          "codigo": "432121.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
-        },
-        {
-          "codigo": "432321.0",
-          "descripcion": "Software de edición y creación de contenidos"
-        },
-        {
-          "codigo": "441115.0",
-          "descripcion": "Agendas y accesorios"
-        },
-        {
-          "codigo": "451017.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
-        },
-        {
-          "codigo": "451118.0",
-          "descripcion": "Equipo de presentación de vídeo y de mezcla de vídeo y sonido, hardware y controladores"
-        },
-        {
-          "codigo": "451317.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
-        },
-        {
-          "codigo": "491017.0",
-          "descripcion": "Premios"
-        },
-        {
-          "codigo": "521615.0",
-          "descripcion": "Equipos audiovisuales"
-        },
-        {
-          "codigo": "521616.0",
-          "descripcion": "Accesorios de equipo audiovisual"
-        },
-        {
-          "codigo": "531030.0",
-          "descripcion": "Camisetas"
-        },
-        {
-          "codigo": "551015.0",
-          "descripcion": "Publicaciones impresas"
-        },
-        {
-          "codigo": "551217.0",
-          "descripcion": "Señalización"
-        },
-        {
-          "codigo": "551219.0",
-          "descripcion": "Señalizaciones"
-        },
-        {
-          "codigo": "601054.0",
-          "descripcion": "Materiales educativos de vida independiente, administración del dinero y economía doméstica"
-        },
-        {
-          "codigo": "601111.0",
-          "descripcion": "Sets de tablón de anuncios"
-        },
-        {
-          "codigo": "601318.0",
-          "descripcion": "Accesorios de música y danza"
-        },
-        {
-          "codigo": "601414.0",
-          "descripcion": "Equipo de representación teatral y accesorios"
-        },
-        {
-          "codigo": "721516.0",
-          "descripcion": "Servicios de sistemas especializados de comunicación"
-        },
-        {
-          "codigo": "731519.0",
-          "descripcion": "Servicios a la industria de impresión"
-        },
-        {
-          "codigo": "801116.0",
-          "descripcion": "Servicios de personal temporal"
-        },
-        {
-          "codigo": "801415.0",
-          "descripcion": "Investigación de mercados"
-        },
-        {
-          "codigo": "801416.0",
-          "descripcion": "Actividades de ventas y promoción de negocios"
-        },
-        {
-          "codigo": "801417.0",
-          "descripcion": "Distribución"
-        },
-        {
-          "codigo": "801615.0",
-          "descripcion": "Servicios de apoyo gerencial"
-        },
-        {
-          "codigo": "811121.0",
-          "descripcion": "Servicios de internet"
-        },
-        {
-          "codigo": "811415.0",
-          "descripcion": "Control de calidad"
-        },
-        {
-          "codigo": "811617.0",
-          "descripcion": "Servicios de telecomunicaciones"
-        },
-        {
-          "codigo": "821015.0",
-          "descripcion": "Publicidad impresa"
-        },
-        {
-          "codigo": "821016.0",
-          "descripcion": "Publicidad difundida"
-        },
-        {
-          "codigo": "821018.0",
-          "descripcion": "Servicios de agencia de publicidad"
-        },
-        {
-          "codigo": "821019.0",
-          "descripcion": "Colocación y cumplimiento de medios"
-        },
-        {
-          "codigo": "821117.0",
-          "descripcion": "Escritura creativa"
-        },
-        {
-          "codigo": "821118.0",
-          "descripcion": "Servicios editoriales y de soporte"
-        },
-        {
-          "codigo": "821119.0",
-          "descripcion": "Servicios de noticias y publicidad"
-        },
-        {
-          "codigo": "821215.0",
-          "descripcion": "Impresión"
-        },
-        {
-          "codigo": "821217.0",
-          "descripcion": "Fotocopiado"
-        },
-        {
-          "codigo": "821218.0",
-          "descripcion": "Publicación"
-        },
-        {
-          "codigo": "821316.0",
-          "descripcion": "Fotógrafos y cinematógrafos"
-        },
-        {
-          "codigo": "821415.0",
-          "descripcion": "Servicios de diseño artístico"
-        },
-        {
-          "codigo": "821416.0",
-          "descripcion": "Servicios de exhibición gráfica"
-        },
-        {
-          "codigo": "821515.0",
-          "descripcion": "Servicios de artes visuales"
-        },
-        {
-          "codigo": "821517.0",
-          "descripcion": "Profesionales de las artes escénicas"
-        },
-        {
-          "codigo": "831116.0",
-          "descripcion": "Servicios de comunicaciones móviles"
-        },
-        {
-          "codigo": "831118.0",
-          "descripcion": "Servicios de televisión"
-        },
-        {
-          "codigo": "831122.0",
-          "descripcion": "Servicios mejorados de telecomunicaciones"
-        },
-        {
-          "codigo": "831217.0",
-          "descripcion": "Servicios de comunicación masiva"
-        },
-        {
-          "codigo": "861116.0",
-          "descripcion": "Educación de adultos"
-        },
-        {
-          "codigo": "901415.0",
-          "descripcion": "Eventos profesionales deportivos"
-        },
-        {
-          "codigo": "901416.0",
-          "descripcion": "Promoción y patrocinio de eventos deportivos"
-        },
-        {
-          "codigo": "901417.0",
-          "descripcion": "Deportes aficionados y recreacionales"
-        },
-        {
-          "codigo": "901516.0",
-          "descripcion": "Shows viajeros"
-        },
-        {
-          "codigo": "931415.0",
-          "descripcion": "Desarrollo y servicios sociales"
-        },
-        {
-          "codigo": "761118.0",
-          "descripcion": "Limpieza de vehículos de transporte"
-        },
-        {
-          "codigo": "781018.0",
-          "descripcion": "Transporte de carga por carretera"
-        },
-        {
-          "codigo": "781115.0",
-          "descripcion": "Transporte de pasajeros aérea"
-        },
-        {
-          "codigo": "781118.0",
-          "descripcion": "Transporte de pasajeros por carretera"
-        },
-        {
-          "codigo": "801015.0",
-          "descripcion": "Servicios de consultoría de negocios y administración corporativa"
-        },
-        {
-          "codigo": "801016.0",
-          "descripcion": "Gerencia de proyectos"
-        },
-        {
-          "codigo": "801115.0",
-          "descripcion": "Desarrollo de recursos humanos"
-        },
-        {
-          "codigo": "801116.0",
-          "descripcion": "Servicios de personal temporal"
-        },
-        {
-          "codigo": "801415.0",
-          "descripcion": "Investigación de mercados"
-        },
-        {
-          "codigo": "801416.0",
-          "descripcion": "Actividades de ventas y promoción de negocios"
-        },
-        {
-          "codigo": "801417.0",
-          "descripcion": "Distribución"
-        },
-        {
-          "codigo": "801419.0",
-          "descripcion": "Exhibiciones y ferias comerciales"
-        },
-        {
-          "codigo": "801615.0",
-          "descripcion": "Servicios de apoyo gerencial"
-        },
-        {
-          "codigo": "801618.0",
-          "descripcion": "Servicios de alquiler o arrendamiento de equipo de oficina"
-        },
-        {
-          "codigo": "811121.0",
-          "descripcion": "Servicios de internet"
-        },
-        {
-          "codigo": "811215.0",
-          "descripcion": "Análisis económico"
-        },
-        {
-          "codigo": "811315.0",
-          "descripcion": "Metodología y análisis"
-        },
-        {
-          "codigo": "811416.0",
-          "descripcion": "Manejo de cadena de suministros"
-        },
-        {
-          "codigo": "811419.0",
-          "descripcion": "Servicios de investigación y desarrollo de tecnología manufacturera"
-        },
-        {
-          "codigo": "821015.0",
-          "descripcion": "Publicidad impresa"
-        },
-        {
-          "codigo": "821016.0",
-          "descripcion": "Publicidad difundida"
-        },
-        {
-          "codigo": "821019.0",
-          "descripcion": "Colocación y cumplimiento de medios"
-        },
-        {
-          "codigo": "821119.0",
-          "descripcion": "Servicios de noticias y publicidad"
-        },
-        {
-          "codigo": "821215.0",
-          "descripcion": "Impresión"
-        },
-        {
-          "codigo": "821217.0",
-          "descripcion": "Fotocopiado"
-        },
-        {
-          "codigo": "821218.0",
-          "descripcion": "Publicación"
-        },
-        {
-          "codigo": "821316.0",
-          "descripcion": "Fotógrafos y cinematógrafos"
-        },
-        {
-          "codigo": "821517.0",
-          "descripcion": "Profesionales de las artes escénicas"
-        },
-        {
-          "codigo": "831217.0",
-          "descripcion": "Servicios de comunicación masiva"
-        },
-        {
-          "codigo": "851115.0",
-          "descripcion": "Prevención y control de enfermedades contagiosas"
-        },
-        {
-          "codigo": "851516.0",
-          "descripcion": "Asuntos nutricionales"
-        },
-        {
-          "codigo": "861017.0",
-          "descripcion": "Servicios de capacitación vocacional no científica"
-        },
-        {
-          "codigo": "861116.0",
-          "descripcion": "Educación de adultos"
-        },
-        {
-          "codigo": "861317.0",
-          "descripcion": "Conducción de vehículos, buques y aeronaves"
-        },
-        {
-          "codigo": "861319.0",
-          "descripcion": "Escuelas para gente con discapacidades"
-        },
-        {
-          "codigo": "861320.0",
-          "descripcion": "Servicios de educación y capacitación en administración"
-        },
-        {
-          "codigo": "861415.0",
-          "descripcion": "Servicios de guía educativa"
-        },
-        {
-          "codigo": "901015.0",
-          "descripcion": "Establecimientos para comer y beber"
-        },
-        {
-          "codigo": "901016.0",
-          "descripcion": "Servicios de banquetes y catering"
-        },
-        {
-          "codigo": "901017.0",
-          "descripcion": "Servicios de cafetería"
-        },
-        {
-          "codigo": "901018.0",
-          "descripcion": "Servicios de comida para llevar y a domicilio"
-        },
-        {
-          "codigo": "901115.0",
-          "descripcion": "Hoteles y moteles y pensiones"
-        },
-        {
-          "codigo": "901116.0",
-          "descripcion": "Facilidades para encuentros"
-        },
-        {
-          "codigo": "901118.0",
-          "descripcion": "Cuartos de hotel"
-        },
-        {
-          "codigo": "901215.0",
-          "descripcion": "Agentes de viajes"
-        },
-        {
-          "codigo": "901518.0",
-          "descripcion": "Carnavales y ferias"
-        },
-        {
-          "codigo": "931016.0",
-          "descripcion": "Funcionarios políticos"
-        },
-        {
-          "codigo": "931017.0",
-          "descripcion": "Cuerpos y práctica legislativa"
-        },
-        {
-          "codigo": "931115.0",
-          "descripcion": "Movimientos políticos"
-        },
-        {
-          "codigo": "931116.0",
-          "descripcion": "Representación y participación política"
-        },
-        {
-          "codigo": "931217.0",
-          "descripcion": "Organizaciones internacionales"
-        },
-        {
-          "codigo": "931315.0",
-          "descripcion": "Programas de refugiados"
-        },
-        {
-          "codigo": "931316.0",
-          "descripcion": "Planeación y programas de políticas de alimentación y nutrición"
-        },
-        {
-          "codigo": "931317.0",
-          "descripcion": "Programas de salud"
-        },
-        {
-          "codigo": "931415.0",
-          "descripcion": "Desarrollo y servicios sociales"
-        },
-        {
-          "codigo": "931417.0",
-          "descripcion": "Cultura"
-        },
-        {
-          "codigo": "931418.0",
-          "descripcion": "Empleo"
-        },
-        {
-          "codigo": "931419.0",
-          "descripcion": "Desarrollo rural"
-        },
-        {
-          "codigo": "931420.0",
-          "descripcion": "Desarrollo urbano"
-        },
-        {
-          "codigo": "931421.0",
-          "descripcion": "Desarrollo regional"
-        },
-        {
-          "codigo": "931515.0",
-          "descripcion": "Administración pública"
-        },
-        {
-          "codigo": "931516.0",
-          "descripcion": "Finanzas públicas"
-        },
-        {
-          "codigo": "941316.0",
-          "descripcion": "Organizaciones de caridad"
-        },
-        {
-          "codigo": "941320.0",
-          "descripcion": "Asociaciones de defensa y promoción de los derechos humanos"
-        },
-        {
-          "codigo": "951315.0",
-          "descripcion": "Tarimas y graderías"
-        },
-        {
-          "codigo": "951316.0",
-          "descripcion": "Edificios y estructuras comerciales e industriales portátiles"
-        },
-        {
-          "codigo": "951317.0",
-          "descripcion": "Tiendas carpas y estructuras de membrana"
-        }
-      ]
-    },
-    {
-      "nombre": "Comunicaciones",
-      "codigos": [
-        {
-          "codigo": "391118.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
-        },
-        {
-          "codigo": "391124.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
-        },
-        {
-          "codigo": "401617.0",
-          "descripcion": "Accesorios de tuberías"
-        },
-        {
-          "codigo": "432121.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
-        },
-        {
-          "codigo": "432321.0",
-          "descripcion": "Software de edición y creación de contenidos"
-        },
-        {
-          "codigo": "441115.0",
-          "descripcion": "Agendas y accesorios"
-        },
-        {
-          "codigo": "451017.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
-        },
-        {
-          "codigo": "451118.0",
-          "descripcion": "Equipo de presentación de vídeo y de mezcla de vídeo y sonido, hardware y controladores"
-        },
-        {
-          "codigo": "451317.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
-        },
-        {
-          "codigo": "491017.0",
-          "descripcion": "Premios"
-        },
-        {
-          "codigo": "521615.0",
-          "descripcion": "Equipos audiovisuales"
-        },
-        {
-          "codigo": "521616.0",
-          "descripcion": "Accesorios de equipo audiovisual"
-        },
-        {
-          "codigo": "531030.0",
-          "descripcion": "Camisetas"
-        },
-        {
-          "codigo": "551015.0",
-          "descripcion": "Publicaciones impresas"
-        },
-        {
-          "codigo": "551217.0",
-          "descripcion": "Señalización"
-        },
-        {
-          "codigo": "551219.0",
-          "descripcion": "Señalizaciones"
-        },
-        {
-          "codigo": "601054.0",
-          "descripcion": "Materiales educativos de vida independiente, administración del dinero y economía doméstica"
-        },
-        {
-          "codigo": "601111.0",
-          "descripcion": "Sets de tablón de anuncios"
-        },
-        {
-          "codigo": "601318.0",
-          "descripcion": "Accesorios de música y danza"
-        },
-        {
-          "codigo": "601414.0",
-          "descripcion": "Equipo de representación teatral y accesorios"
-        },
-        {
-          "codigo": "721516.0",
-          "descripcion": "Servicios de sistemas especializados de comunicación"
-        },
-        {
-          "codigo": "731519.0",
-          "descripcion": "Servicios a la industria de impresión"
-        },
-        {
-          "codigo": "801116.0",
-          "descripcion": "Servicios de personal temporal"
-        },
-        {
-          "codigo": "801415.0",
-          "descripcion": "Investigación de mercados"
-        },
-        {
-          "codigo": "801416.0",
-          "descripcion": "Actividades de ventas y promoción de negocios"
-        },
-        {
-          "codigo": "801417.0",
-          "descripcion": "Distribución"
-        },
-        {
-          "codigo": "801615.0",
-          "descripcion": "Servicios de apoyo gerencial"
-        },
-        {
-          "codigo": "811121.0",
-          "descripcion": "Servicios de internet"
-        },
-        {
-          "codigo": "811415.0",
-          "descripcion": "Control de calidad"
-        },
-        {
-          "codigo": "811617.0",
-          "descripcion": "Servicios de telecomunicaciones"
-        },
-        {
-          "codigo": "821015.0",
-          "descripcion": "Publicidad impresa"
-        },
-        {
-          "codigo": "821016.0",
-          "descripcion": "Publicidad difundida"
-        },
-        {
-          "codigo": "821018.0",
-          "descripcion": "Servicios de agencia de publicidad"
-        },
-        {
-          "codigo": "821019.0",
-          "descripcion": "Colocación y cumplimiento de medios"
-        },
-        {
-          "codigo": "821117.0",
-          "descripcion": "Escritura creativa"
-        },
-        {
-          "codigo": "821118.0",
-          "descripcion": "Servicios editoriales y de soporte"
-        },
-        {
-          "codigo": "821119.0",
-          "descripcion": "Servicios de noticias y publicidad"
-        },
-        {
-          "codigo": "821215.0",
-          "descripcion": "Impresión"
-        },
-        {
-          "codigo": "821217.0",
-          "descripcion": "Fotocopiado"
-        },
-        {
-          "codigo": "821218.0",
-          "descripcion": "Publicación"
-        },
-        {
-          "codigo": "821316.0",
-          "descripcion": "Fotógrafos y cinematógrafos"
-        },
-        {
-          "codigo": "821415.0",
-          "descripcion": "Servicios de diseño artístico"
-        },
-        {
-          "codigo": "821416.0",
-          "descripcion": "Servicios de exhibición gráfica"
-        },
-        {
-          "codigo": "821515.0",
-          "descripcion": "Servicios de artes visuales"
-        },
-        {
-          "codigo": "821517.0",
-          "descripcion": "Profesionales de las artes escénicas"
-        },
-        {
-          "codigo": "831116.0",
-          "descripcion": "Servicios de comunicaciones móviles"
-        },
-        {
-          "codigo": "831118.0",
-          "descripcion": "Servicios de televisión"
-        },
-        {
-          "codigo": "831122.0",
-          "descripcion": "Servicios mejorados de telecomunicaciones"
-        },
-        {
-          "codigo": "831217.0",
-          "descripcion": "Servicios de comunicación masiva"
-        },
-        {
-          "codigo": "861116.0",
-          "descripcion": "Educación de adultos"
-        },
-        {
-          "codigo": "901415.0",
-          "descripcion": "Eventos profesionales deportivos"
-        },
-        {
-          "codigo": "901416.0",
-          "descripcion": "Promoción y patrocinio de eventos deportivos"
-        },
-        {
-          "codigo": "901417.0",
-          "descripcion": "Deportes aficionados y recreacionales"
-        },
-        {
-          "codigo": "901516.0",
-          "descripcion": "Shows viajeros"
-        },
-        {
-          "codigo": "931415.0",
-          "descripcion": "Desarrollo y servicios sociales"
-        }
-      ]
-    },
-    {
-      "nombre": "Capacitacion Social",
-      "codigos": [
-        {
-          "codigo": "111118.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
-        },
-        {
-          "codigo": "141118.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
-        },
-        {
-          "codigo": "201023.0",
-          "descripcion": "Equipos de perforación"
-        },
-        {
-          "codigo": "231417.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
-        },
-        {
-          "codigo": "241115.0",
-          "descripcion": "Contenedores y tanques"
-        },
-        {
-          "codigo": "251015.0",
-          "descripcion": "Vehículos automotores"
-        },
-        {
-          "codigo": "251016.0",
-          "descripcion": "Partes de vehículos automotores"
-        },
-        {
-          "codigo": "391124.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
-        },
-        {
-          "codigo": "441115.0",
-          "descripcion": "Agendas y accesorios"
-        },
-        {
-          "codigo": "441217.0",
-          "descripcion": "Instrumentos de escritura"
-        },
-        {
-          "codigo": "451115.0",
-          "descripcion": "Atriles, sistemas de sonido y accesorios"
-        },
-        {
-          "codigo": "451116.0",
-          "descripcion": "Proyectores y suministros"
-        },
-        {
-          "codigo": "481017.0",
-          "descripcion": "Distribuidores automáticos de comida y bebida"
-        },
-        {
-          "codigo": "501921.0",
-          "descripcion": "Pasabocas y snacks"
-        },
-        {
-          "codigo": "501925.0",
-          "descripcion": "Sándwiches y panecillos con relleno"
+          "descripcion": "SÃ¡ndwiches y panecillos con relleno"
         },
         {
           "codigo": "501927.0",
@@ -3476,19 +2394,39 @@
         },
         {
           "codigo": "502022.0",
-          "descripcion": "Bebidas alcohólicas"
+          "descripcion": "Bebidas alcohÃ³licas"
         },
         {
           "codigo": "502023.0",
-          "descripcion": "Bebidas no alcohólicas"
+          "descripcion": "Bebidas no alcohÃ³licas"
+        },
+        {
+          "codigo": "521612.0",
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
         },
         {
           "codigo": "521615.0",
           "descripcion": "Equipos audiovisuales"
         },
         {
+          "codigo": "531016.0",
+          "descripcion": "Faldas y blusas"
+        },
+        {
+          "codigo": "531030.0",
+          "descripcion": "Camisetas"
+        },
+        {
           "codigo": "551015.0",
           "descripcion": "Publicaciones impresas"
+        },
+        {
+          "codigo": "561213.0",
+          "descripcion": "Mobiliario de sala de primeros auxilios"
+        },
+        {
+          "codigo": "601012.0",
+          "descripcion": "Incentivos educativos"
         },
         {
           "codigo": "601013.0",
@@ -3503,8 +2441,20 @@
           "descripcion": "Materiales de recursos del profesor"
         },
         {
+          "codigo": "601026.0",
+          "descripcion": "Materiales de recursos del profesor de resoluciÃ³n de problemas, datos, posibilidades y probabilidades"
+        },
+        {
+          "codigo": "601027.0",
+          "descripcion": "Materiales de recursos del profesor de pensamiento lÃ³gico, percepciÃ³n espacial, identificaciÃ³n de coincidencias y patrones"
+        },
+        {
           "codigo": "601035.0",
-          "descripcion": "Ciencias políticas"
+          "descripcion": "Ciencias polÃ­ticas"
+        },
+        {
+          "codigo": "601036.0",
+          "descripcion": "Recursos y actividades multiculturales"
         },
         {
           "codigo": "601052.0",
@@ -3512,31 +2462,35 @@
         },
         {
           "codigo": "601053.0",
-          "descripcion": "Materiales educativos de educación de carrera"
+          "descripcion": "Materiales educativos de educaciÃ³n de carrera"
         },
         {
           "codigo": "601054.0",
-          "descripcion": "Materiales educativos de vida independiente, administración del dinero y economía doméstica"
+          "descripcion": "Materiales educativos de vida independiente, administraciÃ³n del dinero y economÃ­a domÃ©stica"
         },
         {
           "codigo": "601056.0",
-          "descripcion": "Materiales educativos de preparación de alimentos, nutrición y educación sobre la salud"
+          "descripcion": "Materiales educativos de preparaciÃ³n de alimentos, nutriciÃ³n y educaciÃ³n sobre la salud"
         },
         {
           "codigo": "601058.0",
-          "descripcion": "Materiales educativos de diseño textil y de ropa"
+          "descripcion": "Materiales educativos de diseÃ±o textil y de ropa"
         },
         {
           "codigo": "601059.0",
-          "descripcion": "Materiales educativos sobre relaciones, sexo, embarazo adolescente, crianza y desarrollo del niño"
+          "descripcion": "Materiales educativos sobre las relaciones y el sexo, el embarazo de adolescentes, aptitudes de crianza y desarrollo del niÃ±o"
         },
         {
           "codigo": "601060.0",
-          "descripcion": "Guías de planes de estudio, proyectos, actividades y lecciones"
+          "descripcion": "GuÃ­as de planes de estudio, proyectos, actividades y lecciones"
         },
         {
           "codigo": "601061.0",
-          "descripcion": "Materiales de enseñanza vocacional"
+          "descripcion": "Materiales de enseÃ±anza vocacional"
+        },
+        {
+          "codigo": "601062.0",
+          "descripcion": "Materiales de enseÃ±anza de tecnologÃ­a"
         },
         {
           "codigo": "601210.0",
@@ -3547,12 +2501,40 @@
           "descripcion": "Pintura del aula y de bellas artes, medios, aplicadores y accesorios"
         },
         {
-          "codigo": "731319.0",
-          "descripcion": "Procesamiento de granos y azúcar y aceites y grasas"
+          "codigo": "601316.0",
+          "descripcion": "Sets de instrumentos musicales"
         },
         {
-          "codigo": "781018.0",
-          "descripcion": "Transporte de carga por carretera"
+          "codigo": "601411.0",
+          "descripcion": "Juegos"
+        },
+        {
+          "codigo": "601414.0",
+          "descripcion": "Equipo de representaciÃ³n teatral y accesorios"
+        },
+        {
+          "codigo": "711230.0",
+          "descripcion": "Servicios integrados"
+        },
+        {
+          "codigo": "731319.0",
+          "descripcion": "Procesamiento de granos y azÃºcar y aceites y grasas"
+        },
+        {
+          "codigo": "731519.0",
+          "descripcion": "Servicios a la industria de impresiÃ³n"
+        },
+        {
+          "codigo": "771015.0",
+          "descripcion": "EvaluaciÃ³n de impacto ambiental"
+        },
+        {
+          "codigo": "771017.0",
+          "descripcion": "Servicios de asesorÃ­a ambiental"
+        },
+        {
+          "codigo": "771116.0",
+          "descripcion": "RehabilitaciÃ³n ambiental"
         },
         {
           "codigo": "781118.0",
@@ -3560,11 +2542,15 @@
         },
         {
           "codigo": "801015.0",
-          "descripcion": "Servicios de consultoría de negocios y administración corporativa"
+          "descripcion": "Servicios de consultorÃ­a de negocios y administraciÃ³n corporativa"
         },
         {
           "codigo": "801016.0",
           "descripcion": "Gerencia de proyectos"
+        },
+        {
+          "codigo": "801017.0",
+          "descripcion": "Gerencia industrial"
         },
         {
           "codigo": "801115.0",
@@ -3575,28 +2561,32 @@
           "descripcion": "Servicios de personal temporal"
         },
         {
+          "codigo": "801218.0",
+          "descripcion": "Servicios de derecho de familia"
+        },
+        {
           "codigo": "801315.0",
           "descripcion": "Alquiler y arrendamiento de propiedades o edificaciones"
         },
         {
           "codigo": "801415.0",
-          "descripcion": "Investigación de mercados"
+          "descripcion": "InvestigaciÃ³n de mercados"
         },
         {
           "codigo": "801416.0",
-          "descripcion": "Actividades de ventas y promoción de negocios"
+          "descripcion": "Actividades de ventas y promociÃ³n de negocios"
         },
         {
           "codigo": "801417.0",
-          "descripcion": "Distribución"
-        },
-        {
-          "codigo": "801419.0",
-          "descripcion": "Exhibiciones y ferias comerciales"
+          "descripcion": "DistribuciÃ³n"
         },
         {
           "codigo": "801615.0",
           "descripcion": "Servicios de apoyo gerencial"
+        },
+        {
+          "codigo": "811027.0",
+          "descripcion": "Servicios de diseÃ±o e ingenierÃ­a de sistemas instrumentados de control"
         },
         {
           "codigo": "811416.0",
@@ -3612,7 +2602,7 @@
         },
         {
           "codigo": "821017.0",
-          "descripcion": "Publicidad aérea"
+          "descripcion": "Publicidad aÃ©rea"
         },
         {
           "codigo": "821018.0",
@@ -3620,7 +2610,15 @@
         },
         {
           "codigo": "821019.0",
-          "descripcion": "Colocación y cumplimiento de medios"
+          "descripcion": "ColocaciÃ³n y cumplimiento de medios"
+        },
+        {
+          "codigo": "821117.0",
+          "descripcion": "Escritura creativa"
+        },
+        {
+          "codigo": "821118.0",
+          "descripcion": "Servicios editoriales y de soporte"
         },
         {
           "codigo": "821119.0",
@@ -3628,11 +2626,27 @@
         },
         {
           "codigo": "821215.0",
-          "descripcion": "Impresión"
+          "descripcion": "ImpresiÃ³n"
         },
         {
           "codigo": "821217.0",
           "descripcion": "Fotocopiado"
+        },
+        {
+          "codigo": "821315.0",
+          "descripcion": "Servicios de procesado de pelÃ­culas"
+        },
+        {
+          "codigo": "821316.0",
+          "descripcion": "FotÃ³grafos y cinematÃ³grafos"
+        },
+        {
+          "codigo": "821415.0",
+          "descripcion": "Servicios de diseÃ±o artÃ­stico"
+        },
+        {
+          "codigo": "831217.0",
+          "descripcion": "Servicios de comunicaciÃ³n masiva"
         },
         {
           "codigo": "841115.0",
@@ -3640,35 +2654,27 @@
         },
         {
           "codigo": "841118.0",
-          "descripcion": "Asuntos y preparación de impuestos"
+          "descripcion": "Asuntos y preparaciÃ³n de impuestos"
         },
         {
           "codigo": "851017.0",
-          "descripcion": "Servicios de administración de salud"
+          "descripcion": "Servicios de administraciÃ³n de salud"
         },
         {
           "codigo": "851115.0",
-          "descripcion": "Prevención y control de enfermedades contagiosas"
+          "descripcion": "PrevenciÃ³n y control de enfermedades contagiosas"
         },
         {
           "codigo": "851116.0",
-          "descripcion": "Prevención y control de enfermedades no contagiosas"
-        },
-        {
-          "codigo": "851117.0",
-          "descripcion": "Manejo y control de vectores de enfermedad"
+          "descripcion": "PrevenciÃ³n y control de enfermedades no contagiosas"
         },
         {
           "codigo": "851216.0",
-          "descripcion": "Servicios médicos de doctores especialistas"
-        },
-        {
-          "codigo": "851516.0",
-          "descripcion": "Asuntos nutricionales"
+          "descripcion": "Servicios mÃ©dicos de doctores especialistas"
         },
         {
           "codigo": "861017.0",
-          "descripcion": "Servicios de capacitación vocacional no científica"
+          "descripcion": "Servicios de capacitaciÃ³n vocacional no cientÃ­fica"
         },
         {
           "codigo": "861018.0",
@@ -3676,7 +2682,11 @@
         },
         {
           "codigo": "861116.0",
-          "descripcion": "Educación de adultos"
+          "descripcion": "EducaciÃ³n de adultos"
+        },
+        {
+          "codigo": "861215.0",
+          "descripcion": "Escuelas elementales y secundarias"
         },
         {
           "codigo": "861315.0",
@@ -3684,15 +2694,19 @@
         },
         {
           "codigo": "861316.0",
-          "descripcion": "Música y drama"
+          "descripcion": "MÃºsica y drama"
         },
         {
           "codigo": "861320.0",
-          "descripcion": "Servicios de educación y capacitación en administración"
+          "descripcion": "Servicios de educaciÃ³n y capacitaciÃ³n en administraciÃ³n"
         },
         {
-          "codigo": "901018.0",
-          "descripcion": "Servicios de comida para llevar y a domicilio"
+          "codigo": "861415.0",
+          "descripcion": "Servicios de guÃ­a educativa"
+        },
+        {
+          "codigo": "901115.0",
+          "descripcion": "Hoteles y moteles y pensiones"
         },
         {
           "codigo": "901116.0",
@@ -3700,7 +2714,7 @@
         },
         {
           "codigo": "901217.0",
-          "descripcion": "Guías e intérpretes"
+          "descripcion": "GuÃ­as e intÃ©rpretes"
         },
         {
           "codigo": "901417.0",
@@ -3711,8 +2725,20 @@
           "descripcion": "Asistencia y cuidado del hogar"
         },
         {
-          "codigo": "931016.0",
-          "descripcion": "Funcionarios políticos"
+          "codigo": "921015.0",
+          "descripcion": "Servicios de policÃ­a"
+        },
+        {
+          "codigo": "931115.0",
+          "descripcion": "Movimientos polÃ­ticos"
+        },
+        {
+          "codigo": "931116.0",
+          "descripcion": "RepresentaciÃ³n y participaciÃ³n polÃ­tica"
+        },
+        {
+          "codigo": "931217.0",
+          "descripcion": "Organizaciones internacionales"
         },
         {
           "codigo": "931315.0",
@@ -3725,6 +2751,10 @@
         {
           "codigo": "931415.0",
           "descripcion": "Desarrollo y servicios sociales"
+        },
+        {
+          "codigo": "931416.0",
+          "descripcion": "PoblaciÃ³n"
         },
         {
           "codigo": "931417.0",
@@ -3740,11 +2770,7 @@
         },
         {
           "codigo": "931515.0",
-          "descripcion": "Administración pública"
-        },
-        {
-          "codigo": "931517.0",
-          "descripcion": "Monedas"
+          "descripcion": "AdministraciÃ³n pÃºblica"
         },
         {
           "codigo": "941217.0",
@@ -3755,8 +2781,8 @@
           "descripcion": "Organizaciones no gubernamentales"
         },
         {
-          "codigo": "941316.0",
-          "descripcion": "Organizaciones de caridad"
+          "codigo": "941320.0",
+          "descripcion": "Asociaciones de defensa y promociÃ³n de los derechos humanos"
         },
         {
           "codigo": "951317.0",
@@ -3765,39 +2791,15 @@
       ]
     },
     {
-      "nombre": "Educacion y Eventos Ambientales",
+      "nombre": "Educacion Ambiental",
       "codigos": [
         {
           "codigo": "241115.0",
           "descripcion": "Contenedores y tanques"
         },
         {
-          "codigo": "251015.0",
-          "descripcion": "Vehículos automotores"
-        },
-        {
-          "codigo": "251016.0",
-          "descripcion": "Partes de vehículos automotores"
-        },
-        {
           "codigo": "251727.0",
-          "descripcion": "Accesorios de vehículos recreativos"
-        },
-        {
-          "codigo": "391118.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
-        },
-        {
-          "codigo": "391123.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
-        },
-        {
-          "codigo": "391124.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
-        },
-        {
-          "codigo": "391125.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
+          "descripcion": "Accesorios de vehÃ­culos recreativos"
         },
         {
           "codigo": "411116.0",
@@ -3817,19 +2819,316 @@
         },
         {
           "codigo": "411138.0",
-          "descripcion": "Equipos de análisis clínico"
+          "descripcion": "Equipos de anÃ¡lisis clÃ­nico"
+        },
+        {
+          "codigo": "441115.0",
+          "descripcion": "Agendas y accesorios"
+        },
+        {
+          "codigo": "441220.0",
+          "descripcion": "Carpetas de archivo, carpetas y separadores"
+        },
+        {
+          "codigo": "471217.0",
+          "descripcion": "Envases y accesorios para residuos"
+        },
+        {
+          "codigo": "501927.0",
+          "descripcion": "Platos combinados empaquetados"
+        },
+        {
+          "codigo": "502023.0",
+          "descripcion": "Bebidas no alcohÃ³licas"
+        },
+        {
+          "codigo": "531115.0",
+          "descripcion": "Botas"
+        },
+        {
+          "codigo": "561213.0",
+          "descripcion": "Mobiliario de sala de primeros auxilios"
+        },
+        {
+          "codigo": "601012.0",
+          "descripcion": "Incentivos educativos"
+        },
+        {
+          "codigo": "601060.0",
+          "descripcion": "GuÃ­as de planes de estudio, proyectos, actividades y lecciones"
+        },
+        {
+          "codigo": "701117.0",
+          "descripcion": "Parques, jardines y huertos"
+        },
+        {
+          "codigo": "701317.0",
+          "descripcion": "GestiÃ³n del terreno y del suelo"
+        },
+        {
+          "codigo": "701415.0",
+          "descripcion": "ProducciÃ³n de cultivos"
+        },
+        {
+          "codigo": "701416.0",
+          "descripcion": "ProtecciÃ³n de cultivos"
+        },
+        {
+          "codigo": "701417.0",
+          "descripcion": "GestiÃ³n de cultivos"
+        },
+        {
+          "codigo": "701615.0",
+          "descripcion": "Fauna"
+        },
+        {
+          "codigo": "701616.0",
+          "descripcion": "Flora"
+        },
+        {
+          "codigo": "701617.0",
+          "descripcion": "Ecosistemas"
+        },
+        {
+          "codigo": "701715.0",
+          "descripcion": "Desarrollo"
+        },
+        {
+          "codigo": "701716.0",
+          "descripcion": "Vigilancia"
+        },
+        {
+          "codigo": "701717.0",
+          "descripcion": "Riego"
+        },
+        {
+          "codigo": "701718.0",
+          "descripcion": "Servicios de drenaje"
+        },
+        {
+          "codigo": "771015.0",
+          "descripcion": "EvaluaciÃ³n de impacto ambiental"
+        },
+        {
+          "codigo": "771016.0",
+          "descripcion": "PlaneaciÃ³n ambiental"
+        },
+        {
+          "codigo": "771017.0",
+          "descripcion": "Servicios de asesorÃ­a ambiental"
+        },
+        {
+          "codigo": "771018.0",
+          "descripcion": "AuditorÃ­a ambiental"
+        },
+        {
+          "codigo": "771115.0",
+          "descripcion": "Servicios de seguridad ambiental"
+        },
+        {
+          "codigo": "801015.0",
+          "descripcion": "Servicios de consultorÃ­a de negocios y administraciÃ³n corporativa"
+        },
+        {
+          "codigo": "801016.0",
+          "descripcion": "Gerencia de proyectos"
+        },
+        {
+          "codigo": "801116.0",
+          "descripcion": "Servicios de personal temporal"
+        },
+        {
+          "codigo": "801315.0",
+          "descripcion": "Alquiler y arrendamiento de propiedades o edificaciones"
+        },
+        {
+          "codigo": "801415.0",
+          "descripcion": "InvestigaciÃ³n de mercados"
+        },
+        {
+          "codigo": "801419.0",
+          "descripcion": "Exhibiciones y ferias comerciales"
+        },
+        {
+          "codigo": "801615.0",
+          "descripcion": "Servicios de apoyo gerencial"
+        },
+        {
+          "codigo": "811315.0",
+          "descripcion": "MetodologÃ­a y anÃ¡lisis"
+        },
+        {
+          "codigo": "811416.0",
+          "descripcion": "Manejo de cadena de suministros"
+        },
+        {
+          "codigo": "821015.0",
+          "descripcion": "Publicidad impresa"
+        },
+        {
+          "codigo": "821018.0",
+          "descripcion": "Servicios de agencia de publicidad"
+        },
+        {
+          "codigo": "821019.0",
+          "descripcion": "ColocaciÃ³n y cumplimiento de medios"
+        },
+        {
+          "codigo": "821215.0",
+          "descripcion": "ImpresiÃ³n"
+        },
+        {
+          "codigo": "821217.0",
+          "descripcion": "Fotocopiado"
+        },
+        {
+          "codigo": "831217.0",
+          "descripcion": "Servicios de comunicaciÃ³n masiva"
+        },
+        {
+          "codigo": "861017.0",
+          "descripcion": "Servicios de capacitaciÃ³n vocacional no cientÃ­fica"
+        },
+        {
+          "codigo": "861116.0",
+          "descripcion": "EducaciÃ³n de adultos"
+        },
+        {
+          "codigo": "861216.0",
+          "descripcion": "Colegios menores"
+        },
+        {
+          "codigo": "861415.0",
+          "descripcion": "Servicios de guÃ­a educativa"
+        },
+        {
+          "codigo": "901016.0",
+          "descripcion": "Servicios de banquetes y catering"
+        },
+        {
+          "codigo": "901017.0",
+          "descripcion": "Servicios de cafeterÃ­a"
+        },
+        {
+          "codigo": "901018.0",
+          "descripcion": "Servicios de comida para llevar y a domicilio"
+        },
+        {
+          "codigo": "901116.0",
+          "descripcion": "Facilidades para encuentros"
+        },
+        {
+          "codigo": "901518.0",
+          "descripcion": "Carnavales y ferias"
+        },
+        {
+          "codigo": "931016.0",
+          "descripcion": "Funcionarios polÃ­ticos"
+        },
+        {
+          "codigo": "931017.0",
+          "descripcion": "Cuerpos y prÃ¡ctica legislativa"
+        },
+        {
+          "codigo": "931116.0",
+          "descripcion": "RepresentaciÃ³n y participaciÃ³n polÃ­tica"
+        },
+        {
+          "codigo": "931415.0",
+          "descripcion": "Desarrollo y servicios sociales"
+        },
+        {
+          "codigo": "931417.0",
+          "descripcion": "Cultura"
+        },
+        {
+          "codigo": "931418.0",
+          "descripcion": "Empleo"
+        },
+        {
+          "codigo": "931420.0",
+          "descripcion": "Desarrollo urbano"
+        },
+        {
+          "codigo": "931421.0",
+          "descripcion": "Desarrollo regional"
+        },
+        {
+          "codigo": "931515.0",
+          "descripcion": "AdministraciÃ³n pÃºblica"
+        },
+        {
+          "codigo": "941317.0",
+          "descripcion": "Asociaciones verdes"
+        }
+      ]
+    },
+    {
+      "nombre": "Educacion y Eventos Ambientales",
+      "codigos": [
+        {
+          "codigo": "241115.0",
+          "descripcion": "Contenedores y tanques"
+        },
+        {
+          "codigo": "251015.0",
+          "descripcion": "VehÃ­culos automotores"
+        },
+        {
+          "codigo": "251016.0",
+          "descripcion": "Partes de vehÃ­culos automotores"
+        },
+        {
+          "codigo": "251727.0",
+          "descripcion": "Accesorios de vehÃ­culos recreativos"
+        },
+        {
+          "codigo": "391118.0",
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
+        },
+        {
+          "codigo": "391123.0",
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
+        },
+        {
+          "codigo": "391124.0",
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
+        },
+        {
+          "codigo": "391125.0",
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
+        },
+        {
+          "codigo": "411116.0",
+          "descripcion": "Reactivos de laboratorio"
+        },
+        {
+          "codigo": "411122.0",
+          "descripcion": "Equipos de laboratorio"
+        },
+        {
+          "codigo": "411123.0",
+          "descripcion": "Instrumentos de laboratorio"
+        },
+        {
+          "codigo": "411124.0",
+          "descripcion": "Accesorios de laboratorio"
+        },
+        {
+          "codigo": "411138.0",
+          "descripcion": "Equipos de anÃ¡lisis clÃ­nico"
         },
         {
           "codigo": "422116.0",
-          "descripcion": "Agentes hemostáticos tópicos exógenos"
+          "descripcion": "Agentes hemostÃ¡ticos tÃ³picos exÃ³genos"
         },
         {
           "codigo": "422118.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
         },
         {
           "codigo": "422121.0",
-          "descripcion": "Suministros de ostomía y productos no quirúrgicos de drenaje de heridas"
+          "descripcion": "Suministros de ostomÃ­a y productos no quirÃºrgicos de drenaje de heridas"
         },
         {
           "codigo": "422123.0",
@@ -3841,11 +3140,11 @@
         },
         {
           "codigo": "432121.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
         },
         {
           "codigo": "432321.0",
-          "descripcion": "Software de edición y creación de contenidos"
+          "descripcion": "Software de ediciÃ³n y creaciÃ³n de contenidos"
         },
         {
           "codigo": "441115.0",
@@ -3857,7 +3156,7 @@
         },
         {
           "codigo": "451017.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
         },
         {
           "codigo": "451115.0",
@@ -3869,11 +3168,11 @@
         },
         {
           "codigo": "451117.0",
-          "descripcion": "Equipo de composición y presentación de sonido, hardware y controladores"
+          "descripcion": "Equipo de composiciÃ³n y presentaciÃ³n de sonido, hardware y controladores"
         },
         {
           "codigo": "451118.0",
-          "descripcion": "Equipo de presentación de vídeo y de mezcla de vídeo y sonido, hardware y controladores"
+          "descripcion": "Equipo de presentaciÃ³n de vÃ­deo y de mezcla de vÃ­deo y sonido, hardware y controladores"
         },
         {
           "codigo": "451119.0",
@@ -3881,7 +3180,7 @@
         },
         {
           "codigo": "451317.0",
-          "descripcion": "(Sin descripción en los listados entregados)"
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
         },
         {
           "codigo": "471217.0",
@@ -3893,11 +3192,11 @@
         },
         {
           "codigo": "491416.0",
-          "descripcion": "Equipos y accesorios para windsurf y natación"
+          "descripcion": "Equipos y accesorios para windsurf y nataciÃ³n"
         },
         {
           "codigo": "491515.0",
-          "descripcion": "Equipos de esquí y snowboard"
+          "descripcion": "Equipos de esquÃ­ y snowboard"
         },
         {
           "codigo": "491516.0",
@@ -3929,7 +3228,7 @@
         },
         {
           "codigo": "492118.0",
-          "descripcion": "Equipo de clase de educación física"
+          "descripcion": "Equipo de clase de educaciÃ³n fÃ­sica"
         },
         {
           "codigo": "492215.0",
@@ -3945,7 +3244,7 @@
         },
         {
           "codigo": "501925.0",
-          "descripcion": "Sándwiches y panecillos con relleno"
+          "descripcion": "SÃ¡ndwiches y panecillos con relleno"
         },
         {
           "codigo": "501927.0",
@@ -3957,11 +3256,11 @@
         },
         {
           "codigo": "502017.0",
-          "descripcion": "Café y té"
+          "descripcion": "CafÃ© y tÃ©"
         },
         {
           "codigo": "502023.0",
-          "descripcion": "Bebidas no alcohólicas"
+          "descripcion": "Bebidas no alcohÃ³licas"
         },
         {
           "codigo": "502027.0",
@@ -4041,15 +3340,15 @@
         },
         {
           "codigo": "601060.0",
-          "descripcion": "Guías de planes de estudio, proyectos, actividades y lecciones"
+          "descripcion": "GuÃ­as de planes de estudio, proyectos, actividades y lecciones"
         },
         {
           "codigo": "601111.0",
-          "descripcion": "Sets de tablón de anuncios"
+          "descripcion": "Sets de tablÃ³n de anuncios"
         },
         {
           "codigo": "601318.0",
-          "descripcion": "Accesorios de música y danza"
+          "descripcion": "Accesorios de mÃºsica y danza"
         },
         {
           "codigo": "601411.0",
@@ -4057,7 +3356,7 @@
         },
         {
           "codigo": "601414.0",
-          "descripcion": "Equipo de representación teatral y accesorios"
+          "descripcion": "Equipo de representaciÃ³n teatral y accesorios"
         },
         {
           "codigo": "701117.0",
@@ -4065,19 +3364,19 @@
         },
         {
           "codigo": "701317.0",
-          "descripcion": "Gestión del terreno y del suelo"
+          "descripcion": "GestiÃ³n del terreno y del suelo"
         },
         {
           "codigo": "701415.0",
-          "descripcion": "Producción de cultivos"
+          "descripcion": "ProducciÃ³n de cultivos"
         },
         {
           "codigo": "701416.0",
-          "descripcion": "Protección de cultivos"
+          "descripcion": "ProtecciÃ³n de cultivos"
         },
         {
           "codigo": "701417.0",
-          "descripcion": "Gestión de cultivos"
+          "descripcion": "GestiÃ³n de cultivos"
         },
         {
           "codigo": "701615.0",
@@ -4109,27 +3408,27 @@
         },
         {
           "codigo": "721516.0",
-          "descripcion": "Servicios de sistemas especializados de comunicación"
+          "descripcion": "Servicios de sistemas especializados de comunicaciÃ³n"
         },
         {
           "codigo": "731519.0",
-          "descripcion": "Servicios a la industria de impresión"
+          "descripcion": "Servicios a la industria de impresiÃ³n"
         },
         {
           "codigo": "771015.0",
-          "descripcion": "Evaluación de impacto ambiental"
+          "descripcion": "EvaluaciÃ³n de impacto ambiental"
         },
         {
           "codigo": "771016.0",
-          "descripcion": "Planeación ambiental"
+          "descripcion": "PlaneaciÃ³n ambiental"
         },
         {
           "codigo": "771017.0",
-          "descripcion": "Servicios de asesoría ambiental"
+          "descripcion": "Servicios de asesorÃ­a ambiental"
         },
         {
           "codigo": "771018.0",
-          "descripcion": "Auditoría ambiental"
+          "descripcion": "AuditorÃ­a ambiental"
         },
         {
           "codigo": "771020.0",
@@ -4141,7 +3440,7 @@
         },
         {
           "codigo": "771116.0",
-          "descripcion": "Rehabilitación ambiental"
+          "descripcion": "RehabilitaciÃ³n ambiental"
         },
         {
           "codigo": "781018.0",
@@ -4149,7 +3448,7 @@
         },
         {
           "codigo": "781115.0",
-          "descripcion": "Transporte de pasajeros aérea"
+          "descripcion": "Transporte de pasajeros aÃ©rea"
         },
         {
           "codigo": "781118.0",
@@ -4157,7 +3456,7 @@
         },
         {
           "codigo": "801015.0",
-          "descripcion": "Servicios de consultoría de negocios y administración corporativa"
+          "descripcion": "Servicios de consultorÃ­a de negocios y administraciÃ³n corporativa"
         },
         {
           "codigo": "801016.0",
@@ -4177,15 +3476,15 @@
         },
         {
           "codigo": "801415.0",
-          "descripcion": "Investigación de mercados"
+          "descripcion": "InvestigaciÃ³n de mercados"
         },
         {
           "codigo": "801416.0",
-          "descripcion": "Actividades de ventas y promoción de negocios"
+          "descripcion": "Actividades de ventas y promociÃ³n de negocios"
         },
         {
           "codigo": "801417.0",
-          "descripcion": "Distribución"
+          "descripcion": "DistribuciÃ³n"
         },
         {
           "codigo": "801419.0",
@@ -4201,7 +3500,7 @@
         },
         {
           "codigo": "811315.0",
-          "descripcion": "Metodología y análisis"
+          "descripcion": "MetodologÃ­a y anÃ¡lisis"
         },
         {
           "codigo": "811416.0",
@@ -4209,7 +3508,7 @@
         },
         {
           "codigo": "811419.0",
-          "descripcion": "Servicios de investigación y desarrollo de tecnología manufacturera"
+          "descripcion": "Servicios de investigaciÃ³n y desarrollo de tecnologÃ­a manufacturera"
         },
         {
           "codigo": "811617.0",
@@ -4229,7 +3528,7 @@
         },
         {
           "codigo": "821019.0",
-          "descripcion": "Colocación y cumplimiento de medios"
+          "descripcion": "ColocaciÃ³n y cumplimiento de medios"
         },
         {
           "codigo": "821117.0",
@@ -4245,7 +3544,7 @@
         },
         {
           "codigo": "821215.0",
-          "descripcion": "Impresión"
+          "descripcion": "ImpresiÃ³n"
         },
         {
           "codigo": "821217.0",
@@ -4253,19 +3552,19 @@
         },
         {
           "codigo": "821218.0",
-          "descripcion": "Publicación"
+          "descripcion": "PublicaciÃ³n"
         },
         {
           "codigo": "821316.0",
-          "descripcion": "Fotógrafos y cinematógrafos"
+          "descripcion": "FotÃ³grafos y cinematÃ³grafos"
         },
         {
           "codigo": "821415.0",
-          "descripcion": "Servicios de diseño artístico"
+          "descripcion": "Servicios de diseÃ±o artÃ­stico"
         },
         {
           "codigo": "821416.0",
-          "descripcion": "Servicios de exhibición gráfica"
+          "descripcion": "Servicios de exhibiciÃ³n grÃ¡fica"
         },
         {
           "codigo": "821515.0",
@@ -4273,15 +3572,15 @@
         },
         {
           "codigo": "821517.0",
-          "descripcion": "Profesionales de las artes escénicas"
+          "descripcion": "Profesionales de las artes escÃ©nicas"
         },
         {
           "codigo": "831116.0",
-          "descripcion": "Servicios de comunicaciones móviles"
+          "descripcion": "Servicios de comunicaciones mÃ³viles"
         },
         {
           "codigo": "831118.0",
-          "descripcion": "Servicios de televisión"
+          "descripcion": "Servicios de televisiÃ³n"
         },
         {
           "codigo": "831122.0",
@@ -4289,7 +3588,7 @@
         },
         {
           "codigo": "831217.0",
-          "descripcion": "Servicios de comunicación masiva"
+          "descripcion": "Servicios de comunicaciÃ³n masiva"
         },
         {
           "codigo": "841316.0",
@@ -4301,11 +3600,11 @@
         },
         {
           "codigo": "861017.0",
-          "descripcion": "Servicios de capacitación vocacional no científica"
+          "descripcion": "Servicios de capacitaciÃ³n vocacional no cientÃ­fica"
         },
         {
           "codigo": "861116.0",
-          "descripcion": "Educación de adultos"
+          "descripcion": "EducaciÃ³n de adultos"
         },
         {
           "codigo": "861216.0",
@@ -4313,11 +3612,11 @@
         },
         {
           "codigo": "861317.0",
-          "descripcion": "Conducción de vehículos, buques y aeronaves"
+          "descripcion": "ConducciÃ³n de vehÃ­culos, buques y aeronaves"
         },
         {
           "codigo": "861415.0",
-          "descripcion": "Servicios de guía educativa"
+          "descripcion": "Servicios de guÃ­a educativa"
         },
         {
           "codigo": "901015.0",
@@ -4329,7 +3628,7 @@
         },
         {
           "codigo": "901017.0",
-          "descripcion": "Servicios de cafetería"
+          "descripcion": "Servicios de cafeterÃ­a"
         },
         {
           "codigo": "901018.0",
@@ -4365,7 +3664,7 @@
         },
         {
           "codigo": "901416.0",
-          "descripcion": "Promoción y patrocinio de eventos deportivos"
+          "descripcion": "PromociÃ³n y patrocinio de eventos deportivos"
         },
         {
           "codigo": "901417.0",
@@ -4385,15 +3684,15 @@
         },
         {
           "codigo": "931016.0",
-          "descripcion": "Funcionarios políticos"
+          "descripcion": "Funcionarios polÃ­ticos"
         },
         {
           "codigo": "931017.0",
-          "descripcion": "Cuerpos y práctica legislativa"
+          "descripcion": "Cuerpos y prÃ¡ctica legislativa"
         },
         {
           "codigo": "931116.0",
-          "descripcion": "Representación y participación política"
+          "descripcion": "RepresentaciÃ³n y participaciÃ³n polÃ­tica"
         },
         {
           "codigo": "931217.0",
@@ -4405,7 +3704,7 @@
         },
         {
           "codigo": "931416.0",
-          "descripcion": "Población"
+          "descripcion": "PoblaciÃ³n"
         },
         {
           "codigo": "931417.0",
@@ -4425,7 +3724,7 @@
         },
         {
           "codigo": "931515.0",
-          "descripcion": "Administración pública"
+          "descripcion": "AdministraciÃ³n pÃºblica"
         },
         {
           "codigo": "941215.0",
@@ -4445,164 +3744,276 @@
         },
         {
           "codigo": "951315.0",
-          "descripcion": "Tarimas y graderías"
+          "descripcion": "Tarimas y graderÃ­as"
         }
       ]
     },
     {
-      "nombre": "Educacion Ambiental",
+      "nombre": "Elecciones",
       "codigos": [
         {
-          "codigo": "241115.0",
-          "descripcion": "Contenedores y tanques"
+          "codigo": "391118.0",
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
         },
         {
-          "codigo": "251727.0",
-          "descripcion": "Accesorios de vehículos recreativos"
+          "codigo": "391124.0",
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
         },
         {
-          "codigo": "411116.0",
-          "descripcion": "Reactivos de laboratorio"
+          "codigo": "401617.0",
+          "descripcion": "Accesorios de tuberÃ­as"
         },
         {
-          "codigo": "411122.0",
-          "descripcion": "Equipos de laboratorio"
+          "codigo": "432121.0",
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
         },
         {
-          "codigo": "411123.0",
-          "descripcion": "Instrumentos de laboratorio"
-        },
-        {
-          "codigo": "411124.0",
-          "descripcion": "Accesorios de laboratorio"
-        },
-        {
-          "codigo": "411138.0",
-          "descripcion": "Equipos de análisis clínico"
+          "codigo": "432321.0",
+          "descripcion": "Software de ediciÃ³n y creaciÃ³n de contenidos"
         },
         {
           "codigo": "441115.0",
           "descripcion": "Agendas y accesorios"
         },
         {
-          "codigo": "441220.0",
-          "descripcion": "Carpetas de archivo, carpetas y separadores"
+          "codigo": "451017.0",
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
         },
         {
-          "codigo": "471217.0",
-          "descripcion": "Envases y accesorios para residuos"
+          "codigo": "451118.0",
+          "descripcion": "Equipo de presentaciÃ³n de vÃ­deo y de mezcla de vÃ­deo y sonido, hardware y controladores"
         },
         {
-          "codigo": "501927.0",
-          "descripcion": "Platos combinados empaquetados"
+          "codigo": "451317.0",
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
         },
         {
-          "codigo": "502023.0",
-          "descripcion": "Bebidas no alcohólicas"
+          "codigo": "491017.0",
+          "descripcion": "Premios"
         },
         {
-          "codigo": "531115.0",
-          "descripcion": "Botas"
+          "codigo": "521615.0",
+          "descripcion": "Equipos audiovisuales"
         },
         {
-          "codigo": "561213.0",
-          "descripcion": "Mobiliario de sala de primeros auxilios"
+          "codigo": "521616.0",
+          "descripcion": "Accesorios de equipo audiovisual"
         },
         {
-          "codigo": "601012.0",
-          "descripcion": "Incentivos educativos"
+          "codigo": "531030.0",
+          "descripcion": "Camisetas"
         },
         {
-          "codigo": "601060.0",
-          "descripcion": "Guías de planes de estudio, proyectos, actividades y lecciones"
+          "codigo": "551015.0",
+          "descripcion": "Publicaciones impresas"
         },
         {
-          "codigo": "701117.0",
-          "descripcion": "Parques, jardines y huertos"
+          "codigo": "551217.0",
+          "descripcion": "SeÃ±alizaciÃ³n"
         },
         {
-          "codigo": "701317.0",
-          "descripcion": "Gestión del terreno y del suelo"
+          "codigo": "551219.0",
+          "descripcion": "SeÃ±alizaciones"
         },
         {
-          "codigo": "701415.0",
-          "descripcion": "Producción de cultivos"
+          "codigo": "601054.0",
+          "descripcion": "Materiales educativos de vida independiente, administraciÃ³n del dinero y economÃ­a domÃ©stica"
         },
         {
-          "codigo": "701416.0",
-          "descripcion": "Protección de cultivos"
+          "codigo": "601111.0",
+          "descripcion": "Sets de tablÃ³n de anuncios"
         },
         {
-          "codigo": "701417.0",
-          "descripcion": "Gestión de cultivos"
+          "codigo": "601318.0",
+          "descripcion": "Accesorios de mÃºsica y danza"
         },
         {
-          "codigo": "701615.0",
-          "descripcion": "Fauna"
+          "codigo": "601414.0",
+          "descripcion": "Equipo de representaciÃ³n teatral y accesorios"
         },
         {
-          "codigo": "701616.0",
-          "descripcion": "Flora"
+          "codigo": "721516.0",
+          "descripcion": "Servicios de sistemas especializados de comunicaciÃ³n"
         },
         {
-          "codigo": "701617.0",
-          "descripcion": "Ecosistemas"
-        },
-        {
-          "codigo": "701715.0",
-          "descripcion": "Desarrollo"
-        },
-        {
-          "codigo": "701716.0",
-          "descripcion": "Vigilancia"
-        },
-        {
-          "codigo": "701717.0",
-          "descripcion": "Riego"
-        },
-        {
-          "codigo": "701718.0",
-          "descripcion": "Servicios de drenaje"
-        },
-        {
-          "codigo": "771015.0",
-          "descripcion": "Evaluación de impacto ambiental"
-        },
-        {
-          "codigo": "771016.0",
-          "descripcion": "Planeación ambiental"
-        },
-        {
-          "codigo": "771017.0",
-          "descripcion": "Servicios de asesoría ambiental"
-        },
-        {
-          "codigo": "771018.0",
-          "descripcion": "Auditoría ambiental"
-        },
-        {
-          "codigo": "771115.0",
-          "descripcion": "Servicios de seguridad ambiental"
-        },
-        {
-          "codigo": "801015.0",
-          "descripcion": "Servicios de consultoría de negocios y administración corporativa"
-        },
-        {
-          "codigo": "801016.0",
-          "descripcion": "Gerencia de proyectos"
+          "codigo": "731519.0",
+          "descripcion": "Servicios a la industria de impresiÃ³n"
         },
         {
           "codigo": "801116.0",
           "descripcion": "Servicios de personal temporal"
         },
         {
-          "codigo": "801315.0",
-          "descripcion": "Alquiler y arrendamiento de propiedades o edificaciones"
+          "codigo": "801415.0",
+          "descripcion": "InvestigaciÃ³n de mercados"
+        },
+        {
+          "codigo": "801416.0",
+          "descripcion": "Actividades de ventas y promociÃ³n de negocios"
+        },
+        {
+          "codigo": "801417.0",
+          "descripcion": "DistribuciÃ³n"
+        },
+        {
+          "codigo": "801615.0",
+          "descripcion": "Servicios de apoyo gerencial"
+        },
+        {
+          "codigo": "811121.0",
+          "descripcion": "Servicios de internet"
+        },
+        {
+          "codigo": "811415.0",
+          "descripcion": "Control de calidad"
+        },
+        {
+          "codigo": "811617.0",
+          "descripcion": "Servicios de telecomunicaciones"
+        },
+        {
+          "codigo": "821015.0",
+          "descripcion": "Publicidad impresa"
+        },
+        {
+          "codigo": "821016.0",
+          "descripcion": "Publicidad difundida"
+        },
+        {
+          "codigo": "821018.0",
+          "descripcion": "Servicios de agencia de publicidad"
+        },
+        {
+          "codigo": "821019.0",
+          "descripcion": "ColocaciÃ³n y cumplimiento de medios"
+        },
+        {
+          "codigo": "821117.0",
+          "descripcion": "Escritura creativa"
+        },
+        {
+          "codigo": "821118.0",
+          "descripcion": "Servicios editoriales y de soporte"
+        },
+        {
+          "codigo": "821119.0",
+          "descripcion": "Servicios de noticias y publicidad"
+        },
+        {
+          "codigo": "821215.0",
+          "descripcion": "ImpresiÃ³n"
+        },
+        {
+          "codigo": "821217.0",
+          "descripcion": "Fotocopiado"
+        },
+        {
+          "codigo": "821218.0",
+          "descripcion": "PublicaciÃ³n"
+        },
+        {
+          "codigo": "821316.0",
+          "descripcion": "FotÃ³grafos y cinematÃ³grafos"
+        },
+        {
+          "codigo": "821415.0",
+          "descripcion": "Servicios de diseÃ±o artÃ­stico"
+        },
+        {
+          "codigo": "821416.0",
+          "descripcion": "Servicios de exhibiciÃ³n grÃ¡fica"
+        },
+        {
+          "codigo": "821515.0",
+          "descripcion": "Servicios de artes visuales"
+        },
+        {
+          "codigo": "821517.0",
+          "descripcion": "Profesionales de las artes escÃ©nicas"
+        },
+        {
+          "codigo": "831116.0",
+          "descripcion": "Servicios de comunicaciones mÃ³viles"
+        },
+        {
+          "codigo": "831118.0",
+          "descripcion": "Servicios de televisiÃ³n"
+        },
+        {
+          "codigo": "831122.0",
+          "descripcion": "Servicios mejorados de telecomunicaciones"
+        },
+        {
+          "codigo": "831217.0",
+          "descripcion": "Servicios de comunicaciÃ³n masiva"
+        },
+        {
+          "codigo": "861116.0",
+          "descripcion": "EducaciÃ³n de adultos"
+        },
+        {
+          "codigo": "901415.0",
+          "descripcion": "Eventos profesionales deportivos"
+        },
+        {
+          "codigo": "901416.0",
+          "descripcion": "PromociÃ³n y patrocinio de eventos deportivos"
+        },
+        {
+          "codigo": "901417.0",
+          "descripcion": "Deportes aficionados y recreacionales"
+        },
+        {
+          "codigo": "901516.0",
+          "descripcion": "Shows viajeros"
+        },
+        {
+          "codigo": "931415.0",
+          "descripcion": "Desarrollo y servicios sociales"
+        },
+        {
+          "codigo": "761118.0",
+          "descripcion": "Limpieza de vehÃ­culos de transporte"
+        },
+        {
+          "codigo": "781018.0",
+          "descripcion": "Transporte de carga por carretera"
+        },
+        {
+          "codigo": "781115.0",
+          "descripcion": "Transporte de pasajeros aÃ©rea"
+        },
+        {
+          "codigo": "781118.0",
+          "descripcion": "Transporte de pasajeros por carretera"
+        },
+        {
+          "codigo": "801015.0",
+          "descripcion": "Servicios de consultorÃ­a de negocios y administraciÃ³n corporativa"
+        },
+        {
+          "codigo": "801016.0",
+          "descripcion": "Gerencia de proyectos"
+        },
+        {
+          "codigo": "801115.0",
+          "descripcion": "Desarrollo de recursos humanos"
+        },
+        {
+          "codigo": "801116.0",
+          "descripcion": "Servicios de personal temporal"
         },
         {
           "codigo": "801415.0",
-          "descripcion": "Investigación de mercados"
+          "descripcion": "InvestigaciÃ³n de mercados"
+        },
+        {
+          "codigo": "801416.0",
+          "descripcion": "Actividades de ventas y promociÃ³n de negocios"
+        },
+        {
+          "codigo": "801417.0",
+          "descripcion": "DistribuciÃ³n"
         },
         {
           "codigo": "801419.0",
@@ -4613,52 +4024,104 @@
           "descripcion": "Servicios de apoyo gerencial"
         },
         {
+          "codigo": "801618.0",
+          "descripcion": "Servicios de alquiler o arrendamiento de equipo de oficina"
+        },
+        {
+          "codigo": "811121.0",
+          "descripcion": "Servicios de internet"
+        },
+        {
+          "codigo": "811215.0",
+          "descripcion": "AnÃ¡lisis econÃ³mico"
+        },
+        {
           "codigo": "811315.0",
-          "descripcion": "Metodología y análisis"
+          "descripcion": "MetodologÃ­a y anÃ¡lisis"
         },
         {
           "codigo": "811416.0",
           "descripcion": "Manejo de cadena de suministros"
         },
         {
+          "codigo": "811419.0",
+          "descripcion": "Servicios de investigaciÃ³n y desarrollo de tecnologÃ­a manufacturera"
+        },
+        {
           "codigo": "821015.0",
           "descripcion": "Publicidad impresa"
         },
         {
-          "codigo": "821018.0",
-          "descripcion": "Servicios de agencia de publicidad"
+          "codigo": "821016.0",
+          "descripcion": "Publicidad difundida"
         },
         {
           "codigo": "821019.0",
-          "descripcion": "Colocación y cumplimiento de medios"
+          "descripcion": "ColocaciÃ³n y cumplimiento de medios"
+        },
+        {
+          "codigo": "821119.0",
+          "descripcion": "Servicios de noticias y publicidad"
         },
         {
           "codigo": "821215.0",
-          "descripcion": "Impresión"
+          "descripcion": "ImpresiÃ³n"
         },
         {
           "codigo": "821217.0",
           "descripcion": "Fotocopiado"
         },
         {
+          "codigo": "821218.0",
+          "descripcion": "PublicaciÃ³n"
+        },
+        {
+          "codigo": "821316.0",
+          "descripcion": "FotÃ³grafos y cinematÃ³grafos"
+        },
+        {
+          "codigo": "821517.0",
+          "descripcion": "Profesionales de las artes escÃ©nicas"
+        },
+        {
           "codigo": "831217.0",
-          "descripcion": "Servicios de comunicación masiva"
+          "descripcion": "Servicios de comunicaciÃ³n masiva"
+        },
+        {
+          "codigo": "851115.0",
+          "descripcion": "PrevenciÃ³n y control de enfermedades contagiosas"
+        },
+        {
+          "codigo": "851516.0",
+          "descripcion": "Asuntos nutricionales"
         },
         {
           "codigo": "861017.0",
-          "descripcion": "Servicios de capacitación vocacional no científica"
+          "descripcion": "Servicios de capacitaciÃ³n vocacional no cientÃ­fica"
         },
         {
           "codigo": "861116.0",
-          "descripcion": "Educación de adultos"
+          "descripcion": "EducaciÃ³n de adultos"
         },
         {
-          "codigo": "861216.0",
-          "descripcion": "Colegios menores"
+          "codigo": "861317.0",
+          "descripcion": "ConducciÃ³n de vehÃ­culos, buques y aeronaves"
+        },
+        {
+          "codigo": "861319.0",
+          "descripcion": "Escuelas para gente con discapacidades"
+        },
+        {
+          "codigo": "861320.0",
+          "descripcion": "Servicios de educaciÃ³n y capacitaciÃ³n en administraciÃ³n"
         },
         {
           "codigo": "861415.0",
-          "descripcion": "Servicios de guía educativa"
+          "descripcion": "Servicios de guÃ­a educativa"
+        },
+        {
+          "codigo": "901015.0",
+          "descripcion": "Establecimientos para comer y beber"
         },
         {
           "codigo": "901016.0",
@@ -4666,15 +4129,27 @@
         },
         {
           "codigo": "901017.0",
-          "descripcion": "Servicios de cafetería"
+          "descripcion": "Servicios de cafeterÃ­a"
         },
         {
           "codigo": "901018.0",
           "descripcion": "Servicios de comida para llevar y a domicilio"
         },
         {
+          "codigo": "901115.0",
+          "descripcion": "Hoteles y moteles y pensiones"
+        },
+        {
           "codigo": "901116.0",
           "descripcion": "Facilidades para encuentros"
+        },
+        {
+          "codigo": "901118.0",
+          "descripcion": "Cuartos de hotel"
+        },
+        {
+          "codigo": "901215.0",
+          "descripcion": "Agentes de viajes"
         },
         {
           "codigo": "901518.0",
@@ -4682,15 +4157,35 @@
         },
         {
           "codigo": "931016.0",
-          "descripcion": "Funcionarios políticos"
+          "descripcion": "Funcionarios polÃ­ticos"
         },
         {
           "codigo": "931017.0",
-          "descripcion": "Cuerpos y práctica legislativa"
+          "descripcion": "Cuerpos y prÃ¡ctica legislativa"
+        },
+        {
+          "codigo": "931115.0",
+          "descripcion": "Movimientos polÃ­ticos"
         },
         {
           "codigo": "931116.0",
-          "descripcion": "Representación y participación política"
+          "descripcion": "RepresentaciÃ³n y participaciÃ³n polÃ­tica"
+        },
+        {
+          "codigo": "931217.0",
+          "descripcion": "Organizaciones internacionales"
+        },
+        {
+          "codigo": "931315.0",
+          "descripcion": "Programas de refugiados"
+        },
+        {
+          "codigo": "931316.0",
+          "descripcion": "PlaneaciÃ³n y programas de polÃ­ticas de alimentaciÃ³n y nutriciÃ³n"
+        },
+        {
+          "codigo": "931317.0",
+          "descripcion": "Programas de salud"
         },
         {
           "codigo": "931415.0",
@@ -4705,6 +4200,10 @@
           "descripcion": "Empleo"
         },
         {
+          "codigo": "931419.0",
+          "descripcion": "Desarrollo rural"
+        },
+        {
           "codigo": "931420.0",
           "descripcion": "Desarrollo urbano"
         },
@@ -4714,11 +4213,512 @@
         },
         {
           "codigo": "931515.0",
-          "descripcion": "Administración pública"
+          "descripcion": "AdministraciÃ³n pÃºblica"
         },
         {
-          "codigo": "941317.0",
-          "descripcion": "Asociaciones verdes"
+          "codigo": "931516.0",
+          "descripcion": "Finanzas pÃºblicas"
+        },
+        {
+          "codigo": "941316.0",
+          "descripcion": "Organizaciones de caridad"
+        },
+        {
+          "codigo": "941320.0",
+          "descripcion": "Asociaciones de defensa y promociÃ³n de los derechos humanos"
+        },
+        {
+          "codigo": "951315.0",
+          "descripcion": "Tarimas y graderÃ­as"
+        },
+        {
+          "codigo": "951316.0",
+          "descripcion": "Edificios y estructuras comerciales e industriales portÃ¡tiles"
+        },
+        {
+          "codigo": "951317.0",
+          "descripcion": "Tiendas carpas y estructuras de membrana"
+        }
+      ]
+    },
+    {
+      "nombre": "Logistica y Catering",
+      "codigos": [
+        {
+          "codigo": "241115.0",
+          "descripcion": "Contenedores y tanques"
+        },
+        {
+          "codigo": "251015.0",
+          "descripcion": "VehÃ­culos automotores"
+        },
+        {
+          "codigo": "251016.0",
+          "descripcion": "Partes de vehÃ­culos automotores"
+        },
+        {
+          "codigo": "301816.0",
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
+        },
+        {
+          "codigo": "391125.0",
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
+        },
+        {
+          "codigo": "421316.0",
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
+        },
+        {
+          "codigo": "421316.0",
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
+        },
+        {
+          "codigo": "421322.0",
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
+        },
+        {
+          "codigo": "432115.0",
+          "descripcion": "Computadores"
+        },
+        {
+          "codigo": "432117.0",
+          "descripcion": "Dispositivos informÃ¡ticos de entrada de datos"
+        },
+        {
+          "codigo": "441216.0",
+          "descripcion": "Suministros de escritorio"
+        },
+        {
+          "codigo": "441217.0",
+          "descripcion": "Instrumentos de escritura"
+        },
+        {
+          "codigo": "441218.0",
+          "descripcion": "Medios de correcciÃ³n"
+        },
+        {
+          "codigo": "441222.0",
+          "descripcion": "(Sin descripciÃ³n en los listados entregados)"
+        },
+        {
+          "codigo": "451115.0",
+          "descripcion": "Atriles, sistemas de sonido y accesorios"
+        },
+        {
+          "codigo": "451116.0",
+          "descripcion": "Proyectores y suministros"
+        },
+        {
+          "codigo": "451117.0",
+          "descripcion": "Equipo de composiciÃ³n y presentaciÃ³n de sonido, hardware y controladores"
+        },
+        {
+          "codigo": "451118.0",
+          "descripcion": "Equipo de presentaciÃ³n de vÃ­deo y de mezcla de vÃ­deo y sonido, hardware y controladores"
+        },
+        {
+          "codigo": "451119.0",
+          "descripcion": "Equipos, hardware y controladores para sistemas de teleconferencia y videoconferencia"
+        },
+        {
+          "codigo": "461815.0",
+          "descripcion": "Ropa de seguridad"
+        },
+        {
+          "codigo": "461817.0",
+          "descripcion": "Protectores de cara y cabeza"
+        },
+        {
+          "codigo": "461820.0",
+          "descripcion": "ProtecciÃ³n de la respiraciÃ³n"
+        },
+        {
+          "codigo": "471215.0",
+          "descripcion": "Carritos y accesorios para limpieza"
+        },
+        {
+          "codigo": "471217.0",
+          "descripcion": "Envases y accesorios para residuos"
+        },
+        {
+          "codigo": "471218.0",
+          "descripcion": "Equipo de limpieza"
+        },
+        {
+          "codigo": "471219.0",
+          "descripcion": "Accesorios de equipo de limpieza"
+        },
+        {
+          "codigo": "471316.0",
+          "descripcion": "Escobas, traperos, cepillos y accesorios"
+        },
+        {
+          "codigo": "471317.0",
+          "descripcion": "Suministros para aseos"
+        },
+        {
+          "codigo": "471318.0",
+          "descripcion": "Soluciones de limpieza y desinfecciÃ³n"
+        },
+        {
+          "codigo": "471319.0",
+          "descripcion": "Absorbentes"
+        },
+        {
+          "codigo": "471321.0",
+          "descripcion": "Kits de limpieza"
+        },
+        {
+          "codigo": "501120.0",
+          "descripcion": "Carnes procesadas y preparadas"
+        },
+        {
+          "codigo": "501316.0",
+          "descripcion": "Huevos y sustitutos"
+        },
+        {
+          "codigo": "501317.0",
+          "descripcion": "Productos de leche y mantequilla"
+        },
+        {
+          "codigo": "501820.0",
+          "descripcion": "Tartas y empanadas y pastas"
+        },
+        {
+          "codigo": "501915.0",
+          "descripcion": "Sopas y estofados"
+        },
+        {
+          "codigo": "501921.0",
+          "descripcion": "Pasabocas y snacks"
+        },
+        {
+          "codigo": "501925.0",
+          "descripcion": "SÃ¡ndwiches y panecillos con relleno"
+        },
+        {
+          "codigo": "501926.0",
+          "descripcion": "AcompaÃ±amientos preparados"
+        },
+        {
+          "codigo": "501927.0",
+          "descripcion": "Platos combinados empaquetados"
+        },
+        {
+          "codigo": "502017.0",
+          "descripcion": "CafÃ© y tÃ©"
+        },
+        {
+          "codigo": "502023.0",
+          "descripcion": "Bebidas no alcohÃ³licas"
+        },
+        {
+          "codigo": "511027.0",
+          "descripcion": "AntisÃ©pticos"
+        },
+        {
+          "codigo": "521217.0",
+          "descripcion": "Instrumentos de escritura"
+        },
+        {
+          "codigo": "521615.0",
+          "descripcion": "Equipos audiovisuales"
+        },
+        {
+          "codigo": "531031.0",
+          "descripcion": "Chalecos"
+        },
+        {
+          "codigo": "531316.0",
+          "descripcion": "BaÃ±o y cuerpo"
+        },
+        {
+          "codigo": "561015.0",
+          "descripcion": "Muebles"
+        },
+        {
+          "codigo": "601012.0",
+          "descripcion": "Incentivos educativos"
+        },
+        {
+          "codigo": "601035.0",
+          "descripcion": "Ciencias polÃ­ticas"
+        },
+        {
+          "codigo": "601054.0",
+          "descripcion": "Materiales educativos de vida independiente, administraciÃ³n del dinero y economÃ­a domÃ©stica"
+        },
+        {
+          "codigo": "601060.0",
+          "descripcion": "GuÃ­as de planes de estudio, proyectos, actividades y lecciones"
+        },
+        {
+          "codigo": "761015.0",
+          "descripcion": "DesinfecciÃ³n"
+        },
+        {
+          "codigo": "761118.0",
+          "descripcion": "Limpieza de vehÃ­culos de transporte"
+        },
+        {
+          "codigo": "781018.0",
+          "descripcion": "Transporte de carga por carretera"
+        },
+        {
+          "codigo": "781115.0",
+          "descripcion": "Transporte de pasajeros aÃ©rea"
+        },
+        {
+          "codigo": "781118.0",
+          "descripcion": "Transporte de pasajeros por carretera"
+        },
+        {
+          "codigo": "801015.0",
+          "descripcion": "Servicios de consultorÃ­a de negocios y administraciÃ³n corporativa"
+        },
+        {
+          "codigo": "801016.0",
+          "descripcion": "Gerencia de proyectos"
+        },
+        {
+          "codigo": "801115.0",
+          "descripcion": "Desarrollo de recursos humanos"
+        },
+        {
+          "codigo": "801116.0",
+          "descripcion": "Servicios de personal temporal"
+        },
+        {
+          "codigo": "801415.0",
+          "descripcion": "InvestigaciÃ³n de mercados"
+        },
+        {
+          "codigo": "801416.0",
+          "descripcion": "Actividades de ventas y promociÃ³n de negocios"
+        },
+        {
+          "codigo": "801417.0",
+          "descripcion": "DistribuciÃ³n"
+        },
+        {
+          "codigo": "801419.0",
+          "descripcion": "Exhibiciones y ferias comerciales"
+        },
+        {
+          "codigo": "801615.0",
+          "descripcion": "Servicios de apoyo gerencial"
+        },
+        {
+          "codigo": "801618.0",
+          "descripcion": "Servicios de alquiler o arrendamiento de equipo de oficina"
+        },
+        {
+          "codigo": "811121.0",
+          "descripcion": "Servicios de internet"
+        },
+        {
+          "codigo": "811215.0",
+          "descripcion": "AnÃ¡lisis econÃ³mico"
+        },
+        {
+          "codigo": "811315.0",
+          "descripcion": "MetodologÃ­a y anÃ¡lisis"
+        },
+        {
+          "codigo": "811416.0",
+          "descripcion": "Manejo de cadena de suministros"
+        },
+        {
+          "codigo": "811419.0",
+          "descripcion": "Servicios de investigaciÃ³n y desarrollo de tecnologÃ­a manufacturera"
+        },
+        {
+          "codigo": "821015.0",
+          "descripcion": "Publicidad impresa"
+        },
+        {
+          "codigo": "821016.0",
+          "descripcion": "Publicidad difundida"
+        },
+        {
+          "codigo": "821019.0",
+          "descripcion": "ColocaciÃ³n y cumplimiento de medios"
+        },
+        {
+          "codigo": "821119.0",
+          "descripcion": "Servicios de noticias y publicidad"
+        },
+        {
+          "codigo": "821215.0",
+          "descripcion": "ImpresiÃ³n"
+        },
+        {
+          "codigo": "821217.0",
+          "descripcion": "Fotocopiado"
+        },
+        {
+          "codigo": "821218.0",
+          "descripcion": "PublicaciÃ³n"
+        },
+        {
+          "codigo": "821316.0",
+          "descripcion": "FotÃ³grafos y cinematÃ³grafos"
+        },
+        {
+          "codigo": "821517.0",
+          "descripcion": "Profesionales de las artes escÃ©nicas"
+        },
+        {
+          "codigo": "831217.0",
+          "descripcion": "Servicios de comunicaciÃ³n masiva"
+        },
+        {
+          "codigo": "851115.0",
+          "descripcion": "PrevenciÃ³n y control de enfermedades contagiosas"
+        },
+        {
+          "codigo": "851516.0",
+          "descripcion": "Asuntos nutricionales"
+        },
+        {
+          "codigo": "861017.0",
+          "descripcion": "Servicios de capacitaciÃ³n vocacional no cientÃ­fica"
+        },
+        {
+          "codigo": "861116.0",
+          "descripcion": "EducaciÃ³n de adultos"
+        },
+        {
+          "codigo": "861317.0",
+          "descripcion": "ConducciÃ³n de vehÃ­culos, buques y aeronaves"
+        },
+        {
+          "codigo": "861319.0",
+          "descripcion": "Escuelas para gente con discapacidades"
+        },
+        {
+          "codigo": "861320.0",
+          "descripcion": "Servicios de educaciÃ³n y capacitaciÃ³n en administraciÃ³n"
+        },
+        {
+          "codigo": "861415.0",
+          "descripcion": "Servicios de guÃ­a educativa"
+        },
+        {
+          "codigo": "901015.0",
+          "descripcion": "Establecimientos para comer y beber"
+        },
+        {
+          "codigo": "901016.0",
+          "descripcion": "Servicios de banquetes y catering"
+        },
+        {
+          "codigo": "901017.0",
+          "descripcion": "Servicios de cafeterÃ­a"
+        },
+        {
+          "codigo": "901018.0",
+          "descripcion": "Servicios de comida para llevar y a domicilio"
+        },
+        {
+          "codigo": "901115.0",
+          "descripcion": "Hoteles y moteles y pensiones"
+        },
+        {
+          "codigo": "901116.0",
+          "descripcion": "Facilidades para encuentros"
+        },
+        {
+          "codigo": "901118.0",
+          "descripcion": "Cuartos de hotel"
+        },
+        {
+          "codigo": "901215.0",
+          "descripcion": "Agentes de viajes"
+        },
+        {
+          "codigo": "901518.0",
+          "descripcion": "Carnavales y ferias"
+        },
+        {
+          "codigo": "931016.0",
+          "descripcion": "Funcionarios polÃ­ticos"
+        },
+        {
+          "codigo": "931017.0",
+          "descripcion": "Cuerpos y prÃ¡ctica legislativa"
+        },
+        {
+          "codigo": "931115.0",
+          "descripcion": "Movimientos polÃ­ticos"
+        },
+        {
+          "codigo": "931217.0",
+          "descripcion": "Organizaciones internacionales"
+        },
+        {
+          "codigo": "931315.0",
+          "descripcion": "Programas de refugiados"
+        },
+        {
+          "codigo": "931316.0",
+          "descripcion": "PlaneaciÃ³n y programas de polÃ­ticas de alimentaciÃ³n y nutriciÃ³n"
+        },
+        {
+          "codigo": "931317.0",
+          "descripcion": "Programas de salud"
+        },
+        {
+          "codigo": "931415.0",
+          "descripcion": "Desarrollo y servicios sociales"
+        },
+        {
+          "codigo": "931417.0",
+          "descripcion": "Cultura"
+        },
+        {
+          "codigo": "931418.0",
+          "descripcion": "Empleo"
+        },
+        {
+          "codigo": "931419.0",
+          "descripcion": "Desarrollo rural"
+        },
+        {
+          "codigo": "931420.0",
+          "descripcion": "Desarrollo urbano"
+        },
+        {
+          "codigo": "931421.0",
+          "descripcion": "Desarrollo regional"
+        },
+        {
+          "codigo": "931515.0",
+          "descripcion": "AdministraciÃ³n pÃºblica"
+        },
+        {
+          "codigo": "931516.0",
+          "descripcion": "Finanzas pÃºblicas"
+        },
+        {
+          "codigo": "941316.0",
+          "descripcion": "Organizaciones de caridad"
+        },
+        {
+          "codigo": "941320.0",
+          "descripcion": "Asociaciones de defensa y promociÃ³n de los derechos humanos"
+        },
+        {
+          "codigo": "951315.0",
+          "descripcion": "Tarimas y graderÃ­as"
+        },
+        {
+          "codigo": "951316.0",
+          "descripcion": "Edificios y estructuras comerciales e industriales portÃ¡tiles"
+        },
+        {
+          "codigo": "951317.0",
+          "descripcion": "Tiendas carpas y estructuras de membrana"
         }
       ]
     }
