@@ -31,3 +31,34 @@ async function init() {
 }
 
 init();
+// Importamos data.json (necesitarás copiar data.json a la carpeta raíz)
+// En módulos ES, podemos hacer fetch al archivo.
+async function seedIfEmpty() {
+    const docs = await dataService.getAllCodes();
+    if (docs.length > 0) return; // Ya hay datos
+
+    try {
+        const response = await fetch('data.json');
+        const json = await response.json();
+        for (const categoria of json.categorias) {
+            for (const cod of categoria.codigos) {
+                await dataService.createCode(categoria.nombre, cod.codigo, cod.descripcion);
+            }
+        }
+        console.log('✅ Seed completado desde data.json');
+        alert('¡Datos iniciales cargados exitosamente!');
+    } catch (error) {
+        console.error('Error en el seed:', error);
+        alert('No se pudo cargar el seed. Sube manualmente data.json o revisa la consola.');
+    }
+}
+
+// Modificar init:
+async function init() {
+    // Verificar/seedear primero
+    await seedIfEmpty(); // Esperamos a que termine
+
+    // Luego cargar los datos finales y pintar
+    const docs = await dataService.getAllCodes();
+    initHandlers(docs);
+}
