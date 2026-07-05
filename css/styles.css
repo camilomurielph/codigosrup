@@ -1,215 +1,416 @@
-/* Reset y base */
+/* ===== ESTILOS GLOBALES ===== */
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #f4f6f9;
-    color: #1e293b;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #0b0e14;
+    color: #e2e8f0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
     padding: 20px;
 }
+#app {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* ===== HEADER ===== */
 header {
-    background: white;
-    padding: 20px 30px;
-    border-radius: 16px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-    margin-bottom: 30px;
+    background: #1a1f2b;
+    border-radius: 24px;
+    padding: 24px 30px;
+    margin-bottom: 28px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    gap: 16px;
+    border: 1px solid #2a3040;
 }
-h1 { font-size: 1.8rem; font-weight: 600; color: #0f3b5e; }
+header h1 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #b3c7ff, #8ba5f0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
 nav button {
-    background: #e2e8f0;
+    background: #262e3e;
     border: none;
-    padding: 10px 22px;
+    padding: 10px 20px;
     border-radius: 40px;
     font-weight: 600;
+    font-size: 0.9rem;
+    color: #b0c0d8;
     cursor: pointer;
-    margin-left: 12px;
     transition: 0.2s;
+    border: 1px solid transparent;
 }
 nav button.active {
-    background: #0f3b5e;
-    color: white;
+    background: #3b4b6a;
+    color: #ffffff;
+    border-color: #6a8bc0;
+    box-shadow: 0 0 12px rgba(106, 139, 192, 0.3);
 }
-nav button:hover { background: #cbd5e1; }
-nav button.active:hover { background: #1e4a6f; }
+nav button:hover {
+    background: #2f3a50;
+    color: #ffffff;
+}
 
+/* ===== MENÚS ===== */
 .menu {
     display: none;
-    background: white;
-    padding: 25px 30px;
-    border-radius: 16px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    background: #141a24;
+    border-radius: 24px;
+    padding: 28px 30px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    border: 1px solid #252d3d;
 }
 .menu.active { display: block; }
 
-h2 { font-size: 1.4rem; margin-bottom: 20px; color: #0f3b5e; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; }
+.menu h2 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 24px;
+    color: #c8d6f0;
+    border-bottom: 2px solid #293244;
+    padding-bottom: 12px;
+    letter-spacing: -0.3px;
+}
 
-/* Botones de categoría (menú 1) */
-.button-grid {
+/* ===== MENÚ 1: Botones en columna centrados ===== */
+.button-column {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     gap: 12px;
 }
-.button-grid button {
-    background: #eef2ff;
-    border: 1px solid #c7d2fe;
-    padding: 12px 24px;
-    border-radius: 40px;
+.button-column button {
+    background: #1f2737;
+    border: 1px solid #32405a;
+    color: #d6e2ff;
+    padding: 14px 28px;
+    border-radius: 60px;
+    font-size: 1rem;
     font-weight: 500;
+    width: 100%;
+    max-width: 400px;
     cursor: pointer;
-    transition: 0.15s;
+    transition: 0.2s;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
 }
-.button-grid button:hover { background: #c7d2fe; transform: scale(1.03); }
+.button-column button:hover {
+    background: #2b3650;
+    border-color: #5a7aaa;
+    transform: scale(1.02);
+    box-shadow: 0 4px 14px rgba(60, 90, 150, 0.3);
+}
 
-/* Estilos para menú 2 (Checkboxes) */
-.categoria-item {
-    margin-bottom: 28px;
-    border: 1px solid #e2e8f0;
-    border-radius: 12px;
-    padding: 16px 20px;
+/* ===== MENÚ 2: Checkboxes ===== */
+.categoria-acordeon {
+    background: #1a212e;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    border: 1px solid #2a3346;
+    overflow: hidden;
 }
 .categoria-header {
     display: flex;
     align-items: center;
-    gap: 12px;
-    font-weight: 700;
+    gap: 14px;
+    padding: 14px 20px;
+    background: #202a3a;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.15s;
+    font-weight: 600;
+    font-size: 1.05rem;
+}
+.categoria-header:hover {
+    background: #263244;
+}
+.categoria-header .arrow {
+    margin-left: auto;
+    transition: transform 0.25s ease;
     font-size: 1.2rem;
-    margin-bottom: 12px;
-    background: #f8fafc;
-    padding: 8px 12px;
-    border-radius: 8px;
+    color: #7a8fb0;
+}
+.categoria-header .arrow.open {
+    transform: rotate(180deg);
 }
 .categoria-header input[type="checkbox"] {
     width: 18px;
     height: 18px;
-    accent-color: #0f3b5e;
+    accent-color: #6a8bc0;
+}
+.categoria-contenido {
+    display: none;
+    padding: 12px 20px 20px;
+    background: #141b26;
+}
+.categoria-contenido.open {
+    display: block;
 }
 .codigo-item {
     display: flex;
     align-items: center;
     gap: 14px;
-    padding: 6px 0;
-    border-bottom: 1px solid #f1f5f9;
+    padding: 8px 0;
+    border-bottom: 1px solid #262f40;
+}
+.codigo-item:last-child {
+    border-bottom: none;
 }
 .codigo-item input[type="checkbox"] {
     width: 16px;
     height: 16px;
-    accent-color: #0f3b5e;
+    accent-color: #6a8bc0;
 }
-.codigo-item .codigo { font-family: monospace; font-weight: 600; min-width: 80px; }
-.codigo-item .descripcion { color: #475569; }
+.codigo-item .codigo {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 600;
+    min-width: 80px;
+    color: #b3ccff;
+}
+.codigo-item .descripcion {
+    color: #b0c4e0;
+    font-size: 0.95rem;
+}
 .btn-copiar-seleccionados {
-    background: #0f3b5e;
+    background: #2d405f;
     color: white;
     border: none;
-    padding: 8px 18px;
-    border-radius: 30px;
+    padding: 8px 20px;
+    border-radius: 40px;
     font-weight: 500;
-    margin-top: 10px;
+    margin-top: 14px;
     cursor: pointer;
+    transition: 0.2s;
+    border: 1px solid #4a6a96;
 }
-.btn-copiar-seleccionados:hover { background: #1e4a6f; }
+.btn-copiar-seleccionados:hover {
+    background: #3b5680;
+    box-shadow: 0 0 16px rgba(70, 120, 200, 0.3);
+}
 
-/* Menú 3 (Edición) */
-.edicion-categoria {
-    border: 1px solid #e2e8f0;
-    border-radius: 12px;
-    padding: 16px 20px;
-    margin-bottom: 28px;
+/* ===== MENÚ 3: Edición ===== */
+.edicion-acordeon {
+    background: #1a212e;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    border: 1px solid #2a3346;
+    overflow: hidden;
 }
 .edicion-header {
-    font-weight: 700;
-    font-size: 1.2rem;
-    margin-bottom: 12px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    padding: 14px 20px;
+    background: #202a3a;
+    cursor: pointer;
+    user-select: none;
+    font-weight: 600;
+    font-size: 1.05rem;
+    transition: 0.15s;
+}
+.edicion-header:hover {
+    background: #263244;
+}
+.edicion-header .arrow {
+    transition: transform 0.25s ease;
+    font-size: 1.2rem;
+    color: #7a8fb0;
+}
+.edicion-header .arrow.open {
+    transform: rotate(180deg);
+}
+.edicion-header .acciones-categoria {
+    display: flex;
+    gap: 10px;
 }
 .btn-nuevo {
-    background: #22c55e;
+    background: #1f8b4c;
     color: white;
     border: none;
-    padding: 4px 14px;
-    border-radius: 20px;
-    font-size: 0.9rem;
+    padding: 4px 16px;
+    border-radius: 30px;
+    font-size: 0.85rem;
+    font-weight: 600;
     cursor: pointer;
+    transition: 0.2s;
 }
-.btn-nuevo:hover { background: #16a34a; }
+.btn-nuevo:hover {
+    background: #2aad5e;
+    box-shadow: 0 0 12px rgba(42, 173, 94, 0.4);
+}
+.edicion-contenido {
+    display: none;
+    padding: 12px 20px 20px;
+    background: #141b26;
+}
+.edicion-contenido.open {
+    display: block;
+}
 .edicion-item {
     display: flex;
     align-items: center;
     gap: 14px;
-    padding: 6px 0;
-    border-bottom: 1px solid #f1f5f9;
+    padding: 8px 0;
+    border-bottom: 1px solid #262f40;
+    flex-wrap: wrap;
 }
-.edicion-item .codigo { font-family: monospace; font-weight: 600; min-width: 80px; }
-.edicion-item .descripcion { flex: 1; color: #475569; }
+.edicion-item:last-child {
+    border-bottom: none;
+}
+.edicion-item .codigo {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 600;
+    min-width: 80px;
+    color: #b3ccff;
+}
+.edicion-item .descripcion {
+    flex: 1;
+    color: #b0c4e0;
+    font-size: 0.95rem;
+}
 .edicion-item .acciones {
     display: flex;
     gap: 8px;
+    margin-left: auto;
 }
 .edicion-item .acciones button {
     border: none;
-    padding: 4px 12px;
-    border-radius: 16px;
+    padding: 4px 14px;
+    border-radius: 30px;
+    font-size: 0.8rem;
+    font-weight: 600;
     cursor: pointer;
-    font-size: 0.85rem;
+    transition: 0.15s;
 }
-.btn-editar { background: #eab308; color: white; }
-.btn-editar:hover { background: #ca8a04; }
-.btn-eliminar { background: #ef4444; color: white; }
-.btn-eliminar:hover { background: #dc2626; }
+.btn-editar {
+    background: #b8860b;
+    color: white;
+}
+.btn-editar:hover {
+    background: #d9a017;
+}
+.btn-eliminar {
+    background: #b91c1c;
+    color: white;
+}
+.btn-eliminar:hover {
+    background: #dc2626;
+}
 
-/* Modal */
+/* ===== MODAL ===== */
 .modal {
     position: fixed;
     top: 0; left: 0;
     width: 100%; height: 100%;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(6px);
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 999;
 }
 .modal-content {
-    background: white;
+    background: #1c2538;
     padding: 30px 35px;
-    border-radius: 20px;
+    border-radius: 28px;
     width: 90%;
-    max-width: 500px;
+    max-width: 480px;
+    border: 1px solid #3a4a6a;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
     position: relative;
 }
 .close-btn {
     position: absolute;
     top: 12px;
-    right: 20px;
+    right: 24px;
     font-size: 2rem;
     cursor: pointer;
+    color: #8fa4c8;
+    transition: 0.2s;
+}
+.close-btn:hover {
+    color: #ffffff;
+}
+.modal-content h3 {
+    color: #d6e2ff;
+    margin-bottom: 20px;
+    font-weight: 500;
 }
 .modal-content form {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 18px;
 }
-.modal-content label { font-weight: 600; font-size: 0.9rem; }
-.modal-content input, .modal-content textarea {
-    padding: 10px;
-    border: 1px solid #cbd5e1;
-    border-radius: 8px;
+.modal-content label {
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #b8cce8;
+}
+.modal-content input,
+.modal-content textarea {
+    background: #10161f;
+    border: 1px solid #2f3d5a;
+    border-radius: 12px;
+    padding: 12px 16px;
     font-size: 1rem;
+    color: #e8efff;
+    transition: 0.2s;
+}
+.modal-content input:focus,
+.modal-content textarea:focus {
+    outline: none;
+    border-color: #6a8bc0;
+    box-shadow: 0 0 0 3px rgba(106, 139, 192, 0.3);
 }
 .modal-content button[type="submit"] {
-    background: #0f3b5e;
+    background: #2d4d7a;
     color: white;
     border: none;
-    padding: 12px;
+    padding: 14px;
     border-radius: 40px;
     font-weight: 700;
+    font-size: 1rem;
     cursor: pointer;
+    transition: 0.2s;
+    border: 1px solid #4a7aaa;
+}
+.modal-content button[type="submit"]:hover {
+    background: #3a5f92;
+    box-shadow: 0 0 18px rgba(60, 110, 200, 0.3);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 640px) {
+    body { padding: 12px; }
+    header { padding: 18px 20px; flex-direction: column; align-items: stretch; }
+    header h1 { font-size: 1.4rem; text-align: center; }
+    nav { justify-content: center; }
+    nav button { font-size: 0.8rem; padding: 8px 14px; }
+    .menu { padding: 20px 16px; }
+    .button-column button { max-width: 100%; padding: 14px; }
+    .categoria-header, .edicion-header { padding: 12px 14px; font-size: 0.95rem; }
+    .codigo-item, .edicion-item { flex-wrap: wrap; gap: 8px; }
+    .codigo-item .codigo, .edicion-item .codigo { min-width: 60px; }
+    .edicion-item .acciones { margin-left: 0; width: 100%; justify-content: flex-end; }
+    .modal-content { padding: 24px 20px; }
 }
