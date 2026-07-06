@@ -94,10 +94,18 @@ export function renderCheckboxes(categoriasMap, onToggleCategoria, onToggleCodig
     });
 }
 
-export function renderEdicion(categoriasMap, onEdit, onDelete, onNew) {
+export function renderEdicion(categoriasMap, onEdit, onDelete, onNew, onNewCategory) {
     const container = document.getElementById('contenedor-edicion');
     container.innerHTML = '';
 
+    // Botón para crear una categoría nueva
+    const btnNuevaCat = document.createElement('button');
+    btnNuevaCat.className = 'btn-nueva-categoria';
+    btnNuevaCat.textContent = '➕ Nueva Categoría';
+    btnNuevaCat.addEventListener('click', onNewCategory);
+    container.appendChild(btnNuevaCat);
+
+    // Acordeones por categoría
     categoriasMap.forEach((codigos, categoria) => {
         const wrapper = document.createElement('div');
         wrapper.className = 'edicion-acordeon';
