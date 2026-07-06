@@ -6,11 +6,17 @@ import { initHandlers, setupModalHandlers } from './eventHandlers.js';
 // Navegación entre menús
 document.querySelectorAll('nav button').forEach(btn => {
     btn.addEventListener('click', () => {
+        // Desactivar todos los botones
         document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
-        const menuId = `menu-${btn.dataset.menu}`;
+
+        // Ocultar todos los menús
         document.querySelectorAll('.menu').forEach(m => m.classList.remove('active'));
-        document.getElementById(menuId).classList.add('active');
+
+        // Mostrar el menú correspondiente
+        const menuId = `menu-${btn.dataset.menu}`;
+        const targetMenu = document.getElementById(menuId);
+        if (targetMenu) targetMenu.classList.add('active');
     });
 });
 
