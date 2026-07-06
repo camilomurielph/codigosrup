@@ -6,6 +6,38 @@ let currentData = [];
 let currentSha = null;
 let currentCategoriasMap = new Map();
 
+// Función para ocultar todos los menús y mostrar solo el activo
+function restoreActiveMenu() {
+    // Obtener el botón de navegación activo
+    const activeNavBtn = document.querySelector('nav button.active');
+    let menuId = null;
+    if (activeNavBtn) {
+        menuId = `menu-${activeNavBtn.dataset.menu}`;
+    } else {
+        // Si no hay botón activo, usar el primer menú (Copiar por Categoría)
+        menuId = 'menu-copiar';
+        // También activar el botón correspondiente
+        const firstBtn = document.querySelector('nav button[data-menu="copiar"]');
+        if (firstBtn) {
+            document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+            firstBtn.classList.add('active');
+        }
+    }
+
+    // Ocultar TODOS los menús
+    document.querySelectorAll('.menu').forEach(m => m.classList.remove('active'));
+
+    // Mostrar el menú correspondiente
+    const targetMenu = document.getElementById(menuId);
+    if (targetMenu) {
+        targetMenu.classList.add('active');
+    } else {
+        // Fallback: mostrar el primer menú
+        const firstMenu = document.querySelector('.menu');
+        if (firstMenu) firstMenu.classList.add('active');
+    }
+}
+
 async function saveAndRefresh(dataArray) {
     try {
         const map = groupByCategory(dataArray);
@@ -24,38 +56,6 @@ async function saveAndRefresh(dataArray) {
     } catch (error) {
         alert('❌ Error al guardar: ' + error.message);
         console.error(error);
-    }
-}
-
-// Función para restaurar el menú activo
-function restoreActiveMenu() {
-    // Obtener el botón de navegación activo
-    const activeNavBtn = document.querySelector('nav button.active');
-    let menuId = null;
-    if (activeNavBtn) {
-        menuId = `menu-${activeNavBtn.dataset.menu}`;
-    } else {
-        // Si no hay botón activo, usar el primer menú (Copiar por Categoría)
-        menuId = 'menu-copiar';
-        // También activar el botón correspondiente
-        const firstBtn = document.querySelector('nav button[data-menu="copiar"]');
-        if (firstBtn) {
-            document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
-            firstBtn.classList.add('active');
-        }
-    }
-
-    // Ocultar todos los menús
-    document.querySelectorAll('.menu').forEach(m => m.classList.remove('active'));
-
-    // Mostrar el menú correspondiente
-    const targetMenu = document.getElementById(menuId);
-    if (targetMenu) {
-        targetMenu.classList.add('active');
-    } else {
-        // Fallback: mostrar el primer menú
-        const firstMenu = document.querySelector('.menu');
-        if (firstMenu) firstMenu.classList.add('active');
     }
 }
 
