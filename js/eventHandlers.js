@@ -6,7 +6,6 @@ let currentData = [];
 let currentSha = null;
 let currentCategoriasMap = new Map();
 
-// Guarda los cambios en GitHub y refresca la UI
 async function saveAndRefresh(dataArray) {
     try {
         const map = groupByCategory(dataArray);
@@ -28,7 +27,38 @@ async function saveAndRefresh(dataArray) {
     }
 }
 
-// Renderiza los tres menús y restaura el menú activo
+// Función para restaurar el menú activo
+function restoreActiveMenu() {
+    // Obtener el botón de navegación activo
+    const activeNavBtn = document.querySelector('nav button.active');
+    let menuId = null;
+    if (activeNavBtn) {
+        menuId = `menu-${activeNavBtn.dataset.menu}`;
+    } else {
+        // Si no hay botón activo, usar el primer menú (Copiar por Categoría)
+        menuId = 'menu-copiar';
+        // También activar el botón correspondiente
+        const firstBtn = document.querySelector('nav button[data-menu="copiar"]');
+        if (firstBtn) {
+            document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+            firstBtn.classList.add('active');
+        }
+    }
+
+    // Ocultar todos los menús
+    document.querySelectorAll('.menu').forEach(m => m.classList.remove('active'));
+
+    // Mostrar el menú correspondiente
+    const targetMenu = document.getElementById(menuId);
+    if (targetMenu) {
+        targetMenu.classList.add('active');
+    } else {
+        // Fallback: mostrar el primer menú
+        const firstMenu = document.querySelector('.menu');
+        if (firstMenu) firstMenu.classList.add('active');
+    }
+}
+
 function renderAll(categoriasMap) {
     const categorias = Array.from(categoriasMap.keys());
 
@@ -46,19 +76,10 @@ function renderAll(categoriasMap) {
     // Menú 3: Edición
     renderEdicion(categoriasMap, onEditClick, onDeleteClick, onNewClick, onNewCategory, onNewBatch);
 
-    // === RESTAURAR EL MENÚ ACTIVO ===
-    const activeNavBtn = document.querySelector('nav button.active');
-    if (activeNavBtn) {
-        const menuId = `menu-${activeNavBtn.dataset.menu}`;
-        document.querySelectorAll('.menu').forEach(m => m.classList.remove('active'));
-        document.getElementById(menuId).classList.add('active');
-    } else {
-        // Por defecto, mostrar el primer menú
-        document.querySelectorAll('.menu').forEach((m, i) => m.classList.toggle('active', i === 0));
-    }
+    // Restaurar el menú activo
+    restoreActiveMenu();
 }
 
-// Inicializa los handlers con los datos cargados
 export function initHandlers(dataArray, sha) {
     currentData = dataArray;
     currentSha = sha;
@@ -86,18 +107,17 @@ export function initHandlers(dataArray, sha) {
     });
 }
 
-// --- Toggle de categoría (marcar/desmarcar todos) ---
+// --- Toggle de categoría ---
 function onToggleCategoria(categoria, checked) {
     const items = document.querySelectorAll(`#contenedor-checkboxes .categoria-item[data-categoria="${categoria}"] input[type="checkbox"]`);
     items.forEach(chk => chk.checked = checked);
 }
 
 function onToggleCodigo(categoria) {
-    // Opcional: se puede usar para actualizar el estado del checkbox de categoría
+    // Opcional
 }
 
-// --- Funciones para el menú de edición ---
-
+// --- Funciones de edición ---
 function onEditClick(doc) {
     document.getElementById('edit-id').value = doc.$id;
     document.getElementById('edit-categoria').value = doc.categoria;
@@ -188,7 +208,6 @@ export function setupModalHandlers() {
         if (!categoria) return alert('Categoría no definida.');
         if (!raw) return alert('Pega al menos un código.');
 
-        // Separar por espacios, comas, saltos de línea
         const codigos = raw.split(/[\s,;\n]+/).map(s => s.trim()).filter(s => s.length > 0);
 
         if (codigos.length === 0) return alert('No se encontraron códigos válidos.');
