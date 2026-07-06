@@ -4726,10 +4726,6 @@
       "nombre": "Reparación de victimas",
       "codigos": [
         {
-          "codigo": "000",
-          "descripcion": "ihi"
-        },
-        {
           "codigo": "211015",
           "descripcion": "pendiente 01"
         },
