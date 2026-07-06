@@ -40,8 +40,8 @@ function renderAll(categoriasMap) {
 
     // Menú 2
     renderCheckboxes(categoriasMap, onToggleCategoria, onToggleCodigo);
-    // Menú 3
-    renderEdicion(categoriasMap, onEditClick, onDeleteClick, onNewClick);
+    // Menú 3 (edición) – pasamos onNewCategory como handler
+    renderEdicion(categoriasMap, onEditClick, onDeleteClick, onNewClick, onNewCategory);
 }
 
 export function initHandlers(dataArray, sha) {
@@ -71,14 +71,17 @@ export function initHandlers(dataArray, sha) {
     });
 }
 
+// --- Toggle de categoría (marcar/desmarcar todos) ---
 function onToggleCategoria(categoria, checked) {
     const items = document.querySelectorAll(`#contenedor-checkboxes .categoria-item[data-categoria="${categoria}"] input[type="checkbox"]`);
     items.forEach(chk => chk.checked = checked);
 }
 
 function onToggleCodigo(categoria) {
-    // Opcional: lógica extra si se desea
+    // Opcional
 }
+
+// --- Funciones para el menú de edición ---
 
 function onEditClick(doc) {
     document.getElementById('edit-id').value = doc.$id;
@@ -87,15 +90,28 @@ function onEditClick(doc) {
     document.getElementById('edit-descripcion').value = doc.descripcion;
     document.getElementById('modal-titulo').textContent = 'Editar Código';
     document.getElementById('modal-form').style.display = 'flex';
+    // Enfocar el campo código
+    document.getElementById('edit-codigo').focus();
 }
 
 function onNewClick(categoria) {
     document.getElementById('edit-id').value = '';
-    document.getElementById('edit-categoria').value = categoria;
+    document.getElementById('edit-categoria').value = categoria || ''; // Si es vacío, se deja en blanco
     document.getElementById('edit-codigo').value = '';
     document.getElementById('edit-descripcion').value = '';
     document.getElementById('modal-titulo').textContent = 'Nuevo Código';
     document.getElementById('modal-form').style.display = 'flex';
+    // Enfocar el campo categoría si viene vacío, o el código si ya tiene categoría
+    if (!categoria) {
+        document.getElementById('edit-categoria').focus();
+    } else {
+        document.getElementById('edit-codigo').focus();
+    }
+}
+
+// Nueva función: crear categoría (abre modal con categoría vacía)
+function onNewCategory() {
+    onNewClick(''); // llama a onNewClick con categoría vacía
 }
 
 async function onDeleteClick(docId) {
