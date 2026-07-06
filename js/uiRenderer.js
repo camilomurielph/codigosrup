@@ -32,6 +32,7 @@ export function renderCheckboxes(categoriasMap, onToggleCategoria, onToggleCodig
         const wrapper = document.createElement('div');
         wrapper.className = 'categoria-acordeon';
 
+        // HEADER
         const header = document.createElement('div');
         header.className = 'categoria-header';
         const chkCategoria = document.createElement('input');
@@ -58,6 +59,7 @@ export function renderCheckboxes(categoriasMap, onToggleCategoria, onToggleCodig
 
         wrapper.appendChild(header);
 
+        // CONTENIDO
         const content = document.createElement('div');
         content.className = 'categoria-contenido';
 
@@ -108,6 +110,7 @@ export function renderEdicion(categoriasMap, onEdit, onDelete, onNew, onNewCateg
         const wrapper = document.createElement('div');
         wrapper.className = 'edicion-acordeon';
 
+        // HEADER
         const header = document.createElement('div');
         header.className = 'edicion-header';
         const title = document.createElement('span');
@@ -152,6 +155,7 @@ export function renderEdicion(categoriasMap, onEdit, onDelete, onNew, onNewCateg
 
         wrapper.appendChild(header);
 
+        // CONTENIDO
         const content = document.createElement('div');
         content.className = 'edicion-contenido';
 
