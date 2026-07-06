@@ -30,7 +30,6 @@ async function saveAndRefresh(dataArray) {
 function renderAll(categoriasMap) {
     const categorias = Array.from(categoriasMap.keys());
 
-    // Menú 1
     renderCategoriaBotones(categorias, (categoria) => {
         const codes = currentData.filter(d => d.categoria === categoria).map(d => d.codigo).join(' ');
         navigator.clipboard.writeText(codes).then(() => {
@@ -38,10 +37,8 @@ function renderAll(categoriasMap) {
         });
     });
 
-    // Menú 2
     renderCheckboxes(categoriasMap, onToggleCategoria, onToggleCodigo);
-    // Menú 3 (edición) – pasamos onNewCategory como handler
-    renderEdicion(categoriasMap, onEditClick, onDeleteClick, onNewClick, onNewCategory);
+    renderEdicion(categoriasMap, onEditClick, onDeleteClick, onNewClick, onNewCategory, onNewBatch);
 }
 
 export function initHandlers(dataArray, sha) {
@@ -50,7 +47,6 @@ export function initHandlers(dataArray, sha) {
     currentCategoriasMap = groupByCategory(dataArray);
     renderAll(currentCategoriasMap);
 
-    // Delegación para el botón "Copiar seleccionados" (Menú 2)
     document.getElementById('contenedor-checkboxes').addEventListener('click', (e) => {
         if (e.target.classList.contains('btn-copiar-seleccionados')) {
             const categoria = e.target.dataset.categoria;
@@ -71,17 +67,12 @@ export function initHandlers(dataArray, sha) {
     });
 }
 
-// --- Toggle de categoría (marcar/desmarcar todos) ---
 function onToggleCategoria(categoria, checked) {
     const items = document.querySelectorAll(`#contenedor-checkboxes .categoria-item[data-categoria="${categoria}"] input[type="checkbox"]`);
     items.forEach(chk => chk.checked = checked);
 }
 
-function onToggleCodigo(categoria) {
-    // Opcional
-}
-
-// --- Funciones para el menú de edición ---
+function onToggleCodigo(categoria) {}
 
 function onEditClick(doc) {
     document.getElementById('edit-id').value = doc.$id;
@@ -90,18 +81,16 @@ function onEditClick(doc) {
     document.getElementById('edit-descripcion').value = doc.descripcion;
     document.getElementById('modal-titulo').textContent = 'Editar Código';
     document.getElementById('modal-form').style.display = 'flex';
-    // Enfocar el campo código
     document.getElementById('edit-codigo').focus();
 }
 
 function onNewClick(categoria) {
     document.getElementById('edit-id').value = '';
-    document.getElementById('edit-categoria').value = categoria || ''; // Si es vacío, se deja en blanco
+    document.getElementById('edit-categoria').value = categoria || '';
     document.getElementById('edit-codigo').value = '';
     document.getElementById('edit-descripcion').value = '';
     document.getElementById('modal-titulo').textContent = 'Nuevo Código';
     document.getElementById('modal-form').style.display = 'flex';
-    // Enfocar el campo categoría si viene vacío, o el código si ya tiene categoría
     if (!categoria) {
         document.getElementById('edit-categoria').focus();
     } else {
@@ -109,9 +98,16 @@ function onNewClick(categoria) {
     }
 }
 
-// Nueva función: crear categoría (abre modal con categoría vacía)
 function onNewCategory() {
-    onNewClick(''); // llama a onNewClick con categoría vacía
+    onNewClick('');
+}
+
+function onNewBatch(categoria) {
+    document.getElementById('lote-categoria').value = categoria;
+    document.getElementById('lote-codigos').value = '';
+    document.getElementById('modal-lote-titulo').textContent = `Nuevos Códigos en Lote - ${categoria}`;
+    document.getElementById('modal-lote').style.display = 'flex';
+    document.getElementById('lote-codigos').focus();
 }
 
 async function onDeleteClick(docId) {
@@ -121,6 +117,7 @@ async function onDeleteClick(docId) {
 }
 
 export function setupModalHandlers() {
+    // Modal de edición/creación
     const modal = document.getElementById('modal-form');
     document.getElementById('cerrar-modal').addEventListener('click', () => modal.style.display = 'none');
     window.addEventListener('click', (e) => { if (e.target === modal) modal.style.display = 'none'; });
@@ -150,6 +147,38 @@ export function setupModalHandlers() {
         }
 
         modal.style.display = 'none';
+        await saveAndRefresh(newData);
+    });
+
+    // Modal de lote
+    const modalLote = document.getElementById('modal-lote');
+    document.getElementById('cerrar-modal-lote').addEventListener('click', () => modalLote.style.display = 'none');
+    window.addEventListener('click', (e) => { if (e.target === modalLote) modalLote.style.display = 'none'; });
+
+    document.getElementById('lote-form').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const categoria = document.getElementById('lote-categoria').value.trim();
+        const raw = document.getElementById('lote-codigos').value.trim();
+
+        if (!categoria) return alert('Categoría no definida.');
+        if (!raw) return alert('Pega al menos un código.');
+
+        const codigos = raw.split(/[\s,;\n]+/).map(s => s.trim()).filter(s => s.length > 0);
+
+        if (codigos.length === 0) return alert('No se encontraron códigos válidos.');
+
+        const newDocs = codigos.map((codigo, index) => {
+            const num = String(index + 1).padStart(2, '0');
+            return {
+                $id: `temp_${Date.now()}_${index}`,
+                categoria: categoria,
+                codigo: codigo,
+                descripcion: `pendiente ${num}`
+            };
+        });
+
+        const newData = [...currentData, ...newDocs];
+        modalLote.style.display = 'none';
         await saveAndRefresh(newData);
     });
 }
