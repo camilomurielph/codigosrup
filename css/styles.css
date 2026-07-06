@@ -423,3 +423,26 @@ section.menu {
     width: 100%;
     display: block;
 }
+/* === BOTÓN NUEVA CATEGORÍA === */
+.btn-nueva-categoria {
+    background: #2d4d7a;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 40px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 24px;
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.2s;
+    border: 1px solid #4a7aaa;
+}
+.btn-nueva-categoria:hover {
+    background: #3a5f92;
+    box-shadow: 0 0 18px rgba(60, 110, 200, 0.3);
+}
