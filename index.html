@@ -35,7 +35,7 @@
         </main>
     </div>
 
-    <!-- Modal -->
+    <!-- Modal para Editar/Crear -->
     <div id="modal-form" class="modal" style="display:none;">
         <div class="modal-content">
             <span class="close-btn" id="cerrar-modal">&times;</span>
@@ -52,6 +52,20 @@
                 <textarea id="edit-descripcion" required></textarea>
 
                 <button type="submit">Guardar</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal para Nuevos en Lote -->
+    <div id="modal-lote" class="modal" style="display:none;">
+        <div class="modal-content">
+            <span class="close-btn" id="cerrar-modal-lote">&times;</span>
+            <h3 id="modal-lote-titulo">Nuevos Códigos en Lote</h3>
+            <form id="lote-form">
+                <input type="hidden" id="lote-categoria" value="" />
+                <label for="lote-codigos">Pega los códigos (separados por espacio, coma o salto de línea):</label>
+                <textarea id="lote-codigos" rows="10" placeholder="Ej: 101015 101016 101216 ..."></textarea>
+                <button type="submit">Crear Códigos</button>
             </form>
         </div>
     </div>
