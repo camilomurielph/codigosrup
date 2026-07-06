@@ -32,7 +32,6 @@ export function renderCheckboxes(categoriasMap, onToggleCategoria, onToggleCodig
         const wrapper = document.createElement('div');
         wrapper.className = 'categoria-acordeon';
 
-        // HEADER
         const header = document.createElement('div');
         header.className = 'categoria-header';
         const chkCategoria = document.createElement('input');
@@ -59,7 +58,6 @@ export function renderCheckboxes(categoriasMap, onToggleCategoria, onToggleCodig
 
         wrapper.appendChild(header);
 
-        // CONTENIDO
         const content = document.createElement('div');
         content.className = 'categoria-contenido';
 
@@ -94,7 +92,7 @@ export function renderCheckboxes(categoriasMap, onToggleCategoria, onToggleCodig
     });
 }
 
-export function renderEdicion(categoriasMap, onEdit, onDelete, onNew, onNewCategory) {
+export function renderEdicion(categoriasMap, onEdit, onDelete, onNew, onNewCategory, onNewBatch) {
     const container = document.getElementById('contenedor-edicion');
     container.innerHTML = '';
 
@@ -110,7 +108,6 @@ export function renderEdicion(categoriasMap, onEdit, onDelete, onNew, onNewCateg
         const wrapper = document.createElement('div');
         wrapper.className = 'edicion-acordeon';
 
-        // HEADER
         const header = document.createElement('div');
         header.className = 'edicion-header';
         const title = document.createElement('span');
@@ -119,6 +116,7 @@ export function renderEdicion(categoriasMap, onEdit, onDelete, onNew, onNewCateg
 
         const accionesCat = document.createElement('div');
         accionesCat.className = 'acciones-categoria';
+        
         const btnNew = document.createElement('button');
         btnNew.className = 'btn-nuevo';
         btnNew.textContent = '+ Nuevo';
@@ -129,6 +127,16 @@ export function renderEdicion(categoriasMap, onEdit, onDelete, onNew, onNewCateg
         });
         accionesCat.appendChild(btnNew);
 
+        const btnBatch = document.createElement('button');
+        btnBatch.className = 'btn-nuevo-lote';
+        btnBatch.textContent = '📦 Lote';
+        btnBatch.dataset.categoria = categoria;
+        btnBatch.addEventListener('click', (e) => {
+            e.stopPropagation();
+            onNewBatch(categoria);
+        });
+        accionesCat.appendChild(btnBatch);
+
         const arrow = document.createElement('span');
         arrow.className = 'arrow';
         arrow.textContent = '▼';
@@ -136,7 +144,7 @@ export function renderEdicion(categoriasMap, onEdit, onDelete, onNew, onNewCateg
         header.appendChild(accionesCat);
 
         header.addEventListener('click', (e) => {
-            if (e.target.closest('.btn-nuevo')) return;
+            if (e.target.closest('.btn-nuevo') || e.target.closest('.btn-nuevo-lote')) return;
             const content = wrapper.querySelector('.edicion-contenido');
             const isOpen = content.classList.toggle('open');
             arrow.classList.toggle('open', isOpen);
@@ -144,7 +152,6 @@ export function renderEdicion(categoriasMap, onEdit, onDelete, onNew, onNewCateg
 
         wrapper.appendChild(header);
 
-        // CONTENIDO
         const content = document.createElement('div');
         content.className = 'edicion-contenido';
 
