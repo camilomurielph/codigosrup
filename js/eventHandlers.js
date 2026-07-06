@@ -6,6 +6,7 @@ let currentData = [];
 let currentSha = null;
 let currentCategoriasMap = new Map();
 
+// Guarda los cambios en GitHub y refresca la UI
 async function saveAndRefresh(dataArray) {
     try {
         const map = groupByCategory(dataArray);
@@ -27,9 +28,11 @@ async function saveAndRefresh(dataArray) {
     }
 }
 
+// Renderiza los tres menús y restaura el menú activo
 function renderAll(categoriasMap) {
     const categorias = Array.from(categoriasMap.keys());
 
+    // Menú 1: Botones de categorías
     renderCategoriaBotones(categorias, (categoria) => {
         const codes = currentData.filter(d => d.categoria === categoria).map(d => d.codigo).join(' ');
         navigator.clipboard.writeText(codes).then(() => {
@@ -37,16 +40,32 @@ function renderAll(categoriasMap) {
         });
     });
 
+    // Menú 2: Checkboxes
     renderCheckboxes(categoriasMap, onToggleCategoria, onToggleCodigo);
+
+    // Menú 3: Edición
     renderEdicion(categoriasMap, onEditClick, onDeleteClick, onNewClick, onNewCategory, onNewBatch);
+
+    // === RESTAURAR EL MENÚ ACTIVO ===
+    const activeNavBtn = document.querySelector('nav button.active');
+    if (activeNavBtn) {
+        const menuId = `menu-${activeNavBtn.dataset.menu}`;
+        document.querySelectorAll('.menu').forEach(m => m.classList.remove('active'));
+        document.getElementById(menuId).classList.add('active');
+    } else {
+        // Por defecto, mostrar el primer menú
+        document.querySelectorAll('.menu').forEach((m, i) => m.classList.toggle('active', i === 0));
+    }
 }
 
+// Inicializa los handlers con los datos cargados
 export function initHandlers(dataArray, sha) {
     currentData = dataArray;
     currentSha = sha;
     currentCategoriasMap = groupByCategory(dataArray);
     renderAll(currentCategoriasMap);
 
+    // Delegación de evento para el botón "Copiar seleccionados" (Menú 2)
     document.getElementById('contenedor-checkboxes').addEventListener('click', (e) => {
         if (e.target.classList.contains('btn-copiar-seleccionados')) {
             const categoria = e.target.dataset.categoria;
@@ -67,12 +86,17 @@ export function initHandlers(dataArray, sha) {
     });
 }
 
+// --- Toggle de categoría (marcar/desmarcar todos) ---
 function onToggleCategoria(categoria, checked) {
     const items = document.querySelectorAll(`#contenedor-checkboxes .categoria-item[data-categoria="${categoria}"] input[type="checkbox"]`);
     items.forEach(chk => chk.checked = checked);
 }
 
-function onToggleCodigo(categoria) {}
+function onToggleCodigo(categoria) {
+    // Opcional: se puede usar para actualizar el estado del checkbox de categoría
+}
+
+// --- Funciones para el menú de edición ---
 
 function onEditClick(doc) {
     document.getElementById('edit-id').value = doc.$id;
@@ -116,6 +140,7 @@ async function onDeleteClick(docId) {
     await saveAndRefresh(newData);
 }
 
+// --- Configuración de modales ---
 export function setupModalHandlers() {
     // Modal de edición/creación
     const modal = document.getElementById('modal-form');
@@ -163,6 +188,7 @@ export function setupModalHandlers() {
         if (!categoria) return alert('Categoría no definida.');
         if (!raw) return alert('Pega al menos un código.');
 
+        // Separar por espacios, comas, saltos de línea
         const codigos = raw.split(/[\s,;\n]+/).map(s => s.trim()).filter(s => s.length > 0);
 
         if (codigos.length === 0) return alert('No se encontraron códigos válidos.');
