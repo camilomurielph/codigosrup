@@ -5067,6 +5067,15 @@
           "descripcion": "pendiente 83"
         }
       ]
+    },
+    {
+      "nombre": "Temas de Género",
+      "codigos": [
+        {
+          "codigo": "0022",
+          "descripcion": "efdg"
+        }
+      ]
     }
   ]
 }
