@@ -73,14 +73,16 @@ nav button:hover {
 
 /* ===== MENÚS ===== */
 .menu {
-    display: none;
+    display: none; /* Oculta todos por defecto */
     background: #141a24;
     border-radius: 24px;
     padding: 28px 30px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
     border: 1px solid #252d3d;
 }
-.menu.active { display: block; }
+.menu.active {
+    display: block; /* Solo el que tenga active se muestra */
+}
 
 .menu h2 {
     font-size: 1.4rem;
@@ -258,6 +260,22 @@ nav button:hover {
     background: #2aad5e;
     box-shadow: 0 0 12px rgba(42, 173, 94, 0.4);
 }
+.btn-nuevo-lote {
+    background: #4a6a8a;
+    color: white;
+    border: none;
+    padding: 4px 16px;
+    border-radius: 30px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+    border: 1px solid #5a7aaa;
+}
+.btn-nuevo-lote:hover {
+    background: #5a7aaa;
+    box-shadow: 0 0 12px rgba(70, 120, 200, 0.3);
+}
 .edicion-contenido {
     display: none;
     padding: 12px 20px 20px;
@@ -317,14 +335,38 @@ nav button:hover {
     background: #dc2626;
 }
 
-/* ===== MODAL ===== */
+/* ===== BOTÓN NUEVA CATEGORÍA ===== */
+.btn-nueva-categoria {
+    background: #2d4d7a;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 40px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 24px;
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.2s;
+    border: 1px solid #4a7aaa;
+}
+.btn-nueva-categoria:hover {
+    background: #3a5f92;
+    box-shadow: 0 0 18px rgba(60, 110, 200, 0.3);
+}
+
+/* ===== MODALES ===== */
 .modal {
     position: fixed;
     top: 0; left: 0;
     width: 100%; height: 100%;
     background: rgba(0, 0, 0, 0.75);
     backdrop-filter: blur(6px);
-    display: flex;
+    display: none; /* Cambiamos a none por defecto, se mostrará con display:flex */
     justify-content: center;
     align-items: center;
     z-index: 999;
@@ -398,6 +440,10 @@ nav button:hover {
     background: #3a5f92;
     box-shadow: 0 0 18px rgba(60, 110, 200, 0.3);
 }
+#modal-lote .modal-content textarea {
+    min-height: 150px;
+    resize: vertical;
+}
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 640px) {
@@ -413,83 +459,4 @@ nav button:hover {
     .codigo-item .codigo, .edicion-item .codigo { min-width: 60px; }
     .edicion-item .acciones { margin-left: 0; width: 100%; justify-content: flex-end; }
     .modal-content { padding: 24px 20px; }
-}
-/* === CORRECCIÓN DE ANCHO === */
-main {
-    width: 100%;
-    display: block;
-}
-section.menu {
-    width: 100%;
-    display: block;
-}
-/* === BOTÓN NUEVA CATEGORÍA === */
-.btn-nueva-categoria {
-    background: #2d4d7a;
-    color: white;
-    border: none;
-    padding: 12px 24px;
-    border-radius: 40px;
-    font-weight: 600;
-    font-size: 1rem;
-    cursor: pointer;
-    margin-bottom: 24px;
-    width: 100%;
-    max-width: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    transition: 0.2s;
-    border: 1px solid #4a7aaa;
-}
-.btn-nueva-categoria:hover {
-    background: #3a5f92;
-    box-shadow: 0 0 18px rgba(60, 110, 200, 0.3);
-}
-/* === BOTÓN NUEVA CATEGORÍA === */
-.btn-nueva-categoria {
-    background: #2d4d7a;
-    color: white;
-    border: none;
-    padding: 12px 24px;
-    border-radius: 40px;
-    font-weight: 600;
-    font-size: 1rem;
-    cursor: pointer;
-    margin-bottom: 24px;
-    width: 100%;
-    max-width: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    transition: 0.2s;
-    border: 1px solid #4a7aaa;
-}
-.btn-nueva-categoria:hover {
-    background: #3a5f92;
-    box-shadow: 0 0 18px rgba(60, 110, 200, 0.3);
-}
-
-/* === BOTÓN NUEVOS EN LOTE === */
-.btn-nuevo-lote {
-    background: #4a6a8a;
-    color: white;
-    border: none;
-    padding: 4px 16px;
-    border-radius: 30px;
-    font-size: 0.85rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: 0.2s;
-    border: 1px solid #5a7aaa;
-}
-.btn-nuevo-lote:hover {
-    background: #5a7aaa;
-    box-shadow: 0 0 12px rgba(70, 120, 200, 0.3);
-}
-
-/* === MODAL LOTE === */
-#modal-lote .modal-content textarea {
-    min-height: 150px;
-    resize: vertical;
 }
