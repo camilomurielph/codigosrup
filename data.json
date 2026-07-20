@@ -4242,6 +4242,15 @@
       ]
     },
     {
+      "nombre": "Estrategia y logistica en temas de genero",
+      "codigos": [
+        {
+          "codigo": "000",
+          "descripcion": "WDSD"
+        }
+      ]
+    },
+    {
       "nombre": "Eventos Sociales",
       "codigos": [
         {
