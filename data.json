@@ -4634,10 +4634,6 @@
       "nombre": "Ferias culturales",
       "codigos": [
         {
-          "codigo": "000",
-          "descripcion": "sdafrg"
-        },
-        {
           "codigo": "241115",
           "descripcion": "pendiente 01"
         },
