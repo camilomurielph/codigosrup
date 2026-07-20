@@ -8,15 +8,12 @@ let currentCategoriasMap = new Map();
 
 // Función para ocultar todos los menús y mostrar solo el activo
 function restoreActiveMenu() {
-    // Obtener el botón de navegación activo
     const activeNavBtn = document.querySelector('nav button.active');
     let menuId = null;
     if (activeNavBtn) {
         menuId = `menu-${activeNavBtn.dataset.menu}`;
     } else {
-        // Si no hay botón activo, usar el primer menú (Copiar por Categoría)
         menuId = 'menu-copiar';
-        // También activar el botón correspondiente
         const firstBtn = document.querySelector('nav button[data-menu="copiar"]');
         if (firstBtn) {
             document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
@@ -24,15 +21,12 @@ function restoreActiveMenu() {
         }
     }
 
-    // Ocultar TODOS los menús
     document.querySelectorAll('.menu').forEach(m => m.classList.remove('active'));
 
-    // Mostrar el menú correspondiente
     const targetMenu = document.getElementById(menuId);
     if (targetMenu) {
         targetMenu.classList.add('active');
     } else {
-        // Fallback: mostrar el primer menú
         const firstMenu = document.querySelector('.menu');
         if (firstMenu) firstMenu.classList.add('active');
     }
@@ -62,7 +56,6 @@ async function saveAndRefresh(dataArray) {
 function renderAll(categoriasMap) {
     const categorias = Array.from(categoriasMap.keys());
 
-    // Menú 1: Botones de categorías
     renderCategoriaBotones(categorias, (categoria) => {
         const codes = currentData.filter(d => d.categoria === categoria).map(d => d.codigo).join(' ');
         navigator.clipboard.writeText(codes).then(() => {
@@ -70,13 +63,9 @@ function renderAll(categoriasMap) {
         });
     });
 
-    // Menú 2: Checkboxes
     renderCheckboxes(categoriasMap, onToggleCategoria, onToggleCodigo);
-
-    // Menú 3: Edición
     renderEdicion(categoriasMap, onEditClick, onDeleteClick, onNewClick, onNewCategory, onNewBatch);
 
-    // Restaurar el menú activo
     restoreActiveMenu();
 }
 
@@ -86,11 +75,12 @@ export function initHandlers(dataArray, sha) {
     currentCategoriasMap = groupByCategory(dataArray);
     renderAll(currentCategoriasMap);
 
-    // Delegación de evento para el botón "Copiar seleccionados" (Menú 2)
+    // DELEGACIÓN DE EVENTO PARA "Copiar seleccionados" (CORREGIDO)
     document.getElementById('contenedor-checkboxes').addEventListener('click', (e) => {
         if (e.target.classList.contains('btn-copiar-seleccionados')) {
             const categoria = e.target.dataset.categoria;
-            const checkboxes = document.querySelectorAll(`#contenedor-checkboxes .categoria-item[data-categoria="${categoria}"] input[type="checkbox"]`);
+            // SELECCIONAR DIRECTAMENTE LOS CHECKBOXES CON data-categoria
+            const checkboxes = document.querySelectorAll(`#contenedor-checkboxes input[type="checkbox"][data-categoria="${categoria}"]`);
             const seleccionados = [];
             checkboxes.forEach(chk => {
                 if (chk.checked) {
@@ -109,7 +99,7 @@ export function initHandlers(dataArray, sha) {
 
 // --- Toggle de categoría ---
 function onToggleCategoria(categoria, checked) {
-    const items = document.querySelectorAll(`#contenedor-checkboxes .categoria-item[data-categoria="${categoria}"] input[type="checkbox"]`);
+    const items = document.querySelectorAll(`#contenedor-checkboxes input[type="checkbox"][data-categoria="${categoria}"]`);
     items.forEach(chk => chk.checked = checked);
 }
 
