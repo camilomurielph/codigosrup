@@ -6,7 +6,6 @@ let currentData = [];
 let currentSha = null;
 let currentCategoriasMap = new Map();
 
-// Función para ocultar todos los menús y mostrar solo el activo
 function restoreActiveMenu() {
     const activeNavBtn = document.querySelector('nav button.active');
     let menuId = null;
@@ -64,7 +63,8 @@ function renderAll(categoriasMap) {
     });
 
     renderCheckboxes(categoriasMap, onToggleCategoria, onToggleCodigo);
-    renderEdicion(categoriasMap, onEditClick, onDeleteClick, onNewClick, onNewCategory, onNewBatch);
+    // PASAMOS LA NUEVA FUNCIÓN onEditCategoryClick
+    renderEdicion(categoriasMap, onEditClick, onDeleteClick, onNewClick, onNewCategory, onNewBatch, onEditCategoryClick);
 
     restoreActiveMenu();
 }
@@ -75,11 +75,9 @@ export function initHandlers(dataArray, sha) {
     currentCategoriasMap = groupByCategory(dataArray);
     renderAll(currentCategoriasMap);
 
-    // DELEGACIÓN DE EVENTO PARA "Copiar seleccionados" (CORREGIDO)
     document.getElementById('contenedor-checkboxes').addEventListener('click', (e) => {
         if (e.target.classList.contains('btn-copiar-seleccionados')) {
             const categoria = e.target.dataset.categoria;
-            // SELECCIONAR DIRECTAMENTE LOS CHECKBOXES CON data-categoria
             const checkboxes = document.querySelectorAll(`#contenedor-checkboxes input[type="checkbox"][data-categoria="${categoria}"]`);
             const seleccionados = [];
             checkboxes.forEach(chk => {
@@ -97,17 +95,32 @@ export function initHandlers(dataArray, sha) {
     });
 }
 
-// --- Toggle de categoría ---
 function onToggleCategoria(categoria, checked) {
     const items = document.querySelectorAll(`#contenedor-checkboxes input[type="checkbox"][data-categoria="${categoria}"]`);
     items.forEach(chk => chk.checked = checked);
 }
 
-function onToggleCodigo(categoria) {
-    // Opcional
+function onToggleCodigo(categoria) {}
+
+// === NUEVA FUNCIÓN: EDITAR NOMBRE DE CATEGORÍA ===
+function onEditCategoryClick(oldCategoria) {
+    const newCategoria = prompt(`✏️ Editar nombre de la categoría "${oldCategoria}"`, oldCategoria);
+    if (newCategoria === null) return; // Cancelado
+    const trimmed = newCategoria.trim();
+    if (trimmed === '') return alert('El nombre de la categoría no puede estar vacío.');
+    if (trimmed === oldCategoria) return; // Sin cambios
+
+    // Actualizar TODOS los documentos que pertenecen a esta categoría
+    const newData = currentData.map(doc => {
+        if (doc.categoria === oldCategoria) {
+            return { ...doc, categoria: trimmed };
+        }
+        return doc;
+    });
+
+    saveAndRefresh(newData);
 }
 
-// --- Funciones de edición ---
 function onEditClick(doc) {
     document.getElementById('edit-id').value = doc.$id;
     document.getElementById('edit-categoria').value = doc.categoria;
@@ -150,9 +163,7 @@ async function onDeleteClick(docId) {
     await saveAndRefresh(newData);
 }
 
-// --- Configuración de modales ---
 export function setupModalHandlers() {
-    // Modal de edición/creación
     const modal = document.getElementById('modal-form');
     document.getElementById('cerrar-modal').addEventListener('click', () => modal.style.display = 'none');
     window.addEventListener('click', (e) => { if (e.target === modal) modal.style.display = 'none'; });
@@ -185,7 +196,6 @@ export function setupModalHandlers() {
         await saveAndRefresh(newData);
     });
 
-    // Modal de lote
     const modalLote = document.getElementById('modal-lote');
     document.getElementById('cerrar-modal-lote').addEventListener('click', () => modalLote.style.display = 'none');
     window.addEventListener('click', (e) => { if (e.target === modalLote) modalLote.style.display = 'none'; });
