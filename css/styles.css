@@ -460,3 +460,22 @@ nav button:hover {
     .edicion-item .acciones { margin-left: 0; width: 100%; justify-content: flex-end; }
     .modal-content { padding: 24px 20px; }
 }
+
+/* === BOTÓN EDITAR CATEGORÍA === */
+.btn-editar-categoria {
+    background: #b8860b;
+    color: white;
+    border: none;
+    padding: 4px 12px;
+    border-radius: 30px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+    border: 1px solid #d9a017;
+    margin-right: 4px;
+}
+.btn-editar-categoria:hover {
+    background: #d9a017;
+    box-shadow: 0 0 12px rgba(180, 130, 20, 0.4);
+}
