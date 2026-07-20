@@ -31,8 +31,12 @@ export async function fetchDataJson() {
     }
 
     const data = await response.json();
-    const decoded = atob(data.content);
+    
+    // === CORRECCIÓN DE TILDES: Decodificar Base64 a UTF-8 correctamente ===
+    const binaryString = atob(data.content);
+    const decoded = decodeURIComponent(escape(binaryString));
     const jsonContent = JSON.parse(decoded);
+    
     return { content: jsonContent, sha: data.sha };
 }
 
@@ -43,7 +47,9 @@ export async function saveDataJson(content, sha) {
     const { owner, repo } = REPO_CONFIG;
     const url = `https://api.github.com/repos/${owner}/${repo}/contents/data.json`;
 
-    const encoded = btoa(unescape(encodeURIComponent(JSON.stringify(content, null, 2))));
+    // === CODIFICACIÓN UTF-8 CORRECTA PARA GUARDAR ===
+    const jsonString = JSON.stringify(content, null, 2);
+    const encoded = btoa(unescape(encodeURIComponent(jsonString)));
 
     const payload = {
         message: `Actualización de códigos RUP - ${new Date().toLocaleString()}`,
