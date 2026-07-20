@@ -5619,6 +5619,458 @@
         {
           "codigo": "000",
           "descripcion": "ASDSDF"
+        },
+        {
+          "codigo": "101015",
+          "descripcion": "pendiente 01"
+        },
+        {
+          "codigo": "101016",
+          "descripcion": "pendiente 02"
+        },
+        {
+          "codigo": "101216",
+          "descripcion": "pendiente 03"
+        },
+        {
+          "codigo": "101315",
+          "descripcion": "pendiente 04"
+        },
+        {
+          "codigo": "101515",
+          "descripcion": "pendiente 05"
+        },
+        {
+          "codigo": "101516",
+          "descripcion": "pendiente 06"
+        },
+        {
+          "codigo": "101518",
+          "descripcion": "pendiente 07"
+        },
+        {
+          "codigo": "101520",
+          "descripcion": "pendiente 08"
+        },
+        {
+          "codigo": "101615",
+          "descripcion": "pendiente 09"
+        },
+        {
+          "codigo": "101716",
+          "descripcion": "pendiente 10"
+        },
+        {
+          "codigo": "101717",
+          "descripcion": "pendiente 11"
+        },
+        {
+          "codigo": "101718",
+          "descripcion": "pendiente 12"
+        },
+        {
+          "codigo": "111117",
+          "descripcion": "pendiente 13"
+        },
+        {
+          "codigo": "211015",
+          "descripcion": "pendiente 14"
+        },
+        {
+          "codigo": "211016",
+          "descripcion": "pendiente 15"
+        },
+        {
+          "codigo": "211017",
+          "descripcion": "pendiente 16"
+        },
+        {
+          "codigo": "211018",
+          "descripcion": "pendiente 17"
+        },
+        {
+          "codigo": "211019",
+          "descripcion": "pendiente 18"
+        },
+        {
+          "codigo": "211020",
+          "descripcion": "pendiente 19"
+        },
+        {
+          "codigo": "211021",
+          "descripcion": "pendiente 20"
+        },
+        {
+          "codigo": "211024",
+          "descripcion": "pendiente 21"
+        },
+        {
+          "codigo": "211116",
+          "descripcion": "pendiente 22"
+        },
+        {
+          "codigo": "231816",
+          "descripcion": "pendiente 23"
+        },
+        {
+          "codigo": "231818",
+          "descripcion": "pendiente 24"
+        },
+        {
+          "codigo": "241118",
+          "descripcion": "pendiente 25"
+        },
+        {
+          "codigo": "241218",
+          "descripcion": "pendiente 26"
+        },
+        {
+          "codigo": "261215",
+          "descripcion": "pendiente 27"
+        },
+        {
+          "codigo": "271120",
+          "descripcion": "pendiente 28"
+        },
+        {
+          "codigo": "271128",
+          "descripcion": "pendiente 29"
+        },
+        {
+          "codigo": "301116",
+          "descripcion": "pendiente 30"
+        },
+        {
+          "codigo": "301515",
+          "descripcion": "pendiente 31"
+        },
+        {
+          "codigo": "314017",
+          "descripcion": "pendiente 32"
+        },
+        {
+          "codigo": "401018",
+          "descripcion": "pendiente 33"
+        },
+        {
+          "codigo": "411030",
+          "descripcion": "pendiente 34"
+        },
+        {
+          "codigo": "432324",
+          "descripcion": "pendiente 35"
+        },
+        {
+          "codigo": "481016",
+          "descripcion": "pendiente 36"
+        },
+        {
+          "codigo": "481019",
+          "descripcion": "pendiente 37"
+        },
+        {
+          "codigo": "481020",
+          "descripcion": "pendiente 38"
+        },
+        {
+          "codigo": "501515",
+          "descripcion": "pendiente 39"
+        },
+        {
+          "codigo": "501615",
+          "descripcion": "pendiente 40"
+        },
+        {
+          "codigo": "501618",
+          "descripcion": "pendiente 41"
+        },
+        {
+          "codigo": "501715",
+          "descripcion": "pendiente 42"
+        },
+        {
+          "codigo": "501718",
+          "descripcion": "pendiente 43"
+        },
+        {
+          "codigo": "501819",
+          "descripcion": "pendiente 44"
+        },
+        {
+          "codigo": "501921",
+          "descripcion": "pendiente 45"
+        },
+        {
+          "codigo": "501929",
+          "descripcion": "pendiente 46"
+        },
+        {
+          "codigo": "502017",
+          "descripcion": "pendiente 47"
+        },
+        {
+          "codigo": "502024",
+          "descripcion": "pendiente 48"
+        },
+        {
+          "codigo": "502210",
+          "descripcion": "pendiente 49"
+        },
+        {
+          "codigo": "502211",
+          "descripcion": "pendiente 50"
+        },
+        {
+          "codigo": "502213",
+          "descripcion": "pendiente 51"
+        },
+        {
+          "codigo": "504218",
+          "descripcion": "pendiente 52"
+        },
+        {
+          "codigo": "504220",
+          "descripcion": "pendiente 53"
+        },
+        {
+          "codigo": "504232",
+          "descripcion": "pendiente 54"
+        },
+        {
+          "codigo": "504245",
+          "descripcion": "pendiente 55"
+        },
+        {
+          "codigo": "504670",
+          "descripcion": "pendiente 56"
+        },
+        {
+          "codigo": "521415",
+          "descripcion": "pendiente 57"
+        },
+        {
+          "codigo": "521516",
+          "descripcion": "pendiente 58"
+        },
+        {
+          "codigo": "521518",
+          "descripcion": "pendiente 59"
+        },
+        {
+          "codigo": "521521",
+          "descripcion": "pendiente 60"
+        },
+        {
+          "codigo": "521522",
+          "descripcion": "pendiente 61"
+        },
+        {
+          "codigo": "531027",
+          "descripcion": "pendiente 62"
+        },
+        {
+          "codigo": "531316",
+          "descripcion": "pendiente 63"
+        },
+        {
+          "codigo": "551215",
+          "descripcion": "pendiente 64"
+        },
+        {
+          "codigo": "561015",
+          "descripcion": "pendiente 65"
+        },
+        {
+          "codigo": "561017",
+          "descripcion": "pendiente 66"
+        },
+        {
+          "codigo": "561214",
+          "descripcion": "pendiente 67"
+        },
+        {
+          "codigo": "601054",
+          "descripcion": "pendiente 68"
+        },
+        {
+          "codigo": "601056",
+          "descripcion": "pendiente 69"
+        },
+        {
+          "codigo": "701115",
+          "descripcion": "pendiente 70"
+        },
+        {
+          "codigo": "701415",
+          "descripcion": "pendiente 71"
+        },
+        {
+          "codigo": "701417",
+          "descripcion": "pendiente 72"
+        },
+        {
+          "codigo": "701418",
+          "descripcion": "pendiente 73"
+        },
+        {
+          "codigo": "731516",
+          "descripcion": "pendiente 74"
+        },
+        {
+          "codigo": "781018",
+          "descripcion": "pendiente 75"
+        },
+        {
+          "codigo": "781118",
+          "descripcion": "pendiente 76"
+        },
+        {
+          "codigo": "781216",
+          "descripcion": "pendiente 77"
+        },
+        {
+          "codigo": "781315",
+          "descripcion": "pendiente 78"
+        },
+        {
+          "codigo": "801015",
+          "descripcion": "pendiente 79"
+        },
+        {
+          "codigo": "801016",
+          "descripcion": "pendiente 80"
+        },
+        {
+          "codigo": "801017",
+          "descripcion": "pendiente 81"
+        },
+        {
+          "codigo": "801115",
+          "descripcion": "pendiente 82"
+        },
+        {
+          "codigo": "801116",
+          "descripcion": "pendiente 83"
+        },
+        {
+          "codigo": "801117",
+          "descripcion": "pendiente 84"
+        },
+        {
+          "codigo": "801415",
+          "descripcion": "pendiente 85"
+        },
+        {
+          "codigo": "801416",
+          "descripcion": "pendiente 86"
+        },
+        {
+          "codigo": "801417",
+          "descripcion": "pendiente 87"
+        },
+        {
+          "codigo": "801515",
+          "descripcion": "pendiente 88"
+        },
+        {
+          "codigo": "801615",
+          "descripcion": "pendiente 89"
+        },
+        {
+          "codigo": "811215",
+          "descripcion": "pendiente 90"
+        },
+        {
+          "codigo": "811416",
+          "descripcion": "pendiente 91"
+        },
+        {
+          "codigo": "811517",
+          "descripcion": "pendiente 92"
+        },
+        {
+          "codigo": "821415",
+          "descripcion": "pendiente 93"
+        },
+        {
+          "codigo": "861015",
+          "descripcion": "pendiente 94"
+        },
+        {
+          "codigo": "861017",
+          "descripcion": "pendiente 95"
+        },
+        {
+          "codigo": "861018",
+          "descripcion": "pendiente 96"
+        },
+        {
+          "codigo": "861320",
+          "descripcion": "pendiente 97"
+        },
+        {
+          "codigo": "861415",
+          "descripcion": "pendiente 98"
+        },
+        {
+          "codigo": "901016",
+          "descripcion": "pendiente 99"
+        },
+        {
+          "codigo": "901116",
+          "descripcion": "pendiente 100"
+        },
+        {
+          "codigo": "931316",
+          "descripcion": "pendiente 101"
+        },
+        {
+          "codigo": "931415",
+          "descripcion": "pendiente 102"
+        },
+        {
+          "codigo": "931416",
+          "descripcion": "pendiente 103"
+        },
+        {
+          "codigo": "931417",
+          "descripcion": "pendiente 104"
+        },
+        {
+          "codigo": "931418",
+          "descripcion": "pendiente 105"
+        },
+        {
+          "codigo": "931419",
+          "descripcion": "pendiente 106"
+        },
+        {
+          "codigo": "931420",
+          "descripcion": "pendiente 107"
+        },
+        {
+          "codigo": "931421",
+          "descripcion": "pendiente 108"
+        },
+        {
+          "codigo": "931515",
+          "descripcion": "pendiente 109"
+        },
+        {
+          "codigo": "931516",
+          "descripcion": "pendiente 110"
+        },
+        {
+          "codigo": "941015",
+          "descripcion": "pendiente 111"
+        },
+        {
+          "codigo": "941315",
+          "descripcion": "pendiente 112"
+        },
+        {
+          "codigo": "951019",
+          "descripcion": "pendiente 113"
         }
       ]
     }
