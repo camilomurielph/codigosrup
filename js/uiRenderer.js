@@ -31,10 +31,8 @@ export function renderCheckboxes(categoriasMap, onToggleCategoria, onToggleCodig
     categoriasMap.forEach((codigos, categoria) => {
         const wrapper = document.createElement('div');
         wrapper.className = 'categoria-acordeon';
-        // ASIGNAR data-categoria AL WRAPPER (CORRECCIÓN)
         wrapper.dataset.categoria = categoria;
 
-        // HEADER
         const header = document.createElement('div');
         header.className = 'categoria-header';
         const chkCategoria = document.createElement('input');
@@ -61,7 +59,6 @@ export function renderCheckboxes(categoriasMap, onToggleCategoria, onToggleCodig
 
         wrapper.appendChild(header);
 
-        // CONTENIDO
         const content = document.createElement('div');
         content.className = 'categoria-contenido';
 
@@ -96,23 +93,20 @@ export function renderCheckboxes(categoriasMap, onToggleCategoria, onToggleCodig
     });
 }
 
-export function renderEdicion(categoriasMap, onEdit, onDelete, onNew, onNewCategory, onNewBatch) {
+export function renderEdicion(categoriasMap, onEdit, onDelete, onNew, onNewCategory, onNewBatch, onEditCategory) {
     const container = document.getElementById('contenedor-edicion');
     container.innerHTML = '';
 
-    // Botón para crear una categoría nueva
     const btnNuevaCat = document.createElement('button');
     btnNuevaCat.className = 'btn-nueva-categoria';
     btnNuevaCat.textContent = '➕ Nueva Categoría';
     btnNuevaCat.addEventListener('click', onNewCategory);
     container.appendChild(btnNuevaCat);
 
-    // Acordeones por categoría
     categoriasMap.forEach((codigos, categoria) => {
         const wrapper = document.createElement('div');
         wrapper.className = 'edicion-acordeon';
 
-        // HEADER
         const header = document.createElement('div');
         header.className = 'edicion-header';
         const title = document.createElement('span');
@@ -122,6 +116,17 @@ export function renderEdicion(categoriasMap, onEdit, onDelete, onNew, onNewCateg
         const accionesCat = document.createElement('div');
         accionesCat.className = 'acciones-categoria';
         
+        // === NUEVO BOTÓN: EDITAR CATEGORÍA ===
+        const btnEditCat = document.createElement('button');
+        btnEditCat.className = 'btn-editar-categoria';
+        btnEditCat.textContent = '✏️';
+        btnEditCat.title = `Editar nombre de la categoría "${categoria}"`;
+        btnEditCat.addEventListener('click', (e) => {
+            e.stopPropagation();
+            onEditCategory(categoria);
+        });
+        accionesCat.appendChild(btnEditCat);
+
         const btnNew = document.createElement('button');
         btnNew.className = 'btn-nuevo';
         btnNew.textContent = '+ Nuevo';
@@ -149,7 +154,7 @@ export function renderEdicion(categoriasMap, onEdit, onDelete, onNew, onNewCateg
         header.appendChild(accionesCat);
 
         header.addEventListener('click', (e) => {
-            if (e.target.closest('.btn-nuevo') || e.target.closest('.btn-nuevo-lote')) return;
+            if (e.target.closest('.btn-nuevo') || e.target.closest('.btn-nuevo-lote') || e.target.closest('.btn-editar-categoria')) return;
             const content = wrapper.querySelector('.edicion-contenido');
             const isOpen = content.classList.toggle('open');
             arrow.classList.toggle('open', isOpen);
@@ -157,7 +162,6 @@ export function renderEdicion(categoriasMap, onEdit, onDelete, onNew, onNewCateg
 
         wrapper.appendChild(header);
 
-        // CONTENIDO
         const content = document.createElement('div');
         content.className = 'edicion-contenido';
 
