@@ -31,6 +31,8 @@ export function renderCheckboxes(categoriasMap, onToggleCategoria, onToggleCodig
     categoriasMap.forEach((codigos, categoria) => {
         const wrapper = document.createElement('div');
         wrapper.className = 'categoria-acordeon';
+        // ASIGNAR data-categoria AL WRAPPER (CORRECCIÓN)
+        wrapper.dataset.categoria = categoria;
 
         // HEADER
         const header = document.createElement('div');
