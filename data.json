@@ -4631,6 +4631,15 @@
       ]
     },
     {
+      "nombre": "Ferias culturales",
+      "codigos": [
+        {
+          "codigo": "000",
+          "descripcion": "sdafrg"
+        }
+      ]
+    },
+    {
       "nombre": "Logistica y Catering",
       "codigos": [
         {
