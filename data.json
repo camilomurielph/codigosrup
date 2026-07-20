@@ -5617,10 +5617,6 @@
       "nombre": "UNIDADES PRODUCTIVAS",
       "codigos": [
         {
-          "codigo": "000",
-          "descripcion": "ASDSDF"
-        },
-        {
           "codigo": "101015",
           "descripcion": "pendiente 01"
         },
